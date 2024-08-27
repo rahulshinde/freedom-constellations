@@ -13,12 +13,66 @@ export default {
     "./app.vue",
   ],
   theme: {
+    fontSize: {
+      'hatton-s': [
+        '1rem',
+        {
+          lineHeight: '1.1',
+          letterSpacing: '-0.01em'
+        }
+      ],
+      'hatton-m': [
+        '1.25rem',
+        {
+          lineHeight: '1.1',
+          letterSpacing: '-0.01em'
+        }
+      ],
+      'hatton-l': [
+        '1.5rem',
+        {
+          lineHeight: '1.1',
+          letterSpacing: '-0.01em'
+        }
+      ],
+      'runde-xs': [
+        '0.75rem',
+        {
+          lineHeight: '1',
+          letterSpacing: '-0.01em'
+        }
+      ],
+      'runde-s': [
+        '1rem',
+        {
+          lineHeight: '1',
+          letterSpacing: '-0.01em'
+        }
+      ],
+      'runde-m': [
+        '1.25rem',
+        {
+          lineHeight: '1',
+          letterSpacing: '-0.01em'
+        }
+      ],
+      'runde-l': [
+        '1.5rem',
+        {
+          lineHeight: '1',
+          letterSpacing: '-0.01em'
+        }
+      ],
+    },
     extend: {
       fontFamily: {
         'runde': [
           '"Open Runde", sans-serif'
         ],
         'hatton': ["'PP Hatton', sans-serif"]
+      },
+      backgroundImage: {
+        'homepage': "url('/pngs/bg_test1.png')"
       },
       spacing: {
         // grid units
