@@ -31,7 +31,7 @@
         <li class="
           hover:text-navigation-highlight transition-colors group
           absolute bottom-0 left-[35%]
-          after:content-[''] after:absolute after:w-[6rem] after:bottom-3 after:left-3 after:border-t-[1px] after:border-dashed after:w-full after:origin-left after:-rotate-[45deg]
+          after:content-[''] after:absolute after:w-[5.5rem] after:bottom-3 after:left-3 after:border-t-[1px] after:border-dashed after:w-full after:origin-left after:-rotate-[45deg]
           "
         >
           <NuxtLink to="/pennsylvania" class='flex'>
