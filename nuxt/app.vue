@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-homepage bg-cover bg-center bg-fixed">
     <SiteHeader v-if="route.name != 'index' "/>
     <NuxtPage />
     <SiteFooter/>
