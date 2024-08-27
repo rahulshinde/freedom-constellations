@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  /* Spacings */
+  --col1: calc(8.33% - 2rem);
+  --col2: calc(16.66% - 2rem);
+  --col3: calc(25% - 2rem);
+  --col4: calc(33.33% - 2rem);
+  --col5: calc(41.66% - 2rem);
+  --col6: calc(50% - 2rem);
+  --col7: calc(58.33% - 2rem);
+  --col8: calc(66.66% - 2rem);
+  --col9: calc(75% - 2rem);
+  --col10: calc(83.33% - 2rem);
+  --col11: calc(91.66% - 2rem);
+  --col12: 100%;
+
+  /* colors */
+  --white: #FFFFFF;
+  --black: #000000;
+
+  --nkip: #00FFFF;
+  --billboards: #9DE314;
+  --projects: #FF5C4D;
+  --programs: #FF7918;
+  --bg-highlight: #BA00FF;
+  --navigation-highlight: #FFAE00;
+}
+
+html, body{
+	font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-black text-white;
+}
+
+html, body, button {
+  @apply font-runde;
+}
+
+@font-face {
+  font-family: "Open Runde";
+  font-weight: 400;
+  src: url('/fonts/OpenRunde-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Open Runde";
+  font-weight: 500;
+  src: url('/fonts/OpenRunde-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Open Runde";
+  font-weight: 600;
+  src: url('/fonts/OpenRunde-Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Open Runde";
+  font-weight: 700;
+  src: url('/fonts/OpenRunde-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "PP Hatton";
+  src: url('/fonts/PPHattonBold700.otf') format('opentype');
+}
