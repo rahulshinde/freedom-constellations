@@ -4,7 +4,6 @@
       <IconsLogo class="h-24 z-10 relative w-auto" />
       <img
         src="/pngs/homepage_gradient.png"
-        alt="Hero Image"
         class="absolute z-0 top-0 left-0 w-full h-full object-contain object-left-top"
       />
       <AbolitionButton class="absolute top-8 right-8"/>

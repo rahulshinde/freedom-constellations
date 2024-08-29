@@ -1,33 +1,35 @@
 <template>
-  <footer class="w-full max-w-full bg-black relative overflow-hidden">
+  <footer class="w-full max-w-full bg-black relative overflow-hidden pb-12">
     <img src="/pngs/squiggle.png" alt="Squiggle" class="max-w-none h-auto top-0 relative -left-2 -right-2" />
-    <div class="flex justify-between">
+    <div class="flex justify-between items-baseline mr-4">
       <div class="mx-4 flex flex-wrap w-col4">
-        <NuxtLink to="/" class="flex w-full mx-4 mb-8 items-start">
-          <IconsLogo class="h-12 w-auto" />
+        <NuxtLink to="/" class="flex w-full mx-4 items-start">
+          <IconsLogo class="h-16 w-auto" />
         </NuxtLink>
-  
+        <IconsDream class="w-2/3 mt-4 opacity-75 -rotate-[7deg] h-auto mx-4"/>
+      </div>
+      <div class="mx-4 flex flex-wrap w-col4">
         <div class="w-col6 flex flex-col mx-4">
-          <h2 class="font-runde uppercase mb-2">View By State</h2>
-          <NuxtLink to="/virginia" class="font-hatton hover:text-navigation-highlight">
+          <h2 class="font-runde text-runde-xs font-bold uppercase mb-4">View By State</h2>
+          <NuxtLink to="/virginia" class="font-hatton text-hatton-l mb-2 hover:text-navigation-highlight">
             Virginia
           </NuxtLink>
-          <NuxtLink to="/illinois" class="font-hatton hover:text-navigation-highlight">
+          <NuxtLink to="/illinois" class="font-hatton text-hatton-l mb-2 hover:text-navigation-highlight">
             Illinois
           </NuxtLink>
-          <NuxtLink to="/pennsylvania" class="font-hatton hover:text-navigation-highlight">
+          <NuxtLink to="/pennsylvania" class="font-hatton text-hatton-l mb-2 hover:text-navigation-highlight">
             Pennsylvania
           </NuxtLink>
-          <NuxtLink to="/new-jersey" class="font-hatton hover:text-navigation-highlight">
+          <NuxtLink to="/new-jersey" class="font-hatton text-hatton-l mb-2 hover:text-navigation-highlight">
             New Jersey
           </NuxtLink>
-          <NuxtLink to="/minnesota" class="font-hatton hover:text-navigation-highlight">
+          <NuxtLink to="/minnesota" class="font-hatton text-hatton-l mb-2 hover:text-navigation-highlight">
             Minnesota
           </NuxtLink>
         </div>
   
         <div class="w-col6 flex flex-col mx-4">
-          <h2 class="font-runde uppercase mb-2">View By Outcome</h2>
+          <h2 class="font-runde text-runde-xs font-bold uppercase mb-4">View By Outcome</h2>
           <NuxtLink to="/nkip-exhibitions" class="hover:text-navigation-highlight">
             #NKIP Exhibitions
           </NuxtLink>
@@ -42,7 +44,7 @@
           </NuxtLink>
         </div>
       </div>
-      <IconsDream class="w-col3 mx-4"/>
+      <AbolitionButton :large="true" class="self-center ml-[10%]"/>
     </div>
   </footer>
 </template>
