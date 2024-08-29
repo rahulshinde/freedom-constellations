@@ -1,6 +1,21 @@
 <template>
   <figure class="mt-8">
-    
+    <img
+      v-if="image"
+      :src="image"
+      :alt="alt"
+      class="w-full">
+    <video
+      v-else-if="video"
+      :src="video"
+      class="w-full"
+      autoplay
+      loop
+      muted
+      playsinline
+    >
+      Your browser does not support the video tag.
+    </video>
   </figure>
 </template>
 

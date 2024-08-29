@@ -52,7 +52,7 @@ export default {
       'runde-m': [
         '1.25rem',
         {
-          lineHeight: '1',
+          lineHeight: '1.3',
           letterSpacing: '-0.01em'
         }
       ],
@@ -60,6 +60,13 @@ export default {
         '1.5rem',
         {
           lineHeight: '1',
+          letterSpacing: '-0.01em'
+        }
+      ],
+      'runde-xl': [
+        '2rem',
+        {
+          lineHeight: '1.2',
           letterSpacing: '-0.01em'
         }
       ],
