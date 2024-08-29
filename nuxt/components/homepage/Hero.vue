@@ -5,14 +5,24 @@
       <img
         src="/pngs/homepage_gradient.png"
         alt="Hero Image"
-        class="absolute z-0 top-0 left-0 w-full h-full object-contain object-left"
+        class="absolute z-0 top-0 left-0 w-full h-full object-contain object-left-top"
       />
+      <AbolitionButton class="absolute top-8 right-8"/>
       <p class="font-hatton z-10 relative text-hatton-m mt-8 w-[20rem]">
         A multi-city art campaign to dream, envision, and create a <span class="text-navigation-highlight">future where all youth are free, safe, and thriving.</span>
       </p>
     </div>
+    <p class="text-runde-xs w-40 mx-4 mt-8 font-medium z-10 relative">
+      Click on a state to see the art, learn from our collaborative process, and access tools to help you continue the fight to end youth incarceration.
+    </p>
+
+    <nav class="w-[80%] font-hatton text-hatton-l absolute top-[30%] left-1/2 -translate-x-1/2">
+      <HomepageStars />
+      <HomepageText />
+    </nav>
   </section>  
 </template>
 
 <script setup>
+
 </script>

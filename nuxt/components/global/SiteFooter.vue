@@ -1,5 +1,5 @@
 <template>
-  <footer class="w-full max-w-full relative overflow-hidden">
+  <footer class="w-full max-w-full bg-black relative overflow-hidden">
     <img src="/pngs/squiggle.png" alt="Squiggle" class="max-w-none h-auto top-0 relative -left-2 -right-2" />
     <div class="flex justify-between">
       <div class="mx-4 flex flex-wrap w-col4">

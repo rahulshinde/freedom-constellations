@@ -74,6 +74,9 @@ export default {
       backgroundImage: {
         'homepage': "url('/pngs/bg_test1.png')"
       },
+      rotate: {
+        'angle': 'var(--angle)'
+      },
       spacing: {
         // grid units
         'col1': 'var(--col1)',
@@ -87,11 +90,13 @@ export default {
         'col9': 'var(--col9)',
         'col10': 'var(--col10)',
         'col11': 'var(--col11)',
-        'col12': 'var(--col12)'
+        'col12': 'var(--col12)',
+        'distance': 'var(--distance)',
       },
       colors: {
         'white': 'var(--white)',
         'black': 'var(--black)',
+        'black-trans': 'rgba(0, 0, 0, 0)',
         'nkip': 'var(--nkip)',
         'billboards': 'var(--billboards)',
         'projects': 'var(--projects)',
