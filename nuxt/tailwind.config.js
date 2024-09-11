@@ -35,6 +35,13 @@ export default {
           letterSpacing: '-0.01em'
         }
       ],
+      'hatton-xl': [
+        '2.5rem',
+        {
+          lineHeight: '1.1',
+          letterSpacing: '-0.01em'
+        }
+      ],
       'runde-xs': [
         '0.75rem',
         {
