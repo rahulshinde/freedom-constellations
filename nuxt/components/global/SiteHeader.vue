@@ -12,7 +12,10 @@
             after:content-[''] after:absolute after:w-24 after:bottom-3 after:left-3 after:border-t-[1px] after:border-dashed after:w-full after:origin-left after:rotate-[-20deg] 
           "
         >
-          <NuxtLink to="/virginia" class='flex'>
+          <NuxtLink to="/virginia" 
+            class='flex'
+            :class="route.path.includes('/virginia') ? 'text-navigation-highlight [&_path]:fill-navigation-highlight' : ''"
+          >
             <IconsStar1 class="h-5 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
             Virginia
           </NuxtLink>
@@ -23,7 +26,10 @@
           after:content-[''] after:absolute after:w-20 after:bottom-3 after:left-3 after:border-t-[1px] after:border-dashed after:w-full after:origin-left after:rotate-[29deg]
           "
         >
-          <NuxtLink to="/illinois" class='flex'>
+          <NuxtLink to="/illinois" 
+            class='flex'
+            :class="route.path.includes('/illinois') ? 'text-navigation-highlight [&_path]:fill-navigation-highlight' : ''"
+          >
             <IconsStar2 class="h-5 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
             Illinois
           </NuxtLink>
@@ -31,10 +37,13 @@
         <li class="
           hover:text-navigation-highlight transition-colors group
           absolute bottom-0 left-[35%]
-          after:content-[''] after:absolute after:w-[5.45rem] after:bottom-3 after:left-3 after:border-t-[1px] after:border-dashed after:w-full after:origin-left after:-rotate-[45deg]
+          after:content-[''] after:absolute after:w-[5.45rem] after:bottom-3 after:left-3 after:border-t-[1px] after:border-dashed after:origin-left after:-rotate-[45deg]
           "
         >
-          <NuxtLink to="/pennsylvania" class='flex'>
+          <NuxtLink to="/pennsylvania" 
+            class='flex'
+            :class="route.path.includes('/pennsylvania') ? 'text-navigation-highlight [&_path]:fill-navigation-highlight' : ''"
+          >
             <IconsStar3 class="h-5 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
             Pennsylvania 
           </NuxtLink>
@@ -45,7 +54,10 @@
           after:content-[''] after:absolute after:w-30 after:bottom-3 after:left-3 after:border-t-[1px] after:border-dashed after:w-full after:origin-left after:rotate-[18deg]
         "
         >
-          <NuxtLink to="/new-jersey" class='flex'>
+          <NuxtLink to="/new-jersey" 
+            class='flex'
+            :class="route.path.includes('/new-jersey') ? 'text-navigation-highlight [&_path]:fill-navigation-highlight' : ''"
+          >
             <IconsStar4 class="h-5 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
             New Jersey
           </NuxtLink> 
@@ -54,7 +66,10 @@
           hover:text-navigation-highlight transition-colors group
           absolute top-[40%] left-[75%]
         ">
-          <NuxtLink to="/minnesota" class='flex'>
+          <NuxtLink to="/minnesota" 
+            class='flex'
+            :class="route.path.includes('/minnesota') ? 'text-navigation-highlight [&_path]:fill-navigation-highlight' : ''"
+          >
             <IconsStar5 class="h-5 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
             Minnesota
           </NuxtLink>
@@ -66,17 +81,5 @@
 </template>
 
 <script setup>
-  
+  const route = useRoute();
 </script>
-
-<style scoped>
-  .router-link-active, 
-  .router-link-exact-active {
-    color: var(--navigation-highlight);
-  }
-
-  .router-link-active svg path, 
-  .router-link-exact-active svg path {
-    fill: var(--navigation-highlight);
-  }
-</style>
