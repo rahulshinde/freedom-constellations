@@ -31,7 +31,7 @@ export default {
       'hatton-l': [
         '1.5rem',
         {
-          lineHeight: '1.1',
+          lineHeight: '1.15',
           letterSpacing: '-0.01em'
         }
       ],
@@ -52,8 +52,8 @@ export default {
       'runde-s': [
         '1rem',
         {
-          lineHeight: '1',
-          letterSpacing: '-0.01em'
+          lineHeight: '1.3',
+          letterSpacing: '0em'
         }
       ],
       'runde-m': [
