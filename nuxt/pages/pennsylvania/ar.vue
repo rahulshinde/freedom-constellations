@@ -25,18 +25,18 @@
         video="https://player.vimeo.com/progressive_redirect/playback/1008534310/rendition/1080p/file.mp4?loc=external&signature=8dffa6399b5433c59dd5e912c9ff81dd7a04aaf059eaba5e3098bbf22b971ad3"
       />
 
+      <BlockImageWithPullQuote
+        img="/pennsylvania/ar/FreedomConstellations.jpg"
+        quote="Beyond banners, the experience was printed on thousands of No Kids in Prison zines that were handed out at Cherry St Pier and other public events and actions allowing the AR to be seen over and over again."
+        :includeArLink="true"
+      />
+
       <BlockTextBody
         text="The interactive banners were printed and installed in multiple locations so we could share the amazing youth dreams with as many people as possible;
 
 • Eastern State Penitentiary
 • Cherry Street Pier
 • The Village of Arts and Humanities"
-      />
-
-      <BlockImageWithPullQuote
-        img="/pennsylvania/ar/FreedomConstellations.jpg"
-        quote="Beyond banners, the experience was printed on thousands of No Kids in Prison zines that were handed out at Cherry St Pier and other public events and actions allowing the AR to be seen over and over again."
-        :includeArLink="true"
       />
 
       <BlockTextBody
