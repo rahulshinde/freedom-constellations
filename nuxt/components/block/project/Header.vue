@@ -16,16 +16,28 @@
         <p class="ml-col4 mx-4 text-runde-m w-col6">
           {{ introText }}
         </p>
-        <div class="w-col2 mx-4 flex flex-col">
-          <h3 class="font-runde text-runde-xs font-bold uppercase mb-4">{{location}}</h3>
-          <h3 class="font-runde text-runde-xs font-bold uppercase mb-4">{{date}}</h3>
-          <h3 class="font-runde text-runde-xs font-bold uppercase">On This Page</h3>
-          <div class="pl-4 mt-2 flex flex-col items-start">
-            <template v-for="link in onThisPage">
-              <a :href="'#' + link[1]" class="hover:text">
-                {{ link[0] }}
-              </a>
-            </template>
+        <div class="w-[15%] mx-4 flex flex-col">
+          <div class="flex">
+            <IconsLocation class="h-6 w-8 mr-2"/>
+            <h3 class="font-runde text-runde-xs font-bold uppercase mb-4">{{location}}</h3>
+          </div>
+          <div class="flex">
+            <IconsTime class="h-5 w-6 mr-2"/>
+            <h3 class="font-runde mt-1 text-runde-xs font-bold uppercase mb-4">{{date}}</h3>
+          </div>
+
+          <div class="flex">
+            <IconsAstrix class="h-5 w-6 mr-2"/>
+            <div>
+              <h3 class="font-runde text-runde-xs font-bold uppercase mt-1">On This Page</h3>
+              <ul class="pl-4 text-runde-xs mt-2 flex flex-col items-start">
+                <template v-for="link in onThisPage">
+                  <a :href="'#' + link[1]" class="mb-2 hover:text-navigation-highlight transition-colors ">
+                    {{ link[0] }}
+                  </a>
+                </template>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
