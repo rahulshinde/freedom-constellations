@@ -7,7 +7,7 @@
       class="
         hover:text-navigation-highlight transition-colors group
         absolute bottom-[15%] left-[5%]
-        after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left 
+        after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left 
       "
       ref="Star1"
     >
@@ -19,7 +19,7 @@
     <li class="
       hover:text-navigation-highlight transition-colors group
       absolute top-[25%] left-[25%]
-      after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left
+      after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left
       "
       ref="Star2"
     >
@@ -31,7 +31,7 @@
     <li class="
       hover:text-navigation-highlight transition-colors group
       absolute bottom-0 left-[45%]
-      after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left
+      after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left
       "
       ref="Star3"
     >
@@ -43,7 +43,7 @@
     <li class="
       hover:text-navigation-highlight transition-colors group
       absolute top-0 left-[60%]
-      after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left
+      after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left
     "
       ref="Star4"
     >
