@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="w-full overflow-hidden">
     <BlockTextHeading class="relative z-20" text="Pennsylvania: A city full of abolitionist art" />
     <BlockTextBody class="!mt-0 relative z-20" text="In 2023, Performing Statistics, over 50 youth leaders in Philadelphia, artists from across North America and a coalition of community partners collaborated to create a city-wide series of interactive public artworks, exhibitions, and billboards that envisioned a more just, whole, and safe future." />
     
@@ -76,7 +76,7 @@
         <img loading="lazy" class="absolute z-10 -bottom-[10%] w-[10%] left-10" src="/zine-assets/zine-assets_0002_Layer-12.png" />
       </div>
       
-      <div class="relative">
+      <div class="relative overflow-hidden">
         <img loading="lazy" class="absolute z-10 top-0 w-[20%] right-0" src="/zine-assets/zine-assets_0004_Layer-8.png" />
       <BlockTextWithQuote
         class="pb-16"
