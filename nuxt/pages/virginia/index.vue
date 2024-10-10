@@ -30,11 +30,20 @@
         class="relative z-10"
         text="A Mural That Comes Alive"
         link="/virginia/mural"
-        img="/virginia/index/AR-PHILLY_dirty.jpg"
+        img="/virginia/index/MuralUnveiling_2_small.jpg"
         color="var(--projects)"
         :reverse="true"
         />
-        <img class="absolute z-[1] bottom-4 w-[15%] left-0" src="/zine-assets/crystal_purple1.png" />
+      </div>
+
+      <div class="relative">
+        <IndexLink
+          class="relative z-10"
+          text="An Abolitionist City Bus"
+          link="/virginia/bus"
+          img="/virginia/index/CityHall_3.jpg"
+          color="var(--projects)"
+        />
       </div>
     </section>
   </main>
