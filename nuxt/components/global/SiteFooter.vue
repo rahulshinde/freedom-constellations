@@ -62,7 +62,7 @@
       <AbolitionButton :large="true" class="self-center ml-[10%]"/>
     </div>
 
-    <div class="flex justify-between border-t-[2px] border-dotted font-runde text-runde-xs mt-4 mx-8 pt-4">
+    <div class="flex justify-between border-t-[2px] border-dotted font-runde text-runde-xs mt-8 mx-8 pt-4">
       <NuxtLink to="/about" class="uppercase hover:text-navigation-highlight">
         About
       </NuxtLink>
