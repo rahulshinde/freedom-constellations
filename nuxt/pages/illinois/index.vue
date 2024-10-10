@@ -28,6 +28,15 @@
           :reverse="true"
         />
       </div>
+      <div class="relative">
+        <IndexLink
+          class="relative z-10"
+          text="Cultural Organizing Projects"
+          link="/illinois/coi"
+          img="/illinois/index/illinois-community.jpg"
+          color="var(--programs)"
+        />
+      </div>
     </section>
   </main>
 </template>
