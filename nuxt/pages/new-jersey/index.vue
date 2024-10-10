@@ -9,6 +9,7 @@
       "
     >
       <BlockTextBody text="Use the sections below to experience and learn more about each project that took place in Jersey." />
+      
       <div class="relative">
         <IndexLink
           class="relative z-10"
@@ -16,6 +17,38 @@
           link="/new-jersey/coi"
           img="/new-jersey/index/NJ_BIllboardPhotos2.jpg"
           color="var(--projects)"
+        />
+      </div>
+
+      <div class="relative">
+        <IndexLink
+          class="relative z-10"
+          text="Banners"
+          link="/new-jersey/coi"
+          img="/new-jersey/index/RachelAlban_pesmurals-03.jpg"
+          color="var(--projects)"
+          :reverse="true"
+        />
+      </div>
+
+      <div class="relative">
+        <IndexLink
+          class="relative z-10"
+          text="Billboards"
+          link="/new-jersey/billboards"
+          img="/new-jersey/index/DSCF9738.jpg"
+          color="var(--billboards)"
+        />
+      </div>
+
+      <div class="relative">
+        <IndexLink
+          class="relative z-10"
+          text="Massive Wheat Paste Mural"
+          link="/new-jersey/mural"
+          img="/new-jersey/index/Camden_WheatPaste_1.jpg"
+          color="var(--projects)"
+          :reverse="true"
         />
       </div>
 
