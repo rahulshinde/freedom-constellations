@@ -18,13 +18,23 @@
       <div class="relative">
         <IndexLink
           class="relative z-10"
-          text="A Massive Interactive Exhibit"
-          link="/pennsylvania/nkip"
-          img="/pennsylvania/index/nkip.jpg"
-          color="var(--nkip)"
+          text="AR Animations Over City Hall"
+          link="/virginia/ar"
+          img="/virginia/index/CityHall_3.jpg"
+          color="var(--projects)"
         />
-        <img class="absolute z-[1] top-4 w-[15%] right-[10%]" src="/zine-assets/zine-assets_0017_Layer-1.png" />
-        <img class="absolute z-[1] -bottom-[30vw] w-[50%] left-[10%] -z-10" src="/zine-assets/ribbons1.png" />
+      </div>
+
+      <div class="relative">
+        <IndexLink
+        class="relative z-10"
+        text="A Mural That Comes Alive"
+        link="/virginia/mural"
+        img="/virginia/index/AR-PHILLY_dirty.jpg"
+        color="var(--projects)"
+        :reverse="true"
+        />
+        <img class="absolute z-[1] bottom-4 w-[15%] left-0" src="/zine-assets/crystal_purple1.png" />
       </div>
     </section>
   </main>
