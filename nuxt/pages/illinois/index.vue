@@ -31,7 +31,7 @@
         />
         <img class="absolute z-[1] -top-[5vw] w-[15vw] left-[10vw] rotate-[15deg]" src="/zine-assets/yellowstar1.png" />
         <img class="absolute z-[1] -top-[7vw] w-[20vw] left-[30vw]" src="/zine-assets/redhexchalk2.png" />
-        <img class="absolute z-[1] top-[7vw] w-[25vw] left-[0vw]" src="/zine-assets/zine-assets_0007_Layer-7.png" />
+        <img class="absolute z-[1] top-[7vw] w-[25vw] left-[0vw]" src="/zine-assets/zine-assets_0016_Layer-10.png" />
       </div>
       <div class="relative">
         <IndexLink
@@ -41,7 +41,7 @@
           img="/illinois/index/illinois-community.jpg"
           color="var(--programs)"
           />
-        <img class="absolute z-[1] -top-[10vw] w-[30vw] right-[5vw]" src="/zine-assets/zine-assets_0016_Layer-10.png" />
+        <img class="absolute z-[1] -bottom-[10vw] w-[30vw] -right-[10vw] -rotate-[10deg]" src="/zine-assets/zine-assets_0007_Layer-7.png" />
       </div>
     </section>
   </main>
