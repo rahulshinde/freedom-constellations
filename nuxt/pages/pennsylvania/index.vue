@@ -77,7 +77,7 @@
       </div>
       
       <div class="relative overflow-hidden">
-        <img loading="lazy" class="absolute z-10 top-0 w-[20%] right-0" src="/zine-assets/zine-assets_0004_Layer-8.png" />
+        <img loading="lazy" class="absolute z-10 top-0 w-[40%] -rotate-90 -right-[15vw]" src="/zine-assets/zine-assets_0004_Layer-8.png" />
       <BlockTextWithQuote
         class="pb-16"
         text="Featuring a city-wide constellation of massive banners, billboards, temporary murals, immersive exhibitions, and robust public programming, this rare project looked to Philadelphia's youth to help guide us all to a future where all children are free, healed, and thriving.
