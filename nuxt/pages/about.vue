@@ -17,10 +17,10 @@
           This website is an archive of the Freedom Constellations campaigns produced by Performing Statistics and their partners between 2020 and 2024.
         </p>
         <p class='ml-col3 mr-col3 text-white text-runde-m mt-8'>
-          For more information about Performing Statistics check out their ongoing work HERE.
+          For more information about Performing Statistics check out their ongoing work <a href="https://www.performingstatistics.org/" target='_blank' class="underline hover:text-navigation-highlight">HERE</a>.
         </p>
         <p class='ml-col3 mr-col3 text-white text-runde-m mt-4'>
-          Interested in more information about the Freedom Constellations campaigns? Please fill out the form below and we’ll get right back to you; 
+          Interested in more information about the Freedom Constellations campaigns? Please fill out <a href='#' target='_blank' class="underline hover:text-navigation-highlight">this form</a> we’ll get right back to you; 
         </p>
         <p class='ml-col3 mr-col3 text-white text-runde-m mt-4'>
           From 2021 - 2024, Performing Statistics was co-directed by Kate DeCiccio, J Slater, and Mark Strandquist. 
