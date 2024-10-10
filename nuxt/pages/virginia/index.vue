@@ -20,7 +20,7 @@
 
       <div class="relative">
         <img class="absolute -z-[1] -top-[15vw] right-[10vw] w-[30vw]" src="/zine-assets/threecircles1.png" />
-        <img class="absolute -z-[1] top-[5vw] right-[10vw] w-[10vw]" src="/zine-assets/orange star.png" />
+        <img class="absolute -z-[1] top-[5vw] right-[10vw] w-[10vw]" src="/zine-assets/orangestar.png" />
 
         <IndexLink
           class="relative z-10"
