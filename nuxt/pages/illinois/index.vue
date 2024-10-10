@@ -23,7 +23,7 @@
           class="relative z-10"
           text="Billboards"
           link="/illinois/billboards"
-          img="/illinois/index/NKIPChicago2.jpg"
+          img="/illinois/index/NKIPChicagoBillboards5.jpg"
           color="var(--billboards)"
           :reverse="true"
         />
