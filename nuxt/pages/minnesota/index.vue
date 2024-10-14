@@ -47,7 +47,7 @@
         <IndexLink
           class="relative z-10"
           text="Cultural Organizing Projects"
-          link="/minnesota/coi"
+          link="/minnesota/cultural-organizing"
           img="/minnesota/index/MYJJacketPortraits21.jpg"
           color="var(--programs)"
           :reverse="true"
