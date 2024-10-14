@@ -37,7 +37,7 @@
         <IndexLink
           class="relative z-10"
           text="Guerilla Public Projections"
-          link="/minnesota/nkip"
+          link="/minnesota/guerilla-projections"
           img="/minnesota/index/MNProjections3.jpg"
           color="var(--projects)"
         />

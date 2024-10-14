@@ -26,7 +26,7 @@
             <h3 class="font-runde mt-1 text-runde-xs font-bold uppercase mb-4">{{date}}</h3>
           </div>
 
-          <div class="flex">
+          <div class="flex" v-if="onThisPage?.length > 0">
             <IconsAstrix class="h-5 w-6 mr-2"/>
             <div>
               <h3 class="font-runde text-runde-xs font-bold uppercase mt-1">On This Page</h3>
