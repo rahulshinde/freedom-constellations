@@ -1,7 +1,7 @@
 <template>
   <section class="mx-4 z-10 mt-16">
     <div class="flex flex-wrap">
-      <NuxtLink class="mx-4 w-col1 group" to="/pennsylvania">
+      <NuxtLink class="mx-4 w-col1 group" :to="backLink">
         <IconsBack 
           class="w-12 h-auto group-hover:[&_path]:stroke-navigation-highlight [&_path]:transition-all duration-300"
           fill="var(--white)"
@@ -50,6 +50,7 @@
 
   const props = defineProps({
     title: String,
+    backLink: String,
     subtitle: String,
     introText: String,
     location: String,

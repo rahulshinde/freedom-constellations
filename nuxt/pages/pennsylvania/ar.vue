@@ -3,6 +3,7 @@
     <BlockProjectHeader
       class="relative z-20"
       title="Pennsylvania"
+      backLink="/pennsylvania"
       subtitle="Augmented Reality: Using Immersive Technology to Bring Abolitionist Dreams to Life!"
       location="Eastern State Penitentiary"
       introText="The central stars of Freedom Constellations were a series of monumental banners that came alive with augmented reality animations. The project showcased how the newest forms of interactive technology can transform public art and public spaces into megaphones for the voices we need to hear most."
