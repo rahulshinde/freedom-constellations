@@ -1,6 +1,6 @@
 <template>
   <main>
-    <BlockTextHeading class="relative z-20" text="New Jersey" />
+    <BlockTextHeading class="relative z-20" text="New Jersey: Putting Youth in Power, Not Prison!" />
 
     <section 
       class="
@@ -8,7 +8,7 @@
         before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0
       "
     >
-      <BlockTextBody text="Use the sections below to experience and learn more about each project that took place in Jersey." />
+      <BlockTextBody text="Use the sections below to experience and learn more about each project that took place New Jersey" />
       
       <div class="relative">
         <img class="absolute z-[1] top-[7vw] w-[15vw] right-[4vw]" src="/zine-assets/crystal_purple1.png" />

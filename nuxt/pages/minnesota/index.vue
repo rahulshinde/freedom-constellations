@@ -1,6 +1,6 @@
 <template>
   <main>
-    <BlockTextHeading class="relative z-20" text="Minnesota" />
+    <BlockTextHeading class="relative z-20" text="Minnesota: Uncuffing the Future by Putting Youth in the Driver’s Seat" />
     <BlockTextBody class="!mt-0 relative z-20" text="In the wake of the murder of George Floyd, Minnesota galvanized uprisings across the country inspiring a national reckoning with American policing. Schools across the Twin Cities ended their contracts with police but the End Youth Prisons MN campaign wanted to tell a deeper story about the underpinnings of Minnesota history, one punctuated by corporate racism and the genocide of Indigenous people.  In Minnesota, mapping a future of youth liberation meant unpacking hidden stories and imagining transformation led by youth vision." />
     
     <section 
@@ -10,7 +10,7 @@
     "
     >
       <BlockImageFullWidth class="z-10 relative" img="/minnesota/index/NKIPMNpeople10.jpg" alt="NKIP Philly 21" />
-      <BlockTextBody text="Use the sections below to experience and learn more about each project that took place in Michigan." />
+      <BlockTextBody text="Use the sections below to experience and learn more about each project that took place Minnesota." />
 
       <div class="relative">
         <IndexLink
