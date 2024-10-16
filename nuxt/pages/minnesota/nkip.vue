@@ -18,15 +18,51 @@
         before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0
       "
     >
-    <BlockCredits
-        :credits="credits" 
-    />
+
+      <BlockImageFullWidthSlideshow
+        class="mt-16"
+        :images="slideshow"
+      />
+
+      <BlockCredits
+          :credits="credits" 
+      />
 
     </section>
   </main>
 </template>
 
 <script setup>
+  const slideshow = [
+    {
+      src: '/minnesota/nkip/slideshow/NKIPMN2.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/nkip/slideshow/NKIPMN4.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/nkip/slideshow/NKIPMN6.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/nkip/slideshow/NKIPMN10.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/nkip/slideshow/NKIPMN11.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/nkip/slideshow/NKIPMN13.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/nkip/slideshow/NKIPMN15.jpg',
+      caption: ''
+    }
+  ]
   const credits = [
     {
       title: 'Community Partners',
