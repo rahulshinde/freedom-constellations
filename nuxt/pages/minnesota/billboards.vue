@@ -19,6 +19,11 @@
       "
     >
 
+      <BlockImageFullWidthSlideshow
+        class="mt-16"
+        :images="slideshow"
+      />
+
       <BlockTextBody
         text="During the #NoKidsInPrison exhibition, billboards and banners stretched across the Twin Cities infusing youth created abolitionist messaging into the cityscape. The presence of the art launched conversations about ending youth incarceration and drove people to the exhibition for even deeper learning and imagining."
       />
@@ -27,8 +32,10 @@
         text="Buildings transformed into megaphones for the dreams of youth!:"
       />
 
-      <BlockTextBody
-        text="These beautiful collaborative designs were also printed on large banners and installed in locations across the city, helping to make these future dreams a reality! Huge thanks to our partners for hosting these beautiful banners (Legal Rights Center and Springboard for the Arts)."
+      <BlockImageWithPullQuote
+        class="mt-8"
+        img="/minnesota/billboards/MNBillboards31.jpg"
+        quote="These beautiful collaborative designs were also printed on large banners and installed in locations across the city, helping to make these future dreams a reality! Huge thanks to our partners for hosting these beautiful banners (Legal Rights Center and Springboard for the Arts)."
       />
 
       <BlockCredits
@@ -39,6 +46,34 @@
 </template>
 
 <script setup>
+
+  const slideshow = [
+    {
+      src: '/minnesota/billboards/MNBillboards6.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/billboards/MNBillboards7.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/billboards/MNBillboards15.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/billboards/MNBillboards21.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/billboards/MNBillboards23.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/billboards/MNBillboards24.jpg',
+      caption: ''
+    }
+  ]
+
   const credits = [
     {
       title: 'Billboard/banner artists',
