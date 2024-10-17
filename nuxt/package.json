@@ -10,7 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.10.1"
+    "@nuxtjs/tailwindcss": "^6.10.1",
+    "video.js": "^8.18.1"
   },
   "dependencies": {
     "nuxt": "^3.13.0",

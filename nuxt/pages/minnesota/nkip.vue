@@ -44,6 +44,17 @@ In EYP’s research about the history of the DT100, they found a song to make th
 The idea was to play with Target’s retail imagery, create graphic t-shirts that show the true impact of Target on young people in MN along with their connection to private and local police."
       />
 
+      <audio
+        class="video-js vjs-default-skin"
+        ref="audioPlayer"
+      >
+        <source
+          src="/minnesota/nkip/target/KeepIt1hunnit.mp3"
+          type='audio/mp3'
+        >
+
+      </audio>
+
       <BlockCredits
           title="Target Credits"
           :credits="targetCredits" 
@@ -73,8 +84,7 @@ The idea was to play with Target’s retail imagery, create graphic t-shirts tha
       <BlockTextBody
         text="Youth leaders from the End Youth Prisons MN campaign worked with Performing Statistics to co-write a poem that imagined a future where all youth are free, safe, and thriving. As NKIP viewers walked through the future section of the exhibit they moved between the beautiful silk portraits of youth leaders while the poem played from a speaker.
 
-The poem was co-created with youth leaders in the No Youth Prisons MN campaign. 
-Workshop facilitation:Mark Strandquist and Kate DeCiccio with support of Caelyn Steele and Lupita Herrera."
+The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
       />
 
       <BlockCredits
@@ -108,6 +118,21 @@ Workshop facilitation:Mark Strandquist and Kate DeCiccio with support of Caelyn 
 </template>
 
 <script setup>
+
+  import videojs from "video.js";
+
+  const audioPlayer = ref(null);
+  import 'video.js/dist/video-js.css'
+
+  onMounted(() => {
+    const player = videojs(audioPlayer.value, {
+      autoplay: false,
+      controls: true,
+    }, function onPlayerReady() {
+      console.log('Player is ready!');
+    });
+  });
+
   const slideshow = [
     {
       src: '/minnesota/nkip/slideshow/NKIPMN2.jpg',
@@ -174,6 +199,10 @@ Workshop facilitation:Mark Strandquist and Kate DeCiccio with support of Caelyn 
   ]
 
   const futureAudioCredits = [
+    {
+      title:'Workshop facilitation',
+      text:'Mark Strandquist and Kate DeCiccio with support of Caelyn Steele and Lupita Herrera'
+    },
     {
       title: 'Recording & Editing',
       text: 'Katharine DeCelle'
