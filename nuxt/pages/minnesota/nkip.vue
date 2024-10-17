@@ -50,16 +50,9 @@
 The idea was to play with Target’s retail imagery, create graphic t-shirts that show the true impact of Target on young people in MN along with their connection to private and local police."
       />
 
-      <audio
-        class="video-js vjs-default-skin"
-        ref="audioPlayer"
-      >
-        <source
-          src="/minnesota/nkip/target/KeepIt1hunnit.mp3"
-          type='audio/mp3'
-        >
-
-      </audio>
+      <BlockAudio
+        src="/minnesota/nkip/target/KeepIt1hunnit.mp3"
+      />
 
       <BlockCredits
           title="Target Credits"
@@ -128,6 +121,10 @@ The idea was to play with Target’s retail imagery, create graphic t-shirts tha
 The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
       />
 
+      <BlockAudio
+        src="/minnesota/nkip/future-audio/No_Youth_Prisons_MN.mp3"
+      />
+
       <BlockCredits
           title="Future Audio Credits"
           :credits="futureAudioCredits"
@@ -150,7 +147,7 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
 
 
       <BlockCredits
-          title="Exhibition Credits"
+          title="#NKIP Exhibition Credits"
           :credits="credits" 
       />
 
@@ -159,20 +156,6 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
 </template>
 
 <script setup>
-
-  import videojs from "video.js";
-
-  const audioPlayer = ref(null);
-  import 'video.js/dist/video-js.css'
-
-  onMounted(() => {
-    const player = videojs(audioPlayer.value, {
-      autoplay: false,
-      controls: true,
-    }, function onPlayerReady() {
-      console.log('Player is ready!');
-    });
-  });
 
   const slideshow = [
     {
