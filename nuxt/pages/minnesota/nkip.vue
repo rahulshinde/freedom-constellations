@@ -118,6 +118,10 @@ The idea was to play with Target’s retail imagery, create graphic t-shirts tha
         id="future-audio"
       />
 
+      <BlockImageHalfWidth
+        img="/minnesota/nkip/future-audio/NKIPMN23.jpg"
+      />
+
       <BlockTextBody
         text="Youth leaders from the End Youth Prisons MN campaign worked with Performing Statistics to co-write a poem that imagined a future where all youth are free, safe, and thriving. As NKIP viewers walked through the future section of the exhibit they moved between the beautiful silk portraits of youth leaders while the poem played from a speaker.
 
