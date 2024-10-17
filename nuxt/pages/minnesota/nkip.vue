@@ -72,9 +72,40 @@ The idea was to play with Target’s retail imagery, create graphic t-shirts tha
         id="infographics"
       />
 
+
+      <div class="mx-8">
+        <div class="flex mt-16 justify-between mx-col1">
+          <img
+            class="w-1/3 mr-2 h-[35vw] object-cover"
+            src="/minnesota/nkip/infographic/NKIPMN27.jpg"
+          >
+          <img
+            class="w-2/3 object-cover ml-2 h-[35vw]"
+            src="/minnesota/nkip/infographic/NKIPMN29.jpg"
+          >
+        </div>
+      </div>
+
       <BlockTextBody
         text="The youth leaders at End Youth Prisons MN worked with performing Statistics to create a series of infographics illustrating the intersections of Indigenous youth experiences and the criminal legal system in Minnesota and the disproportionate rates of suspension and expulsion of Black students across the state."
       />
+
+      <div class="mx-8">
+        <div class="flex mt-16 justify-between mx-col1">
+          <img
+            class="w-1/4 mr-2 h-[35vw] object-cover"
+            src="/minnesota/nkip/infographic/MNDallasInfographic.jpg"
+          >
+          <img
+            class="w-2/4 object-cover ml-2 mr-2 h-[35vw]"
+            src="/minnesota/nkip/infographic/MNMakingMap.jpg"
+          >
+          <img
+            class="w-1/4 object-cover ml-2 h-[35vw]"
+            src="/minnesota/nkip/infographic/MNTyshawnInfographic2.jpg"
+          >
+        </div>
+      </div>
 
       <BlockCredits
           title="Infographics Credits"
