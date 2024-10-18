@@ -1,7 +1,7 @@
 <template>
   <main class="overflow-x-hidden">
-    <BlockTextHeading class="relative z-20" text="Minnesota: Uncuffing the Future by Putting Youth in the Driver’s Seat" />
-    <BlockTextBody class="!mt-0 relative z-20" text="In the wake of the murder of George Floyd, Minnesota galvanized uprisings across the country inspiring a national reckoning with American policing. Schools across the Twin Cities ended their contracts with police but the End Youth Prisons MN campaign wanted to tell a deeper story about the underpinnings of Minnesota history, one punctuated by corporate racism and the genocide of Indigenous people.  In Minnesota, mapping a future of youth liberation meant unpacking hidden stories and imagining transformation led by youth vision." />
+    <BlockTextHeading class="relative z-20 !mt-16" text="Minnesota: Uncuffing the Future by Putting Youth in the Driver’s Seat" />
+    <BlockTextBody class="!mt-4 relative z-20" text="In the wake of the murder of George Floyd, Minnesota galvanized uprisings across the country inspiring a national reckoning with American policing. Schools across the Twin Cities ended their contracts with police but the End Youth Prisons MN campaign wanted to tell a deeper story about the underpinnings of Minnesota history, one punctuated by corporate racism and the genocide of Indigenous people.  In Minnesota, mapping a future of youth liberation meant unpacking hidden stories and imagining transformation led by youth vision." />
     <img class="absolute w-[15vw] rotate-[25deg] right-[8rem] bottom-[10vw]" src="/zine-assets/zine-assets_0014_Layer-4.png"/>
     <img class="absolute w-[15vw] rotate-[25deg] left-[4rem] top-[10vw]" src="/zine-assets/zine-assets_0016_Layer-10.png"/>
     <section 

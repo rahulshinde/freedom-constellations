@@ -8,7 +8,14 @@
         class="mx-4 group flex flex-col transition-colors block"
         :class="hoverColorClass(link.color)"
       >
-        <img :src="link.img" class="grow"/>
+        <figure class="relative after:content-[''] after:block after:absolute after:top-0 after:left-0 after:w-full after:h-full after:z-[-1] after:rounded-xl after:shadow-imgHvr after:opacity-0 group-hover:after:opacity-100 after:transition-all">
+          <img 
+            :src="link.img" 
+            class="
+              grow group-hover:rounded-xl transition-all
+            "
+          />
+        </figure>
         <div class="text-runde-l font-semibold mt-4 inline">
           {{ link.title }}<IconsLinkArrow class="inline-block w-auto h-5 ml-2" :color="link.color" />
         </div>

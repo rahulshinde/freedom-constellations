@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4 mt-16">
+  <div class="mx-4 mt-8">
     <NuxtLink
       :to="props.link"
       class="text-white group text-runde-m ml-col1 mr-col1 flex items-end transition-all duration-300"
@@ -8,12 +8,15 @@
         hoverColorClass
       ]"
     >
-      <img
-        :src="props.img"
-        :alt="props.text"
-        class="w-[60%] inline-block group-hover:rounded-xl transition-all duration-300" 
-        :class="props.reverse ? 'ml-4' : 'mr-4'"
-      />
+      <figure class="w-[60%]
+      relative after:content-[''] after:block after:absolute after:top-0 after:left-0 after:w-full after:h-full after:z-[-1] after:rounded-xl after:shadow-imgLgHvr after:opacity-0 group-hover:after:opacity-100 after:transition-all"
+      :class="props.reverse ? 'ml-4' : 'mr-4'">
+        <img
+          :src="props.img"
+          :alt="props.text"
+          class="inline-block w-full group-hover:rounded-xl transition-all duration-300" 
+          />
+      </figure>
       <figcaption 
         class='mb-8'
         :class="[

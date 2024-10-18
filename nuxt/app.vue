@@ -4,7 +4,7 @@
       <SiteHeader v-if="route.name != 'index' "/>
     </Transition>
     <NuxtPage :class="route.name != 'index' ? 'pt-32' : ''" />
-    <SiteFooter/>
+    <SiteFooter class="z-10"/>
   </div>
 </template>
 

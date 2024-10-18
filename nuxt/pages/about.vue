@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1 class="mx-8 mt-16 relative z-20 text-runde-xxl font-semibold">About</h1>
+    <h1 class="mx-8 mt-8 relative z-20 text-runde-xxl font-semibold">About</h1>
 
     <section 
       class="

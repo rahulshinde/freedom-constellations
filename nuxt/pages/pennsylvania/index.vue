@@ -1,7 +1,7 @@
 <template>
   <main class="w-full overflow-hidden">
-    <BlockTextHeading class="relative z-20" text="Pennsylvania: A city full of abolitionist art" />
-    <BlockTextBody class="!mt-0 relative z-20" text="In 2023, Performing Statistics, over 50 youth leaders in Philadelphia, artists from across North America and a coalition of community partners collaborated to create a city-wide series of interactive public artworks, exhibitions, and billboards that envisioned a more just, whole, and safe future." />
+    <BlockTextHeading class="relative z-20 !mt-16" text="Pennsylvania: A city full of abolitionist art" />
+    <BlockTextBody class="!mt-4 relative z-20" text="In 2023, Performing Statistics, over 50 youth leaders in Philadelphia, artists from across North America and a coalition of community partners collaborated to create a city-wide series of interactive public artworks, exhibitions, and billboards that envisioned a more just, whole, and safe future." />
     
     <section 
     class="

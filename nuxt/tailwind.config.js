@@ -124,6 +124,10 @@ export default {
         'programs': 'var(--programs)',
         'bg-highlight': 'var(--bg-highlight)',
         'navigation-highlight': 'var(--navigation-highlight)'
+      },
+      boxShadow: {
+        'imgHvr': '0 0 2rem -1rem',
+        'imgLgHvr': '0 0 4rem -1rem',
       }
     }
   }

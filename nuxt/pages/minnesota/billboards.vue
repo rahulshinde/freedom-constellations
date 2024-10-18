@@ -43,7 +43,7 @@
       />
 
       <BlockProjectFooterLinks
-        class="mt-8"
+        class=""
         heading="More from Minnesota"
         :links="footerLinks"
       />
