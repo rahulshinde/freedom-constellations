@@ -1,6 +1,6 @@
 <template>
   <figure>
-    <div class="px-8 grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
+    <div class="px-8 grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
       <div v-for="image in props.images" :key="image">
         <img
           :src="image"

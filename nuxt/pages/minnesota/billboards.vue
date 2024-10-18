@@ -20,7 +20,7 @@
     >
 
       <BlockImageFullWidthSlideshow
-        class="mt-16"
+        class="mt-8"
         :images="slideshow"
       />
 
@@ -43,7 +43,7 @@
       />
 
       <BlockProjectFooterLinks
-        class="mt-16"
+        class="mt-8"
         heading="More from Minnesota"
         :links="footerLinks"
       />

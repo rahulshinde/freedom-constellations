@@ -152,7 +152,7 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
 
       <div class="relative">
         <BlockCredits
-            class="mt-64"
+            class="!mt-64"
             title="#NKIP Exhibition Credits"
             :credits="credits" 
         />

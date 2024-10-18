@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mx-4 mt-16 items-stretch">
+  <div class="flex mx-4 mt-8 items-stretch">
     <img class="w-col6 mx-4 max-h-[80svh] object-contain" :src="img">
     <div class="w-col6 flex relative mx-4">
       <p class="text-white font-hatton self-center text-hatton-l w-[70%]">{{ quote }}</p>

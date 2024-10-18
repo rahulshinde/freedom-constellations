@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4 mt-16">
+  <div class="mx-4 mt-8">
     <h2 v-if="heading" class="ml-col3 mr-col3 text-white text-runde-xl mb-4">
       {{ heading }}
     </h2>

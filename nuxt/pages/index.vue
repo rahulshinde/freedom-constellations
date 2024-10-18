@@ -1,10 +1,10 @@
 <template>
   <main>
-    <HomepageHero class="mb-20 z-20" />
+    <HomepageHero class="mb-[0svh] z-10" />
     <section 
       class="
         bg-black relative z-10
-        before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-[-1]
+        before:content-[''] before:pointer-events-none before:absolute before:w-full before:h-[5svh] before:bg-gradient-to-b to-[rgba(0,0,0,0.5)] from-black-trans before:-top-[5svh] before:left-0 before:z-[-1]
       "
     >
       <BlockFullBleed

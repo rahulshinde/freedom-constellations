@@ -25,7 +25,7 @@
           class="text-runde-xxl inline font-semibold"
         >
           {{ props.text }}
-        </h2><IconsLinkArrow class="inline-block w-auto h-7 ml-2 -mt-4" :color="color" />
+        </h2><IconsLinkArrow class="inline-block w-auto h-7 ml-2 -mt-3" :color="color" />
       </figcaption>
     </NuxtLink>
   </div>

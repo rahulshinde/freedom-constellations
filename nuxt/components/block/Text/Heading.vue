@@ -1,5 +1,5 @@
 <template>
-  <div class='mx-4 mt-16'>
+  <div class='mx-4 mt-8'>
     <h1 class="ml-col3 mr-col3 text-white font-hatton text-hatton-xl">
       {{ props.text }}
     </h1>

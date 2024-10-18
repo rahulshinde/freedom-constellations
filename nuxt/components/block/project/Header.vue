@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-4 z-10 mt-16">
+  <section class="mx-4 z-10 mt-8">
     <div class="flex flex-wrap">
       <NuxtLink class="mx-4 w-col1 group" :to="backLink">
         <IconsBack 

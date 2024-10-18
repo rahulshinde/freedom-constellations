@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-4">
+  <section class="mx-4 mt-16">
     <h2 class="text-hatton-xl font-hatton ml-col3 mr-col3 mx-4 mb-4">{{heading}}</h2>
     <div class="flex">
       <NuxtLink

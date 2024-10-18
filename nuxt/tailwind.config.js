@@ -29,7 +29,7 @@ export default {
         }
       ],
       'hatton-l': [
-        '1.5rem',
+        '1.65rem',
         {
           lineHeight: '1.15',
           letterSpacing: '-0.01em'
@@ -57,7 +57,7 @@ export default {
         }
       ],
       'runde-m': [
-        '1.25rem',
+        '1.2rem',
         {
           lineHeight: '1.3',
           letterSpacing: '-0.01em'
@@ -71,7 +71,7 @@ export default {
         }
       ],
       'runde-xl': [
-        '2rem',
+        '2.25rem',
         {
           lineHeight: '1.2',
           letterSpacing: '-0.01em'
@@ -80,7 +80,7 @@ export default {
       'runde-xxl': [
         '2.75rem',
         {
-          lineHeight: '1.2',
+          lineHeight: '1.05',
           letterSpacing: '-0.01em'
         }
       ],

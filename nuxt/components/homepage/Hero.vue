@@ -1,9 +1,12 @@
 <template>
-  <section class="relative px-4 pt-12 w-full h-[80svh]">
-    <img
-      src="/pngs/homepage_gradient.png"
-      class="absolute z-[-1] top-0 left-0 w-full h-[120%] object-contain object-left-top"
-    />
+  <section class="sticky top-0 z-1 px-4 pt-12 w-full h-[80svh]">
+    <figure class="block absolute z-[-1] top-0 left-0 w-full h-[91.5svh] overflow-hidden">
+      <img
+        src="/pngs/homepage_gradient.png"
+        class="w-full h-[100%] object-contain object-left-top"
+      />
+    </figure>
+      
     <div class="ml-col1 pl-4">
       <IconsLogo class="h-24 z-10 relative w-auto" />
       <AbolitionButton class="absolute top-8 right-8"/>

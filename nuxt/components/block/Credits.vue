@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4 mt-16">
+  <div class="mx-4 mt-8">
     <h2 class='ml-col3 mr-col3 text-white text-runde-xl mb-4'>{{ title ? title : 'Credits'  }}</h2>
     <div class="ml-col3 mr-col3">
       <ul class="text-white columns-3 gap-8">
