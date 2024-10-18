@@ -95,7 +95,7 @@
 
   onMounted(() => {
     window.addEventListener('scroll', () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 60) {
         if (directions.bottom){
           siteHeader.value.classList.add('translate-y-[-100%]');
         } else {
