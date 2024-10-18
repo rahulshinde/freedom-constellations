@@ -41,11 +41,39 @@
       <BlockCredits
         :credits="credits"
       />
+
+      <BlockProjectFooterLinks
+        class="mt-16"
+        heading="More from Minnesota"
+        :links="footerLinks"
+      />
     </section>
   </main>
 </template>
 
 <script setup>
+
+  const footerLinks = [
+    {
+      title: "A Massive Interactive Exhibit",
+      link: "/minnesota/nkip",
+      img: "/minnesota/index/NKIPMN1.jpg",
+      color: "var(--nkip)"
+    },
+    {
+      title: "Guerilla Public Projections",
+      link: "/minnesota/guerilla-projections",
+      img: "/minnesota/index/MNProjections3.jpg",
+      color: "var(--projects)"
+    },
+    {
+      title: "Cultural Organizing Projects",
+      link: "/minnesota/cultural-organizing",
+      img: "/minnesota/index/MYJJacketPortraits21.jpg",
+      color: "var(--programs)"
+    }
+  ]
+
 
   const slideshow = [
     {

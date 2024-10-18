@@ -163,11 +163,37 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
         <img class="absolute z-[-1] bottom-[2vw] w-[18vw] left-[0vw]" src="/zine-assets/bluecrown2.png" />
       </div>
 
+      <BlockProjectFooterLinks
+        class="mt-16"
+        heading="More from Minnesota"
+        :links="footerLinks"
+      />
     </section>
   </main>
 </template>
 
 <script setup>
+
+  const footerLinks = [
+    {
+      title: 'Billboards and Banners',
+      link: "/minnesota/billboards",
+      img: "/minnesota/index/MNBillboards30.jpg",
+      color: "var(--billboards)"
+    },
+    {
+      title: "Guerilla Public Projections",
+      link: "/minnesota/guerilla-projections",
+      img: "/minnesota/index/MNProjections3.jpg",
+      color: "var(--projects)"
+    },
+    {
+      title: "Cultural Organizing Projects",
+      link: "/minnesota/cultural-organizing",
+      img: "/minnesota/index/MYJJacketPortraits21.jpg",
+      color: "var(--programs)"
+    }
+  ]
 
   const slideshow = [
     {

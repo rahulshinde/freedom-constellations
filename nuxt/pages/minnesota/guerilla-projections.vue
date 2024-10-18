@@ -46,11 +46,40 @@ The six locations that featured the projections were selected for their history 
       <BlockCredits
         :credits="credits"
       />
+
+      <BlockProjectFooterLinks
+        class="mt-16"
+        heading="More from Minnesota"
+        :links="footerLinks"
+      />
     </section>
   </main>
 </template>
 
 <script setup>
+
+
+  const footerLinks = [
+    {
+      title: "A Massive Interactive Exhibit",
+      link: "/minnesota/nkip",
+      img: "/minnesota/index/NKIPMN1.jpg",
+      color: "var(--nkip)"
+    },
+    {
+      title: 'Billboards and Banners',
+      link: "/minnesota/billboards",
+      img: "/minnesota/index/MNBillboards30.jpg",
+      color: "var(--billboards)"
+    },
+    {
+      title: "Cultural Organizing Projects",
+      link: "/minnesota/cultural-organizing",
+      img: "/minnesota/index/MYJJacketPortraits21.jpg",
+      color: "var(--programs)"
+    }
+  ]
+
   const credits = [
     {
       title: 'Lead Artist/Project text',

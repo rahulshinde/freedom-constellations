@@ -52,11 +52,39 @@ The End Youth Prisons campaign leaders covered their jackets in demands for a MN
       <BlockCredits
         :credits="credits"
       />
+
+      <BlockProjectFooterLinks
+        class="mt-16"
+        heading="More from Minnesota"
+        :links="footerLinks"
+      />
     </section>
   </main>
 </template>
 
 <script setup>
+
+const footerLinks = [
+    {
+      title: "A Massive Interactive Exhibit",
+      link: "/minnesota/nkip",
+      img: "/minnesota/index/NKIPMN1.jpg",
+      color: "var(--nkip)"
+    },
+    {
+      title: 'Billboards and Banners',
+      link: "/minnesota/billboards",
+      img: "/minnesota/index/MNBillboards30.jpg",
+      color: "var(--billboards)"
+    },
+    {
+      title: "Guerilla Public Projections",
+      link: "/minnesota/guerilla-projections",
+      img: "/minnesota/index/MNProjections3.jpg",
+      color: "var(--projects)"
+    }
+  ]
+
   const slideshow = [
     {
       src: '/minnesota/jackets/leaders/MYJportraits20.jpg',
