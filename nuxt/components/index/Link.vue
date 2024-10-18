@@ -1,7 +1,7 @@
 <template>
   <div class="mx-4 mt-16">
-    <a
-      :href="props.link"
+    <NuxtLink
+      :to="props.link"
       class="text-white group text-runde-m ml-col1 mr-col1 flex items-end transition-all duration-300"
       :class="[
         props.reverse ? 'flex-row-reverse' : 'flex-row',
@@ -27,7 +27,7 @@
           {{ props.text }}
         </h2><IconsLinkArrow class="inline-block w-auto h-7 ml-2 -mt-4" :color="color" />
       </figcaption>
-    </a>
+    </NuxtLink>
   </div>
 </template>
 

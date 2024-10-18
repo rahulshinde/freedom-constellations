@@ -91,8 +91,6 @@
   
   const route = useRoute();
   const { directions } = useScroll(window)
-
-  console.log(directions);
   const siteHeader = ref(null);
 
   onMounted(() => {
