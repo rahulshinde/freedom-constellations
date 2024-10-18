@@ -1,5 +1,12 @@
 <template>
-  <header class="flex items-center relative justify-between mx-4 mt-4">
+  <header 
+    class="
+      flex items-center fixed left-4 right-4 justify-between mx-4 transition-all duration-[0.5s] pt-4 z-[100]
+      after:content-[''] after:pointer-events-none after:absolute after:w-full after:h-[150%] after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-[0.5s] after:translate-y-[-100%]
+      after:bg-gradient-to-t after:to-black after:from-black-trans
+    "
+    ref="siteHeader"
+  >
     <NuxtLink to="/" class="flex items-start w-col3 mx-4">
       <IconsLogo class="h-12 w-auto" />
     </NuxtLink>
@@ -81,5 +88,26 @@
 </template>
 
 <script setup>
+  
   const route = useRoute();
+  const { directions } = useScroll(window)
+
+  console.log(directions);
+  const siteHeader = ref(null);
+
+  onMounted(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        if (directions.bottom){
+          siteHeader.value.classList.add('translate-y-[-100%]');
+        } else {
+          siteHeader.value.classList.remove('translate-y-[-100%]');
+        }
+        siteHeader.value.classList.remove('after:translate-y-[-100%]');
+      } else {
+        siteHeader.value.classList.add('after:translate-y-[-100%]');
+        siteHeader.value.classList.remove('translate-y-[-100%]');
+      }
+    });
+  });
 </script>

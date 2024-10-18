@@ -1,11 +1,11 @@
 <template>
   <section class="relative px-4 pt-12 w-full h-[80svh]">
+    <img
+      src="/pngs/homepage_gradient.png"
+      class="absolute z-[-1] top-0 left-0 w-full h-[120%] object-contain object-left-top"
+    />
     <div class="ml-col1 pl-4">
       <IconsLogo class="h-24 z-10 relative w-auto" />
-      <img
-        src="/pngs/homepage_gradient.png"
-        class="absolute z-0 top-0 left-0 w-full h-full object-contain object-left-top"
-      />
       <AbolitionButton class="absolute top-8 right-8"/>
       <p class="font-hatton z-10 relative text-hatton-m mt-8 w-[20rem]">
         A multi-city art campaign to dream, envision, and create a <span class="text-navigation-highlight">future where all youth are free, safe, and thriving.</span>
