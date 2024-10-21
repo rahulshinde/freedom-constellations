@@ -11,6 +11,7 @@
         before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0
       "
     > 
+      <BlockImageFullWidth class="z-10 relative" img="/illinois/index/NKIPChicagoBillboards5.jpg" alt="NKIP Chicago 21" />
       <BlockTextBody text="Use the sections below to experience and learn more about each project that took place in Illinois." />
       <div class="relative">
         <img class="absolute z-[1] -top-[8vw] w-[24vw] right-[15vw] rotate-[15deg]" src="/zine-assets/zine-assets_0008_Layer-6.png" />
@@ -28,7 +29,7 @@
           class="relative z-10"
           text="Billboards"
           link="/illinois/billboards"
-          img="/illinois/index/NKIPChicagoBillboards5.jpg"
+          img="/illinois/index/NKIPChicagoBillboards30.jpg"
           color="var(--billboards)"
           :reverse="true"
         />
