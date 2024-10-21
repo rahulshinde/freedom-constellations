@@ -1,7 +1,7 @@
 <template>
   <main class="w-full overflow-hidden">
     <div class="relative">
-      <BlockTextHeading class="relative z-20 !mt-16" text="Virginia: Turning building and busses into megaphones for youth" />
+      <BlockTextHeading class="relative z-20 !mt-16" text="Virginia: Turning buildings and busses into megaphones for youth" />
       <BlockTextBody class="!mt-4 relative z-20" text="As Richmond dismantled monuments to their painful and devastating legacy of slavery and the confederacy, Freedom Constellations (2020-2022) represented a new, interactive series of monumental public art projects that asked young people to illustrate a road map toward freedom for us all." />
       <img class="absolute z-[1] -top-[0vw] left-0 w-[20vw]" src="/zine-assets/bluecrown2.png" />
     </div>
