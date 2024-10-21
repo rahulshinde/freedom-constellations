@@ -38,7 +38,7 @@
         class="relative z-10"
         text="A Mural That Comes Alive"
         link="/virginia/mural"
-        img="/virginia/index/MuralUnveiling_2_small.jpg"
+        img="/virginia/index/WideShot.jpg"
         color="var(--projects)"
         :reverse="true"
         />
@@ -49,7 +49,7 @@
           class="relative z-10"
           text="An Abolitionist City Bus"
           link="/virginia/bus"
-          img="/virginia/index/GRTC_FreedomConstellations_2small.jpg"
+          img="/virginia/index/GRTC_FreedomConstellations_13small.jpg"
           color="var(--projects)"
         />
         <img class="absolute -z-[1] top-[0vw] right-[0vw] w-[30vw]" src="/zine-assets/orangestar1.png" />
