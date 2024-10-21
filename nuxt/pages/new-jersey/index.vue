@@ -59,7 +59,7 @@
           class="relative z-10"
           text="Massive Wheat Paste Mural"
           link="/new-jersey/mural"
-          img="/new-jersey/index/Camden_WheatPaste_1.jpg"
+          img="/new-jersey/index/Camden_WheatPaste_5.jpg"
           color="var(--projects)"
           :reverse="true"
         />
