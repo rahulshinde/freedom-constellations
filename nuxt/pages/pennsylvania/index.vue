@@ -81,6 +81,10 @@
         text='Watch a mini-documentary about all the magic youth leaders created in Philadelphia!'
       />
 
+      <BlockVideo
+        video="https://player.vimeo.com/progressive_redirect/playback/1021789567/rendition/1080p/file.mp4?loc=external&signature=5d68aae78f022027e717643f3b8e5f97a8031eebac4ef4c3726e8fb2057d340b"
+      />
+
       <div class="relative overflow-hidden">
         <img loading="lazy" class="absolute z-10 top-0 w-[40%] -rotate-90 -right-[15vw]" src="/zine-assets/zine-assets_0004_Layer-8.png" />
       <BlockTextWithQuote
