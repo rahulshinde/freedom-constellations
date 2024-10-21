@@ -19,7 +19,7 @@
           <img class="h-[6rem] opacity-50 hover:opacity-100 transition-opacity" :src="image.src"/>
         </button>
       </div>
-      <div>
+      <div class="flex ml-4">
         <button class="mr-4"
           @click="prevSlide">
           <IconsBack class="w-12 h-auto"/>

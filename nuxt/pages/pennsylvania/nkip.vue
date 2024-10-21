@@ -20,7 +20,41 @@
         bg-black relative z-10 pb-16
         before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0"
     >
-      <BlockImageFullWidth class="z-10 relative" img="/pennsylvania/nkip/PXL_20230606_195010795.jpg" alt="NKIP Philly 21" />
+      <BlockImageFullWidthSlideshow
+        class="mt-8"
+        :images = "[
+          {
+            'src': '/pennsylvania/nkip/PXL_20230606_195010795.jpg'
+          },
+          {
+            'src': '/pennsylvania/nkip/NKIPPhilly_2.jpg'
+          },
+          {
+            'src': '/pennsylvania/nkip/NKIPPhilly_8.jpg'
+          },
+          {
+            'src': '/pennsylvania/nkip/NKIPPhilly_10.jpg'
+          },
+          {
+            'src': '/pennsylvania/nkip/NKIPPhilly_14.jpg'
+          },
+          {
+            'src': '/pennsylvania/nkip/NKIPPhilly_15_small.jpg'
+          },
+          {
+            'src': '/pennsylvania/nkip/NKIPPhilly_17.jpg'
+          },
+          {
+            'src': '/pennsylvania/nkip/NKIPPhilly_21.jpg'
+          },
+          {
+            'src': '/pennsylvania/nkip/NKIPPhilly_23.jpg'
+          },
+          {
+            'src': '/pennsylvania/nkip/20230519_185512.jpg'
+          }
+        ]"
+      />
       
 
     </section> 
