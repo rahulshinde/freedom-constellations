@@ -56,10 +56,149 @@
         ]"
       />
       
+      <BlockTextBody
+        heading="Exhibition Data"
+        text="Thousands of viewers came through the NKIP exhibition and data from their surveys show what we have always believed….that youth driven storytelling, that incorporates a multitude of art forms and media, impacts people in deep and energizing ways."
+      />
+      <BlockTextBulletList
+          :list="
+            [
+              '50% of attendees had someone they care about that is or has been incarcerated',
+              '60% of attendees lived in Philly and 30% lived outside of PA',
+              '55% of attendees said they are more committed to fighting to end youth incarceration and supporting youth leadership than when they arrived.',
+              '56% of attendees felt like they understood the issue better and hearing from directly impacted youth and their families helped me understand things I didn\'t realize before.',
+              '50% of attendees said that they were most impacted by hearing from young people and their families about their experiences.'
+            ]
+          "
+      />
 
+      <BlockTextHeading
+          text="The exhibit featured a robust set of programs open to the public."
+      />
+      <BlockTextBody
+        heading="Opening Celebration"
+        text="Silk screen party, dj and more to celebrate all the brave and brilliant youth advocates who helped make this exhibition possible."
+      />
+
+      <BlockTextBody
+        heading="Weekly silk screening workshops"
+        text="Each week featured different local silk screen printers who helped print and share thousands of free posters, tote bags, and abolitionist ephemera."
+      />
+
+      <BlockTextBody
+        heading="Abolitionist swag workshops"
+        text="Hosted by Amir Khadar and Katie Kaplan, exhibition attendees were able to use patches, vinyl and laser cut charms created in collaboration with the Care Not Control campaign to make abolitionist one of a kind totes."
+      />
+
+      <BlockTextBody
+        heading="Abolition Across Generations"
+        text="A panel featuring youth advocates and a group of older advocates who were sentenced to life in prison as teenagers. The panel discussed how racist tough on crime rhetoric and public policies of the 1980’s and 90’s was re-emerging and how each generation could share knowledge and build together."
+      />
+
+      <BlockTextBody
+        heading="Youth Convening"
+        text="Understanding the power of youth cross pollination and relationship building, Performing Statistics hosted a youth convening where organizers from Minnesota and Illinois were about to experience the exhibition, see public art across the city and learn from Pennsylvania and New Jersey organizers about the process. The time together created space for relationships building between campaigns and opportunity to begin planning for the exhibition to travel to Chicago and Minneapolis."
+      />
+      <BlockCredits
+        title="Cherry Street Pier Team"
+        :credits="csp_credits"
+      />
+      <BlockCredits
+        title="#NKIP Team"
+        :credits="credits"
+      />
+      <BlockCredits
+        title="Programming"
+        :credits="programmingCredits"
+      />
     </section> 
   </main>  
 </template>
 
 <script setup>
+
+  const csp_credits = [
+    {
+      title: 'Creative Director & Programming',
+      text: 'Sarah Eberle, Libby Rosa'
+    },
+    {
+      title: 'Comms Team',
+      text: 'Mike Baroner, Austin Marsdale, Jasmine Wiggins'
+    },
+    {
+      title: 'Operations & Security',
+      text: 'Marcus Bush'
+    },
+    {
+      title: 'Installation support',
+      text: 'The IATSE local 8 Stagehands'
+    },
+    {
+      title: 'Site Manager',
+      text: 'Tim Lynch'
+    }
+  ]
+
+  const credits = [
+    {
+      title: 'Event Coordination',
+      text: 'Indie Life Media: Rasheed Abdellah, Mayleen Pangelina, Bria Scott, Abel Teclemariam'
+    },
+    {
+      title: 'Technology producer',
+      text: 'Oliver Spencer'
+    },
+    {
+      title: 'Install Team',
+      text: 'Jessie Riggens, Courtney Bowles, Pernot Hudson'
+    },
+    {
+      title: 'Youth Docents',
+      text: 'Anahi, Alex, Rodney, Bree, Qilah, Tasheema'
+    },
+    {
+      title: 'NKIP Zine Design',
+      text: 'Jason Killinger, cover art: Amarie Baker'
+    },
+    {
+      title: '“Put Youth in Power Not Prison” hoodie screen printing',
+      text: 'Malokul Industries'
+    },
+    {
+      title: 'Juvenile Law Center',
+      text: 'Marcia Hopkins, Malik Pickett, Katy Otto'
+    },
+    {
+      title: 'Social Responsibility Through Me',
+      text: 'Shaneka Boucher'
+    },
+  ]
+
+  const programmingCredits = [
+    {
+      title: 'Village of Arts and Humanities',
+      text: 'Michaela Pomellis'
+    },
+    {
+      title: 'The Youth Sentencing and Reentry Project',
+      text: 'Bianca Van Heydoorn'
+    },
+    {
+      title:'Panelists: “Abolition Across Generations”',
+      text: 'Anahi, Alex, Abd’Allah Lateef'
+    },
+    {
+      title: 'Abolitionist Swag Workshops',
+      text: 'Amir Khadar, Katie Kaplan'
+    },
+    {
+      title: 'Screenprinters',
+      text: 'Josh Graupera, Mike Smaczylo, Scout Cartagena, Eric Ruin'
+    },
+    {
+      title: 'Comms Support',
+      text: 'Autumn Talley\nDarnell Schoolfield, Mural Arts Philadelphia\nChad Eric Smith, Mural Arts Philadelphia\nKareen Preble, The Village of Arts and Humanities'
+    }
+  ]
 </script>
