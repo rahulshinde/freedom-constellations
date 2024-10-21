@@ -68,11 +68,37 @@
       <BlockCredits
         :credits="credits"
       />
+      <BlockProjectFooterLinks
+        class="mt-16"
+        heading="More from Pennsylvania"
+        :links="footerLinks"
+      />
     </section>
   </main>
 </template>
 
 <script setup>
+
+  const footerLinks = [
+    {
+      title: 'A Massive Interactive Exhibit',
+      link: "/pennsylvania/nkip",
+      img: "/pennsylvania/index/nkip.jpg",
+      color: "var(--nkip)"
+    },
+    {
+      title: "Abolitionist Billboards",
+      link: "/pennsylvania/billboards",
+      img: "/pennsylvania/index/billboards.jpg",
+      color: "var(--billboards)"
+    },
+    {
+      title: "Youth Collaborations",
+      link: "/pennsylvania/youth-collaborations",
+      img: "/pennsylvania/index/youth-collaborations.jpg",
+      color: "var(--programs)"
+    }
+  ]
 
   const credits = [
     {

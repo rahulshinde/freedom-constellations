@@ -79,20 +79,66 @@
         heading="Opening Celebration"
         text="Silk screen party, dj and more to celebrate all the brave and brilliant youth advocates who helped make this exhibition possible."
       />
+      
 
       <BlockTextBody
         heading="Weekly silk screening workshops"
         text="Each week featured different local silk screen printers who helped print and share thousands of free posters, tote bags, and abolitionist ephemera."
       />
 
+      <div class="mx-8">
+        <div class="flex mt-8 justify-between mx-col1">
+          <img
+            class="w-2/4 mr-4 h-[50vw] object-cover"
+            src="/pennsylvania/nkip/programming/20230520_181258.jpg"
+          >
+          <img
+            class="w-2/4 object-cover ml-4 h-[50vw]"
+            src="/pennsylvania/nkip/programming/20230611_145320.jpg"
+          >
+        </div>
+      </div> 
+
       <BlockTextBody
         heading="Abolitionist swag workshops"
         text="Hosted by Amir Khadar and Katie Kaplan, exhibition attendees were able to use patches, vinyl and laser cut charms created in collaboration with the Care Not Control campaign to make abolitionist one of a kind totes."
       />
 
+      <div class="mx-8">
+        <div class="flex mt-8 justify-between mx-col1">
+          <img
+            class="w-1/3 mr-4 h-[50vw] object-cover"
+            src="/pennsylvania/nkip/programming/20230525_155137.jpg"
+          >
+          <img
+            class="w-1/3 object-cover ml-4 mr-4 h-[50vw]"
+            src="/pennsylvania/nkip/programming/20230609_190311.jpg"
+          >
+          <img
+            class="w-1/3 object-cover ml-4 h-[50vw]"
+            src="/pennsylvania/nkip/programming/20230609_195249.jpg"
+          >
+        </div>
+      </div> 
+
       <BlockTextBody
         heading="Abolition Across Generations"
         text="A panel featuring youth advocates and a group of older advocates who were sentenced to life in prison as teenagers. The panel discussed how racist tough on crime rhetoric and public policies of the 1980’s and 90’s was re-emerging and how each generation could share knowledge and build together."
+      />
+
+      <BlockImageFullWidthSlideshow
+        class="mt-8"
+        :images="[
+          {
+            'src': '/pennsylvania/nkip/programming/PXL_20230611_201740424.jpg'
+          },
+          {
+            'src': '/pennsylvania/nkip/programming/PXL_20230611_202930016.jpg'
+          },
+          {
+            'src': '/pennsylvania/nkip/programming/PXL_20230611_205314643.PORTRAIT.ORIGINAL.jpg'
+          }
+        ]"
       />
 
       <BlockTextBody
@@ -100,6 +146,7 @@
         text="Understanding the power of youth cross pollination and relationship building, Performing Statistics hosted a youth convening where organizers from Minnesota and Illinois were about to experience the exhibition, see public art across the city and learn from Pennsylvania and New Jersey organizers about the process. The time together created space for relationships building between campaigns and opportunity to begin planning for the exhibition to travel to Chicago and Minneapolis."
       />
       <BlockCredits
+        class="!mt-32"
         title="Cherry Street Pier Team"
         :credits="csp_credits"
       />
@@ -111,11 +158,38 @@
         title="Programming"
         :credits="programmingCredits"
       />
+
+      <BlockProjectFooterLinks
+        class="mt-16"
+        heading="More from Pennsylvania"
+        :links="footerLinks"
+      />
     </section> 
   </main>  
 </template>
 
 <script setup>
+
+  const footerLinks = [
+    {
+      title: 'Augmented Reality Banners',
+      link: "/pennsylvania/ar",
+      img: "/pennsylvania/index/AR-PHILLY_dirty.jpg",
+      color: "var(--projects)"
+    },
+    {
+      title: "Abolitionist Billboards",
+      link: "/pennsylvania/billboards",
+      img: "/pennsylvania/index/billboards.jpg",
+      color: "var(--billboards)"
+    },
+    {
+      title: "Youth Collaborations",
+      link: "/pennsylvania/youth-collaborations",
+      img: "/pennsylvania/index/youth-collaborations.jpg",
+      color: "var(--programs)"
+    }
+  ]
 
   const csp_credits = [
     {
