@@ -76,6 +76,11 @@
         <img loading="lazy" class="absolute z-10 -bottom-[10%] w-[10%] left-10" src="/zine-assets/zine-assets_0002_Layer-12.png" />
       </div>
       
+      <BlockTextHeading
+        class="!mt-16"
+        text='Watch a mini-documentary about all the magic youth leaders created in Philadelphia!'
+      />
+
       <div class="relative overflow-hidden">
         <img loading="lazy" class="absolute z-10 top-0 w-[40%] -rotate-90 -right-[15vw]" src="/zine-assets/zine-assets_0004_Layer-8.png" />
       <BlockTextWithQuote
