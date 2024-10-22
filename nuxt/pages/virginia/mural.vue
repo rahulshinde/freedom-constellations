@@ -69,14 +69,54 @@ By collaborating with the youth coders at CODE VA to do the programming for the 
         text="The mural stayed on display for over a year and was directly across the street from the police department. Positioned at 3rd and Broad st (one of the busiest intersections in the city), the mural received a feature article in the <a href='https://richmond.com/entertainment/art/on-the-wall-across-from-vcu-police-department-advocates-unveil-a-mural-that-imagines-a/article_0dc739f2-83c2-5318-b6c0-67fcf41ceb2f.html' target='_blank'>city’s largest newspaper</a> and was viewed by thousands of people."
       />
 
-      <div class="mx-4">
-        <div class="flex mt-16 mb-16 justify-between mx-4">
+      <div class="mx-8 mt-16 mb-16">
+        <div class="flex justify-between">
           <img
-            class="w-1/3 mr-4 h-[35vw] object-cover"
+            class="w-1/3 mr-4 h-[20vw] mx-4 object-cover"
+            src="/virginia/mural/process/MuralInstall.jpg"
+          >
+          <img
+            class="w-1/3 object-cover mx-4 h-[20vw]"
+            src="/virginia/mural/process/MuralInstall3.jpg"
+          >
+          <img
+            class="w-1/3 object-cover mx-4 h-[20vw]"
+            src="/virginia/mural/process/MuralInstall5.jpg"
+          >
+        </div>
+        <div class="flex mt-8 justify-between">
+          <img
+            class="w-1/4 h-[15vw] mx-4 object-cover"
+            src="/virginia/mural/process/MuralPainting_Large2small.jpg"
+          >
+          <img
+            class="w-1/4 object-cover mx-4 h-[15vw]"
+            src="/virginia/mural/process/MuralPainting_Large3small.jpg"
+          >
+          <img
+            class="w-1/4 object-cover mx-4 h-[15vw]"
+            src="/virginia/mural/process/MuralPainting_Large4small.jpg"
+          >
+          <img
+            class="w-1/4 object-cover mx-4 h-[15vw]"
+            src="/virginia/mural/process/Sanding2020_2small.jpg"
+          >
+        </div>
+        <div class="flex mt-8 justify-between">
+          <img
+            class="w-1/3 h-[15vw] mx-4 object-cover"
+            src="/virginia/mural/process/spraypaint2020_4small.jpg"
+          >
+          <img
+            class="w-1/3 object-cover mx-4 h-[15vw]"
+            src="/virginia/mural/process/spraypaint2020_5small.jpg"
+          >
+          <img
+            class="w-1/8 mx-4 h-[15vw] object-cover"
             src="/virginia/mural/Iyana_Poster.jpg"
           >
           <img
-            class="w-2/3 object-cover ml-4 h-[35vw]"
+            class="w-1/3 object-cover mx-4 h-[15vw]"
             src="/virginia/mural/kidaya_poster.jpg"
           >
         </div>
