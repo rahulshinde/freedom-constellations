@@ -29,7 +29,7 @@
           class="relative z-10"
           text="Billboards"
           link="/illinois/billboards"
-          img="/illinois/index/NKIPChicagoBillboards30.jpg"
+          img="/illinois/index/NKIPChicagoBillboards16.jpg"
           color="var(--billboards)"
           :reverse="true"
         />
@@ -42,7 +42,7 @@
           class="relative z-10"
           text="Cultural Organizing Projects"
           link="/illinois/coi"
-          img="/illinois/index/illinois-community.jpg"
+          img="/illinois/index/FreeDaHomiesBags.jpg"
           color="var(--programs)"
           />
         <img class="absolute z-[1] -bottom-[10vw] w-[30vw] -right-[10vw] -rotate-[10deg]" src="/zine-assets/zine-assets_0007_Layer-7.png" />
