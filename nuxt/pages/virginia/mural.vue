@@ -17,6 +17,31 @@
         bg-black relative z-10 pb-16
         before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0"
     >
+
+      <BlockImageFullWidthSlideshow
+        class="mt-8"
+        :images = "[
+          {
+            'src': '/virginia/mural/MuralUnveiling_4_large.jpg'
+          },
+          {
+            'src': '/virginia/mural/MuralUnveiling.jpg'
+          },
+          {
+            'src': '/virginia/mural/MuralUnveiling_2_small.jpg'
+          },
+          {
+            'src': '/virginia/mural/PerformingStats_Mural_PRessConference4_small.jpg'
+          },
+          {
+            'src': '/virginia/mural/boombox.jpg'
+          },
+          {
+            'src': '/virginia/mural/TaDreamasCity.jpg'
+          }
+        ]"
+      />
+
       <BlockTextBody
         text="In 2021,  Performing Statistics collaborated with young people for RISE for Youth and Code VA to create the mural which became the first ‘star’ within the Freedom Constellations campaign.
 
