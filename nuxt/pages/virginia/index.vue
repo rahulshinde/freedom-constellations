@@ -26,8 +26,8 @@
           class="relative z-10"
           text="AR Animations Over City Hall"
           link="/virginia/ar"
-          img="/virginia/index/CityHall_3.jpg"
-          color="var(--projects)"
+          img="/virginia/index/VA_Banner.jpg"
+          color="var(--nkip)"
         />
       </div>
 
@@ -38,7 +38,7 @@
         class="relative z-10"
         text="A Mural That Comes Alive"
         link="/virginia/mural"
-        img="/virginia/index/WideShot.jpg"
+        img="/virginia/index/VA_Mural.jpg"
         color="var(--projects)"
         :reverse="true"
         />
@@ -49,8 +49,8 @@
           class="relative z-10"
           text="An Abolitionist City Bus"
           link="/virginia/bus"
-          img="/virginia/index/GRTC_FreedomConstellations_13small.jpg"
-          color="var(--projects)"
+          img="/virginia/index/VA_Bus.jpg"
+          color="var(--billboards)"
         />
         <img class="absolute -z-[1] top-[0vw] right-[0vw] w-[30vw]" src="/zine-assets/orangestar1.png" />
       </div>
@@ -60,8 +60,8 @@
         class="relative z-10"
         text="Youth Dreams of Freedom at the Smithsonian"
         link="/virginia/smithsonian"
-        img="/virginia/index/SmithsonianFilm_DOcumentation_small.jpg"
-        color="var(--projects)"
+        img="/virginia/index/VA_Film.jpg"
+        color="var(--programs)"
         :reverse="true"
         />
         <img class="absolute -z-[1] top-[-9rem] left-[-4rem] w-[30vw]" src="/zine-assets/zine-assets_0004_Layer-8.png" />
