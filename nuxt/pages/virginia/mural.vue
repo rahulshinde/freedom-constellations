@@ -162,11 +162,38 @@ By collaborating with the youth coders at CODE VA to do the programming for the 
         title="New World Radio"
         :credits="nwr_credits"
       />
+      <BlockProjectFooterLinks
+        class="mt-16"
+        heading="More from Virginia"
+        :links="footerLinks"
+      />
     </section>
   </main>
 </template>
 
 <script setup>
+
+  const footerLinks = [
+  {
+      title: 'AR Animations Over City Hall',
+      link: "/virginia/ar",
+      img: "/virginia/index/VA_Banner.jpg",
+      color: "var(--nkip)"
+    },
+    {
+      title: "An Abolitionist City Bus",
+      link: "/virginia/bus",
+      img: "/virginia/index/VA_bus.jpg",
+      color: "var(--billboards)"
+    },
+    {
+      title: "Youth Dreams of Freedom at the Smithsonian",
+      link: "/virginia/smithsonian",
+      img: "/virginia/index/VA_Film.jpg",
+      color: "var(--programs)"
+    }
+  ]
+
   const nwr_credits = [
     {
       title: 'Direction and Editing',

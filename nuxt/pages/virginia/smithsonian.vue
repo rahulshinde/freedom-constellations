@@ -34,11 +34,36 @@ The film has also been viewed at many exhibitions, pop-up events and was feature
       <BlockTextHeading text="Credits"/>
       <BlockCredits 
           :credits="credits"/>
+      <BlockProjectFooterLinks
+        class="mt-16"
+        heading="More from Virginia"
+        :links="footerLinks"
+      />
     </section>
   </main>
 </template>
 
 <script setup>
+  const footerLinks = [
+  {
+      title: 'AR Animations Over City Hall',
+      link: "/virginia/ar",
+      img: "/virginia/index/VA_Banner.jpg",
+      color: "var(--nkip)"
+    },
+    {
+      title: "An Abolitionist City Bus",
+      link: "/virginia/bus",
+      img: "/virginia/index/VA_bus.jpg",
+      color: "var(--billboards)"
+    },
+    {
+      title: 'A Mural that Comes Alive',
+      link: "/virginia/mural",
+      img: "/virginia/index/VA_mural.jpg",
+      color: "var(--projects)"
+    }
+  ]
   const credits = [
     {
       title: 'Direction',

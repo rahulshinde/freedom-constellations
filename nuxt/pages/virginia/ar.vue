@@ -141,11 +141,37 @@ As part of the 3 part City Hall tour, participants could step into the historic 
       <BlockCredits
         title="Additional Credits"
         :credits="additional"/>
+      <BlockProjectFooterLinks
+        class="mt-16"
+        heading="More from Virginia"
+        :links="footerLinks"
+      />
     </section>
   </main>
 </template>
 
 <script setup>
+  const footerLinks = [
+  {
+      title: 'A Mural that Comes Alive',
+      link: "/virginia/mural",
+      img: "/virginia/index/VA_mural.jpg",
+      color: "var(--projects)"
+    },
+    {
+      title: "An Abolitionist City Bus",
+      link: "/virginia/bus",
+      img: "/virginia/index/VA_bus.jpg",
+      color: "var(--billboards)"
+    },
+    {
+      title: "Youth Dreams of Freedom at the Smithsonian",
+      link: "/virginia/smithsonian",
+      img: "/virginia/index/VA_Film.jpg",
+      color: "var(--programs)"
+    }
+  ]
+
   const credits = [
     {
       title: 'Lead artist',

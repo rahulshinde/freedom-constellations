@@ -42,11 +42,37 @@ Huge thanks to CultureWorks Richmond and GRTC for making this possible! And to F
       <BlockTextHeading text="Credits"/>
       <BlockCredits 
           :credits="credits"/>
+      <BlockProjectFooterLinks
+        class="mt-16"
+        heading="More from Virginia"
+        :links="footerLinks"
+      />
     </section>
   </main>
 </template>
 
 <script setup>
+  const footerLinks = [
+  {
+      title: 'AR Animations Over City Hall',
+      link: "/virginia/ar",
+      img: "/virginia/index/VA_Banner.jpg",
+      color: "var(--nkip)"
+    },
+    {
+      title: 'A Mural that Comes Alive',
+      link: "/virginia/mural",
+      img: "/virginia/index/VA_mural.jpg",
+      color: "var(--projects)"
+    },
+    {
+      title: "Youth Dreams of Freedom at the Smithsonian",
+      link: "/virginia/smithsonian",
+      img: "/virginia/index/VA_Film.jpg",
+      color: "var(--programs)"
+    }
+  ]
+
   const credits = [
     {
       title: 'Youth leaders featured',
