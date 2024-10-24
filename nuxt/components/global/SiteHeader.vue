@@ -83,7 +83,18 @@
         </li>
       </ul>
     </nav>
-    <AbolitionButton/>
+    <div class="flex flex-col items-center">
+      <AbolitionButton/>
+      <div class="flex items-center mt-4">
+        <span class="border-[2px] rounded-[50%] font-bold text-[0.6rem] px-[0.4rem] py-[0.1rem]">?</span>
+        <NuxtLink to="/about" class="
+          text-[0.65rem] text-center uppercase font-semibold mx-2
+          "
+        >
+          About the Project
+        </NuxtLink>
+      </div>
+    </div>
   </header>
 </template>
 

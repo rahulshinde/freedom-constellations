@@ -8,7 +8,7 @@
     <video
       v-else-if="video"
       :src="video"
-      class="w-full"
+      class="w-full max-h-[80svh] object-contain"
       autoplay
       loop
       muted

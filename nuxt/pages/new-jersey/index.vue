@@ -19,7 +19,7 @@
         <img class="absolute z-[1] top-[20vw] w-[55vw] -left-[10vw] rotate-90" src="/zine-assets/zine-assets_0009_Layer-3-copy-2.png" />
         <IndexLink
           class="relative z-10"
-          text="Cultural Organizing Projects"
+          text="Cultural Organizing Institute"
           link="/new-jersey/coi"
           img="/new-jersey/index/NJ_BIllboardPhotos2.jpg"
           color="var(--projects)"
@@ -45,7 +45,7 @@
 
         <IndexLink
           class="relative z-10"
-          text="Billboards"
+          text="Abolitionist Billboards"
           link="/new-jersey/billboards"
           img="/new-jersey/index/DSCF9738.jpg"
           color="var(--billboards)"

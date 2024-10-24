@@ -59,14 +59,18 @@
           </NuxtLink>
         </div>
       </div>
-      <AbolitionButton :large="true" class="self-center ml-[10%]"/>
-    </div>
-
-    <div class="flex justify-between border-t-[2px] border-dotted font-runde text-runde-xs mt-8 mx-8 pt-4">
-      <NuxtLink to="/about" class="uppercase hover:text-navigation-highlight">
-        About
-      </NuxtLink>
-      <span>©{{ year }} Performing Statistics</span>
+      <div class="flex flex-col items-center">
+        <AbolitionButton :large="true" class="self-center ml-[10%]"/>
+        <div class="flex items-center mt-4">
+          <span class="border-[2px] rounded-[50%] font-bold text-[0.6rem] px-[0.4rem] py-[0.1rem]">?</span>
+          <NuxtLink to="/about" class="
+            text-[0.65rem] text-center uppercase font-semibold mx-2
+            "
+          >
+            About the Project
+          </NuxtLink>
+        </div>
+      </div>
     </div>
   </footer>
 </template>

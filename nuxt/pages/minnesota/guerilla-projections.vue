@@ -43,6 +43,11 @@ The six locations that featured the projections were selected for their history 
         text="The project’s statistics were provided through the collaboration and research of the Lupita Herrera, Community Strategy Program Director at Legal Rights Center and Caelyn Steele the Campaign Lead at End Youth Prisons MN. Additionally the two-day project was made possible with assistance from artists Ricki Williams and Sabrina Ford. Through direct action and art this project seeks to further proliferate the conversations around real justice and a free society for all."
       />
 
+      <BlockTextHeading
+        class="mt-8"
+        text="Credits"
+      />
+
       <BlockCredits
         :credits="credits"
       />

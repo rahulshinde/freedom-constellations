@@ -49,6 +49,11 @@ The End Youth Prisons campaign leaders covered their jackets in demands for a MN
         </div>
       </div>
 
+      <BlockTextHeading
+        class="mt-8"
+        text="Credits"
+      />
+
       <BlockCredits
         :credits="credits"
       />

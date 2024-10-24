@@ -16,7 +16,7 @@
     <div class="relative">
       <IndexLink
           class="relative z-10"
-          text="A Massive Interactive Exhibit"
+          text="No Kids In Prison Exhibition"
           link="/minnesota/nkip"
           img="/minnesota/index/NKIPMN1.jpg"
           color="var(--nkip)"
@@ -27,7 +27,7 @@
       <div class="relative">
         <IndexLink
           class="relative z-10"
-          text="Billboards and Banners"
+          text="Abolitionist Billboards & Banners"
           link="/minnesota/billboards"
           img="/minnesota/index/MNBillboards30.jpg"
           color="var(--billboards)"
@@ -52,7 +52,7 @@
       <div class="relative">
         <IndexLink
           class="relative z-10"
-          text="Cultural Organizing Projects"
+          text="Cultural Organizing Institute"
           link="/minnesota/cultural-organizing"
           img="/minnesota/index/MYJJacketPortraits21.jpg"
           color="var(--programs)"

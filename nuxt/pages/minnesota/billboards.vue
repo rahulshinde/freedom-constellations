@@ -28,14 +28,15 @@
         text="During the #NoKidsInPrison exhibition, billboards and banners stretched across the Twin Cities infusing youth created abolitionist messaging into the cityscape. The presence of the art launched conversations about ending youth incarceration and drove people to the exhibition for even deeper learning and imagining."
       />
 
-      <BlockTextHeading
-        text="Buildings transformed into megaphones for the dreams of youth!:"
-      />
-
       <BlockImageWithPullQuote
         class="mt-8"
         img="/minnesota/billboards/MNBillboards31.jpg"
         quote="These beautiful collaborative designs were also printed on large banners and installed in locations across the city, helping to make these future dreams a reality! Huge thanks to our partners for hosting these beautiful banners (Legal Rights Center and Springboard for the Arts)."
+      />
+
+      <BlockTextHeading
+        class="mt-8"
+        text="Credits"
       />
 
       <BlockCredits

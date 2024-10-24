@@ -27,7 +27,7 @@
       <div class="relative">
         <IndexLink
           class="relative z-10"
-          text="Billboards"
+          text="Abolitionist Billboards"
           link="/illinois/billboards"
           img="/illinois/index/NKIPChicagoBillboards16.jpg"
           color="var(--billboards)"
@@ -40,7 +40,7 @@
       <div class="relative">
         <IndexLink
           class="relative z-10"
-          text="Cultural Organizing Projects"
+          text="Cultural Organizing Institute"
           link="/illinois/coi"
           img="/illinois/index/FreeDaHomiesBags.jpg"
           color="var(--programs)"

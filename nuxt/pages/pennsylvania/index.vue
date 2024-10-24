@@ -18,7 +18,7 @@
       <div class="relative">
         <IndexLink
           class="relative z-10"
-          text="A Massive Interactive Exhibit"
+          text="No Kids In Prison Exhibition"
           link="/pennsylvania/nkip"
           img="/pennsylvania/index/nkip.jpg"
           color="var(--nkip)"

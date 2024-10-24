@@ -13,7 +13,7 @@
       </div>
 
       <div class="flex mt-8 justify-between">
-        <p class="ml-col4 mx-4 text-runde-m w-col6">
+        <p class="ml-col4 mx-4 text-runde-m w-col6 whitespace-prewrap">
           {{ introText }}
         </p>
         <div class="w-[15%] mx-4 flex flex-col">
