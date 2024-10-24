@@ -19,15 +19,51 @@ The banners, which could be seen from miles away, included an interactive augmen
         bg-black relative z-10 pb-16
         before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0"
     >
-      <BlockFullBleed
-        video="https://player.vimeo.com/progressive_redirect/playback/1022999696/rendition/720p/file.mp4?loc=external&signature=a06103b176bad73a11c1649d07f566f3479ae2228f746d4a1b8ce0cacf45386a"
+      <BlockImageFullWidthSlideshow
+        class="mt-8"
+        :images="[
+          {
+            'src': '/virginia/ar/intro/FC_CityHall2.jpg'
+          },
+          {
+            'src': '/virginia/ar/intro/CityHall_unveiling_5small.jpg'
+          },
+          {
+            'src': '/virginia/ar/intro/CityHall_unveiling_9_small.jpg'
+          },
+          {
+            'src': '/virginia/ar/intro/CityHall_2.jpg'
+          },
+          {
+            'src': '/virginia/ar/intro/CityHall_3.jpg'
+          }
+        ]"
       />
       <BlockTextBody
         text="Performing Statistics Creative Director Mark Strandquist collaborated with Ta’Dreama McBride and Clyde Walker, youth leaders in Richmond from <a href='https://www.riseforyouth.org/' target='_blank'>RISE for Youth</a>, to create the two, 160 ft Tall monumental portraits that covered the sides of Richmond City Hall.
 
-“I see money that would have been going toward putting youth in cages that is now being put into the school system, into jobs, into support for kids. We can love ourselves. We can shape our future. We can finally heal. We are together. We are safe. We are free.” These words, which were read as narration for the AR animations, illustrated a collective poem co-created by youth organizers from RISE for Youth and Performing Statistics in Richmond, as well as dozens of youth organizers from across the country. 
+“I see money that would have been going toward putting youth in cages that is now being put into the school system, into jobs, into support for kids. We can love ourselves. We can shape our future. We can finally heal. We are together. We are safe. We are free.” These words, which were read as narration for the AR animations, illustrated a collective poem co-created by youth organizers from RISE for Youth and Performing Statistics in Richmond, as well as dozens of youth organizers from across the country."
+      />
 
-At the time, this was the largest interactive public art installation on a government building ever installed in the United States. The installation stayed up for over a year, received wide media attention, and was likely was viewed by hundreds of thousands of people.
+      <div class="mx-8">
+        <div class="flex mt-16 justify-between mx-col1">
+          <img
+            class="w-1/3 mr-2 h-[35vw] object-cover"
+            src="/pennsylvania/ar/20220803_133603.jpg"
+          >
+          <img
+            class="w-2/3 object-cover ml-2 h-[35vw]"
+            src="/pennsylvania/ar/Philly_Ar_Workshops_5.jpg"
+          >
+        </div>
+      </div>
+
+      <BlockFullBleed
+        video="https://player.vimeo.com/progressive_redirect/playback/1022999696/rendition/720p/file.mp4?loc=external&signature=a06103b176bad73a11c1649d07f566f3479ae2228f746d4a1b8ce0cacf45386a"
+      />
+
+      <BlockTextBody
+          text="At the time, this was the largest interactive public art installation on a government building ever installed in the United States. The installation stayed up for over a year, received wide media attention, and was likely was viewed by hundreds of thousands of people.
 
 Connected workshops were done in collaboration with the Valentine museum and the John Marshall House."
       />
