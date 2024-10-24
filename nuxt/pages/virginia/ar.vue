@@ -80,6 +80,29 @@ Connected workshops were done in collaboration with the Valentine museum and the
 These workshops not only gave historical context to the contemporary advocacy of the youth leaders, but invited participants to see how they could step up to help support the needs and dreams of the next generation. Huge thanks to Patty Parks and the Valentine museum for helping to create and facilitate these tours."
       />
 
+      <div class="mx-8">
+        <div class="flex mt-8 justify-between mx-col1">
+          <img
+            class="w-1/2 mr-4 h-[25vw] object-cover"
+            src="/virginia/ar/cityhall/CityHallObservationTour3.jpg"
+          >
+          <img
+            class="w-1/2 object-cover ml-4 h-[25vw]"
+            src="/virginia/ar/cityhall/CityHallObservationTour4.jpg"
+          >
+        </div>
+        <div class="flex mt-8 justify-between mx-col1">
+          <img
+            class="w-1/2 mr-4 h-[25vw] object-cover"
+            src="/virginia/ar/cityhall/CityHallObservationTour.jpg"
+          >
+          <img
+            class="w-1/2 object-cover ml-4 h-[25vw]"
+            src="/virginia/ar/cityhall/CityHallObservationTour2.jpg"
+          >
+        </div>
+      </div>
+
       <BlockTextHeading
         text="John Marshall House Workshops"
       />
