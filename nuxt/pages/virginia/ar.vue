@@ -19,6 +19,13 @@ The banners, which could be seen from miles away, included an interactive augmen
         bg-black relative z-10 pb-16
         before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0"
     >
+      <BlockFullBleed
+        video="https://player.vimeo.com/progressive_redirect/playback/1023012187/rendition/1080p/file.mp4?loc=external&signature=b9aad057416575742fc66029c0c797f41f045698b2ba359ca3198644bac4524a"
+      />
+      <BlockTextBody
+        text="Performing Statistics Creative Director Mark Strandquist collaborated with Ta’Dreama McBride and Clyde Walker, youth leaders in Richmond from <a href='https://www.riseforyouth.org/' target='_blank'>RISE for Youth</a>, to create the two, 160 ft Tall monumental portraits that covered the sides of Richmond City Hall."
+      />
+
       <BlockImageFullWidthSlideshow
         class="mt-8"
         :images="[
@@ -39,8 +46,9 @@ The banners, which could be seen from miles away, included an interactive augmen
           }
         ]"
       />
+
       <BlockTextBody
-        text="Performing Statistics Creative Director Mark Strandquist collaborated with Ta’Dreama McBride and Clyde Walker, youth leaders in Richmond from <a href='https://www.riseforyouth.org/' target='_blank'>RISE for Youth</a>, to create the two, 160 ft Tall monumental portraits that covered the sides of Richmond City Hall."
+        text="“I see money that would have been going toward putting youth in cages that is now being put into the school system, into jobs, into support for kids. We can love ourselves. We can shape our future. We can finally heal. We are together. We are safe. We are free.” These words, which were read as narration for the AR animations, illustrated a collective poem co-created by youth organizers from RISE for Youth and Performing Statistics in Richmond, as well as dozens of youth organizers from across the country."
       />
 
       <div class="mx-8">
@@ -57,17 +65,13 @@ The banners, which could be seen from miles away, included an interactive augmen
       </div>
 
       <BlockTextBody
-        text="“I see money that would have been going toward putting youth in cages that is now being put into the school system, into jobs, into support for kids. We can love ourselves. We can shape our future. We can finally heal. We are together. We are safe. We are free.” These words, which were read as narration for the AR animations, illustrated a collective poem co-created by youth organizers from RISE for Youth and Performing Statistics in Richmond, as well as dozens of youth organizers from across the country."
+          text="At the time, this was the largest interactive public art installation on a government building ever installed in the United States. The installation stayed up for over a year, received wide media attention, and was likely was viewed by hundreds of thousands of people.
+
+Connected workshops were done in collaboration with the Valentine museum and the John Marshall House."
       />
 
       <BlockFullBleed
         video="https://player.vimeo.com/progressive_redirect/playback/1022999696/rendition/720p/file.mp4?loc=external&signature=a06103b176bad73a11c1649d07f566f3479ae2228f746d4a1b8ce0cacf45386a"
-      />
-
-      <BlockTextBody
-          text="At the time, this was the largest interactive public art installation on a government building ever installed in the United States. The installation stayed up for over a year, received wide media attention, and was likely was viewed by hundreds of thousands of people.
-
-Connected workshops were done in collaboration with the Valentine museum and the John Marshall House."
       />
 
       <BlockTextHeading
@@ -112,6 +116,18 @@ These workshops not only gave historical context to the contemporary advocacy of
 
 As part of the 3 part City Hall tour, participants could step into the historic John Marshall House and imagine how Richmond would be different if there was a Youth or Citizens Supreme Court. This interactive workshops connected civil rights efforts on a national level, with those that participants could support and initiate on a local level."
       />
+      <div class="mx-8">
+        <div class="flex mt-8 justify-between mx-col1">
+          <img
+            class="w-1/2 mr-4 h-[25vw] object-cover"
+            src="/virginia/ar/jm/image3.jpg"
+          >
+          <img
+            class="w-1/2 object-cover ml-4 h-[25vw]"
+            src="/virginia/ar/jm/image0.jpg"
+          >
+        </div>
+      </div>
 
       <BlockTextHeading
         text="Credits"
