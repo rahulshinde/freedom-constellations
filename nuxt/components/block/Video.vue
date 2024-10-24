@@ -2,6 +2,7 @@
   <video
     class="video-js vjs-default-skin mt-8 mx-8"
     ref="videoPlayer"
+    :poster="poster"
   >
     <source
       :src="video"
@@ -18,7 +19,8 @@
   import 'video.js/dist/video-js.css'
 
   const props = defineProps({
-    video: String
+    video: String,
+    poster: String,
   });
 
   onMounted(() => {
