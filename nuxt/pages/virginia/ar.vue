@@ -40,23 +40,25 @@ The banners, which could be seen from miles away, included an interactive augmen
         ]"
       />
       <BlockTextBody
-        text="Performing Statistics Creative Director Mark Strandquist collaborated with Ta’Dreama McBride and Clyde Walker, youth leaders in Richmond from <a href='https://www.riseforyouth.org/' target='_blank'>RISE for Youth</a>, to create the two, 160 ft Tall monumental portraits that covered the sides of Richmond City Hall.
-
-“I see money that would have been going toward putting youth in cages that is now being put into the school system, into jobs, into support for kids. We can love ourselves. We can shape our future. We can finally heal. We are together. We are safe. We are free.” These words, which were read as narration for the AR animations, illustrated a collective poem co-created by youth organizers from RISE for Youth and Performing Statistics in Richmond, as well as dozens of youth organizers from across the country."
+        text="Performing Statistics Creative Director Mark Strandquist collaborated with Ta’Dreama McBride and Clyde Walker, youth leaders in Richmond from <a href='https://www.riseforyouth.org/' target='_blank'>RISE for Youth</a>, to create the two, 160 ft Tall monumental portraits that covered the sides of Richmond City Hall."
       />
 
       <div class="mx-8">
-        <div class="flex mt-16 justify-between mx-col1">
+        <div class="flex mt-8 justify-between mx-col1">
           <img
-            class="w-1/3 mr-2 h-[35vw] object-cover"
-            src="/pennsylvania/ar/20220803_133603.jpg"
+            class="w-1/5 mr-4 h-[35vw] object-cover"
+            src="/virginia/ar/intro/Iyana_Storyboard.jpg"
           >
           <img
-            class="w-2/3 object-cover ml-2 h-[35vw]"
-            src="/pennsylvania/ar/Philly_Ar_Workshops_5.jpg"
+            class="w-4/5 object-cover ml-4 h-[35vw]"
+            src="/virginia/ar/intro/TaDreama_Storyboard.jpg"
           >
         </div>
       </div>
+
+      <BlockTextBody
+        text="“I see money that would have been going toward putting youth in cages that is now being put into the school system, into jobs, into support for kids. We can love ourselves. We can shape our future. We can finally heal. We are together. We are safe. We are free.” These words, which were read as narration for the AR animations, illustrated a collective poem co-created by youth organizers from RISE for Youth and Performing Statistics in Richmond, as well as dozens of youth organizers from across the country."
+      />
 
       <BlockFullBleed
         video="https://player.vimeo.com/progressive_redirect/playback/1022999696/rendition/720p/file.mp4?loc=external&signature=a06103b176bad73a11c1649d07f566f3479ae2228f746d4a1b8ce0cacf45386a"
