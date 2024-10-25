@@ -6,7 +6,12 @@
         v-for="link in links"
         :to="link.link"
         class="mx-4 group flex flex-col transition-colors block"
-        :class="hoverColorClass(link.color)"
+        :class="
+          [
+            hoverColorClass(link.color),
+            linkWidth(links.length)
+          ]
+        "
       >
         <figure class="relative after:content-[''] after:block after:absolute after:top-0 after:left-0 after:w-full after:h-full after:z-[-1] after:rounded-xl after:shadow-imgHvr after:opacity-0 group-hover:after:opacity-100 after:transition-all">
           <img 
@@ -42,6 +47,21 @@
         return 'hover:text-programs';
       case 'var(--bg-highlight)':
         return 'hover:text-bg-highlight';
+    }
+  });
+
+  const linkWidth = ((length) => {
+    switch (length) {
+      case 1:
+        return 'w-full';
+      case 2:
+        return 'w-1/2';
+      case 3:
+        return 'w-1/3';
+      case 4:
+        return 'w-1/4';
+      case 5:
+        return 'w-1/5';
     }
   });
 </script>
