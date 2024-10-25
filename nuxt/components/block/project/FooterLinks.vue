@@ -17,7 +17,7 @@
           <img 
             :src="link.img" 
             class="
-              grow group-hover:rounded-xl transition-all
+              grow group-hover:rounded-xl transition-all aspect-[3/2] object-cover
             "
           />
         </figure>

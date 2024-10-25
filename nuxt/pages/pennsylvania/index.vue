@@ -20,7 +20,7 @@
           class="relative z-10"
           text="No Kids In Prison Exhibition"
           link="/pennsylvania/nkip"
-          img="/pennsylvania/index/nkip.jpg"
+          img="/pennsylvania/index/PA_NKIP.jpg"
           color="var(--nkip)"
         />
         <img class="absolute z-[1] top-4 w-[15%] right-[10%]" src="/zine-assets/zine-assets_0017_Layer-1.png" />
@@ -43,7 +43,7 @@
         <IndexLink
           text="Abolitionist Billboards"
           link="/pennsylvania/billboards"
-          img="/pennsylvania/index/billboards.jpg"
+          img="/pennsylvania/index/PA_Billboards.jpg"
           color="var(--billboards)"
           />
         <img class="absolute -z-10 -top-[40%] w-[30%] right-[30%]" src="/zine-assets/planet2.png" />
@@ -54,7 +54,7 @@
         <IndexLink
           text="Youth Collaborations"
           link="/pennsylvania/youth-collaborations"
-          img="/pennsylvania/index/youth-collaborations.jpg"
+          img="/pennsylvania/index/PA_COI.jpg"
           color="var(--programs)"
           :reverse="true"
           textWidth="w-[24rem]"
@@ -68,7 +68,7 @@
         <IndexLink
           text="Community Events"
           link="/pennsylvania/community-events"
-          img="/pennsylvania/index/community-events.jpg"
+          img="/pennsylvania/index/PA_YOUTH.jpg"
           color="var(--bg-highlight)"
         />
         <img loading="lazy" class="absolute -z-10 top-0 w-20 right-[24%]" src="/zine-assets/orangestar2.png" />

@@ -83,19 +83,19 @@
     {
       title: 'A Massive Interactive Exhibit',
       link: "/pennsylvania/nkip",
-      img: "/pennsylvania/index/nkip.jpg",
+      img: "/pennsylvania/index/PA_NKIP.jpg",
       color: "var(--nkip)"
     },
     {
       title: "Abolitionist Billboards",
       link: "/pennsylvania/billboards",
-      img: "/pennsylvania/index/billboards.jpg",
+      img: "/pennsylvania/index/PA_Billboards.jpg",
       color: "var(--billboards)"
     },
     {
       title: "Youth Collaborations",
       link: "/pennsylvania/youth-collaborations",
-      img: "/pennsylvania/index/youth-collaborations.jpg",
+      img: "/pennsylvania/index/PA_COI.jpg",
       color: "var(--programs)"
     }
   ]

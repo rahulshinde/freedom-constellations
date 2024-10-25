@@ -174,19 +174,19 @@
     {
       title: 'Augmented Reality Banners',
       link: "/pennsylvania/ar",
-      img: "/pennsylvania/index/AR-PHILLY_dirty.jpg",
+      img: "/pennsylvania/index/PA_AR.jpg",
       color: "var(--projects)"
     },
     {
       title: "Abolitionist Billboards",
       link: "/pennsylvania/billboards",
-      img: "/pennsylvania/index/billboards.jpg",
+      img: "/pennsylvania/index/PA_Billboards.jpg",
       color: "var(--billboards)"
     },
     {
       title: "Youth Collaborations",
       link: "/pennsylvania/youth-collaborations",
-      img: "/pennsylvania/index/youth-collaborations.jpg",
+      img: "/pennsylvania/index/PA_COI.jpg",
       color: "var(--programs)"
     }
   ]
