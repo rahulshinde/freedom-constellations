@@ -8,6 +8,7 @@
       "
     >
       <BlockFullBleed
+        :cover="true"
         video="https://player.vimeo.com/progressive_redirect/playback/1008534310/rendition/1080p/file.mp4?loc=external&signature=8dffa6399b5433c59dd5e912c9ff81dd7a04aaf059eaba5e3098bbf22b971ad3"
       />
       <BlockTextLarge
