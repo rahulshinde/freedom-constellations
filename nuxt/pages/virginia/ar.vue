@@ -20,6 +20,7 @@ The banners, which could be seen from miles away, included an interactive augmen
         before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0"
     >
       <BlockFullBleed
+        :cover="true"
         video="https://player.vimeo.com/progressive_redirect/playback/1023012187/rendition/1080p/file.mp4?loc=external&signature=b9aad057416575742fc66029c0c797f41f045698b2ba359ca3198644bac4524a"
       />
       <BlockTextBody

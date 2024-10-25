@@ -8,7 +8,8 @@
     <video
       v-else-if="video"
       :src="video"
-      class="w-full max-h-[80svh] object-contain"
+      class="w-full max-h-[80svh]"
+      :class="cover ? 'object-cover' : 'object-contain'"
       autoplay
       loop
       muted
@@ -25,5 +26,9 @@
     video: String,
     alt: String,
     caption: String,
+    cover: {
+      type: Boolean,
+      default: false
+    }
   });
 </script>

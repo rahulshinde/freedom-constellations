@@ -14,6 +14,7 @@
       <BlockFullBleed
         class="mt-16"
         video="https://player.vimeo.com/progressive_redirect/playback/1018384447/rendition/1080p/file.mp4?loc=external&signature=d0e8182d1eaffd2e4d6ed1a72086ba77a85f3b8f4de109a6690d4855c9c48b98"
+        :cover="true"
       />
       <BlockTextBody text="Use the sections below to experience and learn more about each project that took place in Richmond." />
 
