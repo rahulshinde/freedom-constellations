@@ -32,7 +32,7 @@
         class="relative z-10"
         text="Augmented Reality Banners"
         link="/pennsylvania/ar"
-        img="/pennsylvania/index/AR-PHILLY_dirty.jpg"
+        img="/pennsylvania/index/PA_AR.jpg"
         color="var(--projects)"
         :reverse="true"
         />
