@@ -25,7 +25,7 @@
           class="relative z-10"
           text="Cultural Organizing Institute"
           link="/new-jersey/coi"
-          img="/new-jersey/index/NJ_BIllboardPhotos2.jpg"
+          img="/new-jersey/index/NJ_COI.jpg"
           color="var(--projects)"
         />
       </div>
@@ -37,7 +37,7 @@
           class="relative z-10"
           text="Banners"
           link="/new-jersey/coi"
-          img="/new-jersey/index/RachelAlban_pesmurals-03.jpg"
+          img="/new-jersey/index/NJ_Banner.jpg"
           color="var(--projects)"
           :reverse="true"
         />
@@ -51,7 +51,7 @@
           class="relative z-10"
           text="Abolitionist Billboards"
           link="/new-jersey/billboards"
-          img="/new-jersey/index/DSCF9738.jpg"
+          img="/new-jersey/index/NJ_Billboards.jpg"
           color="var(--billboards)"
         />
       </div>
@@ -63,7 +63,7 @@
           class="relative z-10"
           text="Massive Wheat Paste Mural"
           link="/new-jersey/mural"
-          img="/new-jersey/index/Camden_WheatPaste_5.jpg"
+          img="/new-jersey/index/NJ_Mural.jpg"
           color="var(--projects)"
           :reverse="true"
         />

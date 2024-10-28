@@ -73,19 +73,19 @@ const footerLinks = [
     {
       title: "A Massive Interactive Exhibit",
       link: "/minnesota/nkip",
-      img: "/minnesota/index/NKIPMN1.jpg",
+      img: "/minnesota/index/MN_NKIP.jpg",
       color: "var(--nkip)"
     },
     {
       title: 'Billboards and Banners',
       link: "/minnesota/billboards",
-      img: "/minnesota/index/MNBillboards30.jpg",
+      img: "/minnesota/index/MN_Billboards.jpg",
       color: "var(--billboards)"
     },
     {
       title: "Guerilla Public Projections",
       link: "/minnesota/guerilla-projections",
-      img: "/minnesota/index/MNProjections3.jpg",
+      img: "/minnesota/index/MN_Projections.jpg",
       color: "var(--projects)"
     }
   ]

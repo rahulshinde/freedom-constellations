@@ -42,11 +42,12 @@
 
   const currentIndex = ref(1)
   const slideshow = ref(null)
+  const length = computed(() => props.images.length)
 
   const nextSlide = () => {
     let newIndex = currentIndex.value + 1
-    if (newIndex > 3) {
-      newIndex = 1
+    if (newIndex > length.value - 1) {
+      newIndex = length.value - 1
     }
     setSlidePosition(newIndex)
   }
@@ -54,7 +55,7 @@
   const prevSlide = () => {
     let newIndex = currentIndex.value - 1
     if (newIndex < 1) {
-      newIndex = 3
+      newIndex = 0
     }
     setSlidePosition(newIndex)
   }

@@ -1,6 +1,6 @@
 <template>
   <div class="mx-4 mt-8">
-    <h2 v-if="title != ''" class='ml-col3 mr-col3 text-white text-runde-xl mb-4'>{{ title  }}</h2>
+    <h2 v-if="title != ''" class='ml-col3 mr-col3 text-white text-runde-l mb-4'>{{ title  }}</h2>
     <div class="ml-col3 mr-col3">
       <ul class="text-white columns-3 gap-8">
         <li class="mb-8 break-inside-avoid-column whitespace-pre-wrap" v-for="credit in credits">

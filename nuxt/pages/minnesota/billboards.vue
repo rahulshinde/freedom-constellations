@@ -58,19 +58,19 @@
     {
       title: "A Massive Interactive Exhibit",
       link: "/minnesota/nkip",
-      img: "/minnesota/index/NKIPMN1.jpg",
+      img: "/minnesota/index/MN_NKIP.jpg",
       color: "var(--nkip)"
     },
     {
       title: "Guerilla Public Projections",
       link: "/minnesota/guerilla-projections",
-      img: "/minnesota/index/MNProjections3.jpg",
+      img: "/minnesota/index/MN_Projections.jpg",
       color: "var(--projects)"
     },
     {
       title: "Cultural Organizing Projects",
       link: "/minnesota/cultural-organizing",
-      img: "/minnesota/index/MYJJacketPortraits21.jpg",
+      img: "/minnesota/index/MN_COI.jpg",
       color: "var(--programs)"
     }
   ]

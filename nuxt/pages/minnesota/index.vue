@@ -18,7 +18,7 @@
           class="relative z-10"
           text="No Kids In Prison Exhibition"
           link="/minnesota/nkip"
-          img="/minnesota/index/NKIPMN1.jpg"
+          img="/minnesota/index/MN_NKIP.jpg"
           color="var(--nkip)"
         />
         <img class="absolute bottom-[10vw] right-0 w-[35vw] rotate-[-55deg]" src="/zine-assets/purlehex2chalk.png" />
@@ -29,7 +29,7 @@
           class="relative z-10"
           text="Abolitionist Billboards & Banners"
           link="/minnesota/billboards"
-          img="/minnesota/index/MNBillboards30.jpg"
+          img="/minnesota/index/MN_Billboards.jpg"
           color="var(--billboards)"
           :reverse="true"
         />
@@ -42,7 +42,7 @@
           class="relative z-10"
           text="Guerilla Public Projections"
           link="/minnesota/guerilla-projections"
-          img="/minnesota/index/MNProjections3.jpg"
+          img="/minnesota/index/MN_Projections.jpg"
           color="var(--projects)"
           />
         <img class="absolute top-[5vw] right-[15vw] w-[40vw]" src="/zine-assets/ribbons1.png" />
@@ -54,7 +54,7 @@
           class="relative z-10"
           text="Cultural Organizing Institute"
           link="/minnesota/cultural-organizing"
-          img="/minnesota/index/MYJJacketPortraits21.jpg"
+          img="/minnesota/index/MN_COI.jpg"
           color="var(--programs)"
           :reverse="true"
         />

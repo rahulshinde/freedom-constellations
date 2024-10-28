@@ -44,7 +44,7 @@ The six locations that featured the projections were selected for their history 
       />
 
       <BlockTextHeading
-        class="mt-8"
+        class="mt-16"
         text="Credits"
       />
 
@@ -68,19 +68,19 @@ The six locations that featured the projections were selected for their history 
     {
       title: "A Massive Interactive Exhibit",
       link: "/minnesota/nkip",
-      img: "/minnesota/index/NKIPMN1.jpg",
+      img: "/minnesota/index/MN_NKIP.jpg",
       color: "var(--nkip)"
     },
     {
       title: 'Billboards and Banners',
       link: "/minnesota/billboards",
-      img: "/minnesota/index/MNBillboards30.jpg",
+      img: "/minnesota/index/MN_Billboards.jpg",
       color: "var(--billboards)"
     },
     {
       title: "Cultural Organizing Projects",
       link: "/minnesota/cultural-organizing",
-      img: "/minnesota/index/MYJJacketPortraits21.jpg",
+      img: "/minnesota/index/MN_COI.jpg",
       color: "var(--programs)"
     }
   ]

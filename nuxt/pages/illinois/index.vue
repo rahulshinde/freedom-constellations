@@ -19,7 +19,7 @@
           class="relative z-10"
           text="No Kids In Prison Exhibition"
           link="/illinois/nkip"
-          img="/illinois/index/NKIPChicago2.jpg"
+          img="/illinois/index/IL_NKIP.jpg"
           color="var(--nkip)"
           />
         <img class="absolute z-[1] top-[8vw] w-[20vw] right-[0vw] rotate-[15deg]" src="/zine-assets/pinkstar.png" />
@@ -29,7 +29,7 @@
           class="relative z-10"
           text="Abolitionist Billboards"
           link="/illinois/billboards"
-          img="/illinois/index/NKIPChicagoBillboards16.jpg"
+          img="/illinois/index/IL_Billboards.jpg"
           color="var(--billboards)"
           :reverse="true"
         />
@@ -42,7 +42,7 @@
           class="relative z-10"
           text="Cultural Organizing Institute"
           link="/illinois/coi"
-          img="/illinois/index/FreeDaHomiesBags.jpg"
+          img="/illinois/index/IL_Snackbags.jpg"
           color="var(--programs)"
           />
         <img class="absolute z-[1] -bottom-[10vw] w-[30vw] -right-[10vw] -rotate-[10deg]" src="/zine-assets/zine-assets_0007_Layer-7.png" />

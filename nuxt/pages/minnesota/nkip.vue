@@ -54,11 +54,6 @@ The idea was to play with Target’s retail imagery, create graphic t-shirts tha
         src="/minnesota/nkip/target/KeepIt1hunnit.mp3"
       />
 
-      <BlockCredits
-          title="Target Credits"
-          :credits="targetCredits" 
-      />
-
       <BlockTextHeading
         class="mt-16"
         text="Infographics"
@@ -100,11 +95,6 @@ The idea was to play with Target’s retail imagery, create graphic t-shirts tha
         </div>
       </div>
 
-      <BlockCredits
-          title="Infographics Credits"
-          :credits="infographicCredits"
-      />
-
       <BlockTextHeading
         class="mt-16"
         text="Future Audio"
@@ -125,10 +115,6 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
         src="/minnesota/nkip/future-audio/No_Youth_Prisons_MN.mp3"
       />
 
-      <BlockCredits
-          title="Future Audio Credits"
-          :credits="futureAudioCredits"
-      />
 
       <BlockTextHeading
         class="mt-16"
@@ -145,22 +131,44 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
         text="Youth leaders from End Youth Prisons MN shared that car-jacking in the Twin Cities area has been used to spread criminalized narratives about young people. Despite rates of car-jacking actually going down, police high speed chases have caused a series of deaths in Minneapolis. As counter-narrative to city officials saying carjacking is a justification for the over-policing of young people, youth leaders decided to create a piece that unpacks the systemic failures that can push a young person to feel like they have to steal a car. The piece features interviews with youth about car theft and how to support youth in ways that are preventative."
       />
 
-      <BlockCredits
+      
+
+      <div class="relative">
+        <BlockTextHeading
+          class="mt-16"
+          text="Credits"
+        />
+
+        <BlockCredits
+            text="#NKIP Exhibition Credits"
+            :credits="credits" 
+        />
+
+        <BlockCredits
+          title="Target Credits"
+          :credits="targetCredits" 
+      />
+
+        <BlockCredits
+          title="Infographics Credits"
+          :credits="infographicCredits"
+      />
+
+        <BlockCredits
+            title="Future Audio Credits"
+            :credits="futureAudioCredits"
+        />
+
+        <BlockCredits
         title="Car Jacking Installation Credits"
         :credits="carCredits"
       />
-
-      <div class="relative">
-        <BlockCredits
-            class="!mt-64"
-            title="#NKIP Exhibition Credits"
-            :credits="credits" 
-        />
+        
         <img class="absolute z-[-1] -top-[15vw] w-[18vw] left-[15vw]" src="/zine-assets/planet3.png" />
         <img class="absolute z-[-1] -bottom-[2vw] w-[14vw] left-[40vw]" src="/zine-assets/zine-assets_0002_Layer-12.png" />
         <img class="absolute z-[-1] -top-[5vw] w-[12vw] -rotate-90 right-[4vw]" src="/zine-assets/zine-assets_0000_Layer-14.png" />
-        <img class="absolute z-[-1] top-[15vw] w-[14vw] right-[10vw]" src="/zine-assets/zine-assets_0017_Layer-1.png" />
-        <img class="absolute z-[-1] bottom-[2vw] w-[18vw] left-[0vw]" src="/zine-assets/bluecrown2.png" />
+        <img class="absolute z-[-1] top-[30vw] w-[14vw] right-[10vw]" src="/zine-assets/zine-assets_0017_Layer-1.png" />
+        <img class="absolute z-[-1] bottom-[35vw] w-[18vw] left-[0vw]" src="/zine-assets/bluecrown2.png" />
       </div>
 
       <BlockProjectFooterLinks
@@ -178,19 +186,19 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
     {
       title: 'Billboards and Banners',
       link: "/minnesota/billboards",
-      img: "/minnesota/index/MNBillboards30.jpg",
+      img: "/minnesota/index/MN_Billboards.jpg",
       color: "var(--billboards)"
     },
     {
       title: "Guerilla Public Projections",
       link: "/minnesota/guerilla-projections",
-      img: "/minnesota/index/MNProjections3.jpg",
+      img: "/minnesota/index/MN_Projections.jpg",
       color: "var(--projects)"
     },
     {
       title: "Cultural Organizing Projects",
       link: "/minnesota/cultural-organizing",
-      img: "/minnesota/index/MYJJacketPortraits21.jpg",
+      img: "/minnesota/index/MN_COI.jpg",
       color: "var(--programs)"
     }
   ]
