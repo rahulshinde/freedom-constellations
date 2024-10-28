@@ -69,6 +69,11 @@
         />
       </div>
 
+      <BlockVideo
+        video="https://player.vimeo.com/progressive_redirect/playback/1024096943/rendition/2160p/file.mp4?loc=external&signature=4d8277debc55eb7f52be799aa788f5c7fdb79dd187fe8b54d01b77833c1ba38d"
+        poster="/new-jersey/index/nj_index_cover.jpg"
+      />
+
       <div class="relative">
         <img loading="lazy" class="absolute scale-x-[-1] z-[-1] bottom-[-3vw] w-[33%] left-0" src="/zine-assets/zine-assets_0013_Layer-5.png" />
         <BlockTextWithQuote

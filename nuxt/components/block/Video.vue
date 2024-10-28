@@ -1,15 +1,16 @@
 <template>
-  <video
-    class="video-js vjs-default-skin mt-8 mx-8"
-    ref="videoPlayer"
-    :poster="poster"
-  >
-    <source
-      :src="video"
-      type='video/mp4'
+  <div class='mt-8 mx-8'>
+    <video
+      class="video-js vjs-default-skin"
+      ref="videoPlayer"
     >
-
-  </video>
+      <source
+        :src="video"
+        type='video/mp4'
+      >
+  
+    </video>
+  </div>
 </template>
 
 <script setup>
@@ -27,8 +28,9 @@
     const player = videojs(videoPlayer.value, {
       autoplay: false,
       controls: true,
-      fill: true,
+      fluid: true,
       responsive: true,
+      poster: props.poster,
       aspectRatio: '16:9'
     }, function onPlayerReady() {
       console.log('Player is ready!');
@@ -37,11 +39,6 @@
 </script>
 
 <style>
-.vjs_video_3-dimensions,
-.vjs_video_822-dimensions {
-  width: calc(100% - 4rem) !important;
-  height: calc((100svw - 8rem) * 0.6) !important;
-}
 
 .video-js .vjs-tech{
   object-fit: cover;
