@@ -12,6 +12,10 @@
         before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0
       "
     >
+      <BlockFullBleed
+        :cover="true"
+        video="https://player.vimeo.com/progressive_redirect/playback/1024092271/rendition/1080p/file.mp4?loc=external&signature=98474fc27366952ec3a93b0e7b5a780c05b49fc6268abde4e8d7e3f3de5577bd"
+      />
       <BlockTextBody text="Use the sections below to experience and learn more about each project that took place New Jersey" />
       
       <div class="relative">

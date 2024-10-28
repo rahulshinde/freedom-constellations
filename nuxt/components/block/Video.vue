@@ -27,6 +27,9 @@
     const player = videojs(videoPlayer.value, {
       autoplay: false,
       controls: true,
+      fill: true,
+      responsive: true,
+      aspectRatio: '16:9'
     }, function onPlayerReady() {
       console.log('Player is ready!');
     });

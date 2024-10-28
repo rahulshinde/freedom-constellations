@@ -8,7 +8,7 @@
         hoverColorClass
       ]"
     >
-      <figure class="w-[60%]
+      <figure class="w-[60%] 
       relative after:content-[''] after:block after:absolute after:top-0 after:left-0 after:w-full after:h-full after:z-[-1] after:rounded-xl after:shadow-imgLgHvr after:opacity-0 group-hover:after:opacity-100 after:transition-all"
       :class="props.reverse ? 'ml-4' : 'mr-4'">
         <img
