@@ -18,6 +18,11 @@
       "
     > 
       <BlockTextHeading text="Circles and Ciphers Music Video" />
+      <BlockVideo
+        class="mt-8"
+        video="https://player.vimeo.com/progressive_redirect/playback/1024480139/rendition/720p/file.mp4?loc=external&signature=b20bcf1cf9b4c7c0e00dab196e4cfc1223569e00e065d20c93649659a9848ac1"
+        poster="/illinois/coi/circles_and_ciphers_poster.jpg"
+      />
       <BlockTextBody
       text="From Circles and Ciphers: 
       

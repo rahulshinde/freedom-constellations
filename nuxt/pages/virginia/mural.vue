@@ -53,6 +53,7 @@ By collaborating with the youth coders at CODE VA to do the programming for the 
       <BlockVideo
         class="mt-8"
         video="https://player.vimeo.com/progressive_redirect/playback/1022172976/rendition/1080p/file.mp4?loc=external&signature=5a2e70d0a1e49ea850dc94abac8648433a6748a2a40505ee72b3bc16eb8ecef7"
+        poster="/virginia/mural/mural_video_poster.jpg"
       />
 
       <BlockTextBody
