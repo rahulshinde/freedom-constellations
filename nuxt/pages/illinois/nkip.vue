@@ -9,6 +9,9 @@
       introText="Organized by Performing Statistics, #NoKidsInPrison Chicago featured collaborations with The Final 5 campaign and Circles and Ciphers. The exhibition immersed viewers into interactive installations about the history of youth incarceration, the state of youth incarceration today and what is needed to build a world where all youth are free. Youth voices from local incarcerated young people were included through an audio collaboration between Final Five and youth inside. SkyArts contributed paintings created by local incarcerated youth. Circles and Ciphers created a music video to drop their new song, “No Kids In Prison” a ballad that illustrates a prison free Chicago that centers youth leadership."
       date=""
       :onThisPage="[
+        ['Programming', 'programming'],
+        ['Data', 'data'],
+        ['Credits', 'credits']
       ]"
     />
 
@@ -105,9 +108,117 @@ Highlights from Chicago programming included:"
             }
           ]"
       />
+
+      <BlockTextHeading
+          text="Data"
+      />
+
+      <BlockTextBulletList
+          :list="[
+            'Transforming viewers perspectives…nearly 66% of viewers said that, after viewing the exhibit, they were committed to ending youth incarceration',
+            'People who came saw a personal connection…nearly 70% of viewers have a loved one who is/was incarcerated',
+            'Youth voices mattered the most…out of everything people saw and experienced in the NKIP exhibition, 55% of viewers said hearing from youth was what impacted them the most',
+            'The exhibit was able to reach young people….85% of attendees were 18 - 35 years old ',
+          ]"
+      />
+
+      <BlockTextHeading
+          text="Credits"
+      />
+
+      <BlockCredits
+          title="Youth Art"
+          :credits = credits
+      />
+
+      <BlockCredits
+          title="SkyART‘s Just-Us Program"
+          :credits = skyart
+      />
+
+      <BlockCredits
+          title="Programming Coordination & Curation"
+          :credits = programmingCoordination
+      />
+      <BlockCredits
+          title="Programming"
+          :credits = programming
+      />
+
     </section>
   </main>
 </template>
 
 <script setup>
+  const credits = [
+    {
+      title: 'Final 5',
+      text: 'audio interviews and letters  from inside, collaboration with youth at local lock-up facility'
+    },
+    {
+      title: 'Site Coordinator',
+      text: 'AnnMarie Brown, Alicia Brown, Sheriff Polk'
+    },
+    {
+      title: 'Youth Docents',
+      text: 'CJ Paris (aka CJ)\nWilliam Adebayo\nSky Ford\nHernan\nDestiny\nMalika'
+    },
+    {
+      title: 'Local Artists',
+      text: 'Qyjon the Icon, Emma McKee aka The Stitch Gawd'
+    }
+  ]
+
+  const skyart = [
+    {
+      title: 'Project Impact Clinical Interns',
+      text: 'Lauren Appelson, Zoe Friedland, Esther Han, Rachel Kaufman, Shea Love, Dalila Perez'
+    },
+    {
+      title: 'Project Impact therapist',
+      text: 'Ashley Williams'
+    },
+    {
+      title: 'Local Org Partners',
+      text: 'Trap House Chicago, Crime Drought, Sky Arts'
+    },
+    {
+      title: 'Site Support',
+      text: 'Christian Ortiz, David Weinberg'
+    },
+    {
+      title: 'Screenprinting',
+      text: 'Hoofprint\nScout Cartenga\nChema'
+    },
+  ]
+
+  const programmingCoordination = [
+    {
+      title: 'Healthy Hood',
+      text: 'Tanya Lozano, Allen Washington, Joline Lozano'
+    },
+    {
+      title: 'The Final Five Campaign',
+      text: 'Alicia Brown, Nicole Negrete, Ja’Vaune Jackson, Destiny Bell, Malika Anthony, Sherrif Polk'
+    }
+  ]
+
+  const programming = [
+    {
+      title: 'Features',
+      text: 'Circles and Ciphers\nThe Gr8Thinkaz\nThe Chicago Coalition for Intercommunalism\nChicago Liberation Center\nParty for Socialism and Liberation\nPalestinian Assembly for Liberation\nBella Bahhs\nLaila Zayed\nNino Brown\nOmar Younes\nLilla Sol'
+    },
+    {
+      title: 'Youth Performers',
+      text: 'Kofie Kportufe (aka Kofie Diamonds)\nRonald Pierce (aka Cmthr23)\nCJ Paris (aka CJ)\nCarris Jones-James (aka CJ)\nJuan Cannon\nMichael Adebayo (aka Marko Stat$)\nPrecious Atwood (aka Pressure)\nKuumbalynx'
+    },
+    {
+      title: 'Local Artists',
+      text: 'Qyjon the Icon\nEmma McKee aka The Stitch Gawd'
+    },
+    {
+      title: 'Local Org Partners',
+      text: 'Trap House Chicago, Crime Drought\nViet Coffee\nZealous'
+    }
+  ]
 </script>
