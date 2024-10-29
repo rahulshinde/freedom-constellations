@@ -11,6 +11,63 @@
       :onThisPage="[
       ]"
     />
+
+    <section 
+      class="
+        bg-black relative z-10 pb-16
+        before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0
+      "
+    >
+      <BlockImageFullWidthSlideshow
+        class="mt-8"
+        :images="[
+          {
+            src: '/illinois/nkip/NKIPChicago1.jpg',
+          },
+          {
+            src: '/illinois/nkip/NKIPChicago3.jpg',
+          },
+          {
+            src: '/illinois/nkip/NKIPChicago4.jpg',
+          },
+          {
+            src: '/illinois/nkip/NKIPChicago8.jpg',
+          },
+          {
+            src: '/illinois/nkip/NKIPChicago9.jpg',
+          },
+          {
+            src: '/illinois/nkip/NKIPChicago10.jpg',
+          },
+          {
+            src: '/illinois/nkip/NKIPChicago11.jpg',
+          },
+          {
+            src: '/illinois/nkip/NKIPChicago12.jpg',
+          },
+          {
+            src: '/illinois/nkip/NKIPChicago13.jpg',
+          },
+          {
+            src: '/illinois/nkip/NKIPChicago14.jpg',
+          }
+        ]"
+      />
+      <BlockTextBody 
+        text="Filled with virtual reality, interactive art installations, and eight years of art made in collaboration with youth leaders nationwide, the exhibition engaged thousands of viewers and helped support local campaigns to keep youth free.
+      
+Healthy Hood curated a robust set of programs open to the public and Final Five hosted multiple organizing events for youth." 
+      />
+
+      <BlockTextHeading
+          text="Programming"
+      />
+      <BlockTextBody 
+          text="Healthy Hood led by Tanya Lozano and Allen Washington led the programming schedule in Chicago. NoKidsInPrison Chicago featured ongoing abolitionist swag making with local screen printers combined with powerful panels and inspirational performances curated by Healthy Hood in collaboration with The Final Five Campaign and Circles and Ciphers.
+          
+Highlights from Chicago programming included:"
+      />
+    </section>
   </main>
 </template>
 
