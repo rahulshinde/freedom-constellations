@@ -144,12 +144,31 @@ Highlights from Chicago programming included:"
           title="Programming"
           :credits = programming
       />
-
+      <BlockProjectFooterLinks
+          heading="More from Illinois"
+          :links="footerLinks"
+      />
     </section>
   </main>
 </template>
 
 <script setup>
+
+  const footerLinks = [
+    {
+      title: "No Kids In Prison Exhibition",
+      link: "/illinois/nkip",
+      img: "/illinois/index/IL_NKIP.jpg",
+      color: "var(--nkip)"
+    },
+    {
+      title: "Cultural Organizing Institute",
+      link: "/illinois/coi",
+      img: "/illinois/index/IL_Snackbags.jpg",
+      color: "var(--programs)"
+    }
+  ]
+
   const credits = [
     {
       title: 'Final 5',
