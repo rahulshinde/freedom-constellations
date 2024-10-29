@@ -21,6 +21,11 @@
         before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0
       "
     > 
+      <BlockTextBody
+        text="Youth shared that they wanted the billboards to convey power, motivation, and a feeling of bold imagination and joy. They wanted to be represented in ways that express their passion, determination and that they deserve a seat at the table. They were hoping to see youth playing, broken chains, sun and POC being happy. 
+
+The Performing Statistics team facilitated a series of workshops that allowed organizers to share their ideas with artists and give them feedback on the direction of their designs. Using input from the young people, the artists created ten billboard designs that were featured throughout Chicago and in Springfield where legislators are making decisions about youth freedom in IL. "
+      />
       <BlockProjectFooterLinks
           heading="More from Illinois"
           :links="footerLinks"
