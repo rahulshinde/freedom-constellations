@@ -90,4 +90,39 @@ The Performing Statistics team facilitated a series of workshops that allowed or
       color: "var(--programs)"
     }
   ]
+
+  const credits = [
+    {
+      title: 'The Final Five Campaign billboard Artists',
+      text: 'Monica Trinidad\nTracie Ching\nCaitlin Blunnie\nNicole Marriquin\nNoa Denmon'
+    },
+    {
+      title: 'Circles and Ciphers billboard Artists',
+      text: 'Killjoy\nYoung Mer\nCori Lin\nKah Kangni'
+    },
+    {
+      title: 'Circles & Ciphers',
+      text: 'MARKO STAT$, Pressure Baby R, Yung CJ, Sky Ford, Kofie Diamonds'
+    },
+    {
+      title: 'The Final Five Campaign',
+      text: 'Jay Krause'
+    },
+    {
+      title: 'Poetry featured on billboards',
+      text: 'Through a series of workshops youth in lock-up and youth leaders in the Final Five campaign wrote about a future world where all youth are free, safe and thriving. Their writing was combined together to create a collective poem that imagined that future.'
+    },
+    {
+      title: 'Photograph Portraits for artist reference',
+      text: 'Mark Strandquist in collaboration with The Final Five Campaign and Circles & Ciphers'
+    },
+    {
+      title: 'Chicago Billboard documentation',
+      text: 'Mark Strandquist'
+    },
+    {
+      title: 'Springfield Billboard documentation',
+      text: 'Zach Adams'
+    }
+  ]
 </script>
