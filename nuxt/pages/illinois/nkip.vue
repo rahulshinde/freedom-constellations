@@ -67,6 +67,44 @@ Healthy Hood curated a robust set of programs open to the public and Final Five 
           
 Highlights from Chicago programming included:"
       />
+
+      <BlockTextBulletList
+          :list="[
+            'The War on Children Panel, a conversation about the intersections between militarization and the experiences of youth in Gaza and the systemic criminalization of young people in the US.',
+            'Circles and Ciphers performances and music video drop!',
+            'The gr8 Cypher, led by TheGr8Thinkaz, a completely youth centered cipher designer to affirm the brilliance of young poets, rappers & Mcs.',
+            'Youth in Power, youth summit led by The Final 5 campaign, an event designed to welcome youth organizers to the movement to close youth prisons.',
+            'Onna Way Back resource guide drop by Final 5! This interactive workshop led by formerly incarcerated youth was a book release for their re-entry toolkit, a multi year project designing a guide with everything a young person needs when they return home.',
+            'Meditation for the Abolitionist led by Tanya Lozana, ended the exhibition with the regrounding we all needed. This beautiful guided meditation held a room full of organizers and candles in love, abundance and affirmational power.'
+          ]"
+      />
+
+      <BlockImageGallery
+          :images="[
+            '/illinois/nkip/programming/NKIPmedianarrativepanel1.jpg',
+            '/illinois/nkip/programming/NKIPmedianarrativepanel5.jpg'
+          ]"
+          caption='The War on Children Panel'
+      />
+
+      <BlockImageFullWidthSlideshow
+          class="mt-8"
+          :images="[
+            {
+              src: '/illinois/nkip/programming/Finalfiveprogramming1.jpg',
+              caption: 'Youth in Power, youth summit led by The Final 5 campaign'
+            },
+            {
+              src: '/illinois/nkip/programming/Finalfiveprogramming4.jpg'
+            },
+            {
+              src: '/illinois/nkip/programming/Finalfiveprogramming8.jpg'
+            },
+            {
+              src: '/illinois/nkip/programming/Finalfiveprogramming9.jpg'
+            }
+          ]"
+      />
     </section>
   </main>
 </template>
