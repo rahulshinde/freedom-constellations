@@ -11,6 +11,9 @@
 The banners, which could be seen from miles away, included an interactive augmented reality experience that brought the banners to life through new storytelling technology. As viewers held their phones up to the portraits, animations played in the clouds above city hall that visualized the dreams and demands of youth leaders for a world where all youth are free, thriving and safe."
       date=""
       :onThisPage="[
+        ['City Hall Workshops', 'cityhall'],
+        ['John Marshall House Workshops', 'johnmarshall'],
+        ['Credits', 'credits']
       ]"
     />
 
@@ -22,6 +25,15 @@ The banners, which could be seen from miles away, included an interactive augmen
       <BlockFullBleed
         :cover="true"
         video="https://player.vimeo.com/progressive_redirect/playback/1023012187/rendition/1080p/file.mp4?loc=external&signature=b9aad057416575742fc66029c0c797f41f045698b2ba359ca3198644bac4524a"
+      />
+      <BlockProjectNav
+        title="Virginia"
+        backLink="/virginia"
+        :onThisPage="[
+          ['City Hall Workshops', 'cityhall'],
+          ['John Marshall House Workshops', 'johnmarshall'],
+          ['Credits', 'credits']
+        ]"
       />
       <BlockTextBody
         text="Performing Statistics Creative Director Mark Strandquist collaborated with Ta’Dreama McBride and Clyde Walker, youth leaders in Richmond from <a href='https://www.riseforyouth.org/' target='_blank'>RISE for Youth</a>, to create the two, 160 ft Tall monumental portraits that covered the sides of Richmond City Hall."
@@ -77,6 +89,8 @@ Connected workshops were done in collaboration with the Valentine museum and the
 
       <BlockTextHeading
         text="City Hall Workshops"
+        class="scroll-mt-[11rem]"
+        id='cityhall'
       />
 
       <BlockTextBody
@@ -110,6 +124,8 @@ These workshops not only gave historical context to the contemporary advocacy of
 
       <BlockTextHeading
         text="John Marshall House Workshops"
+        class="scroll-mt-[11rem]"
+        id='johnmarshall'
       />
 
       <BlockTextBody
@@ -132,7 +148,8 @@ As part of the 3 part City Hall tour, participants could step into the historic 
 
       <BlockTextHeading
         text="Credits"
-        class="mt-32"
+        class="mt-32 scroll-mt-[11rem]"
+        id='credits'
       />
       <BlockCredits
         :credits="credits"/>

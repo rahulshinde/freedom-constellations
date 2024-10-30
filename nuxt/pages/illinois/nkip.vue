@@ -156,10 +156,10 @@ Highlights from Chicago programming included:"
 
   const footerLinks = [
     {
-      title: "No Kids In Prison Exhibition",
-      link: "/illinois/nkip",
-      img: "/illinois/index/IL_NKIP.jpg",
-      color: "var(--nkip)"
+      title: "Abolitionist Billboards",
+      link: "/illinois/billboards",
+      img: "/illinois/index/IL_Billboards.jpg",
+      color: "var(--billboards)"
     },
     {
       title: "Cultural Organizing Institute",
