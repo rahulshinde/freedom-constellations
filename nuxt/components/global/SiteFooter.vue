@@ -1,5 +1,5 @@
 <template>
-  <footer class="w-full max-w-full bg-black relative overflow-hidden pb-12">
+  <footer class="w-full max-w-full bg-black relative overflow-hidden pb-12 transition-opacity duration-[0.3s]">
     <img src="/pngs/squiggle.png" alt="Squiggle" class="max-w-none h-auto top-0 relative -left-2 -right-2" />
     <div class="flex justify-between items-baseline mr-4">
       <div class="mx-4 flex flex-wrap w-col4">
@@ -79,4 +79,14 @@
   // year for footer
   const route = useRoute()
   const year = new Date().getFullYear()
+
+  // fade out footer on route change
+  watch(() => route.path, () => {
+    const footer = document.querySelector('footer')
+    footer.style.opacity = 0
+    setTimeout(() => {
+      footer.style.opacity = 1
+    }, 1000)
+  })
+
 </script>
