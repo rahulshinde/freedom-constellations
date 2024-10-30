@@ -1,16 +1,21 @@
 <template>
-  <div class="mx-4 mt-8">
+  <div 
+    class="w-1/2 md:w-full -mt-24 md:mt-8"
+    :class="[
+      props.reverse ? 'ml-[50%] md:ml-0' : ''
+    ]"  
+  >
     <NuxtLink
       :to="props.link"
-      class="text-white group text-runde-m ml-col1 mr-col1 flex items-end transition-all duration-300"
+      class="text-white flex-col group text-runde-m mx-4 md:mx-col1 xl:mx-col2 flex md:items-end transition-all duration-300"
       :class="[
-        props.reverse ? 'flex-row-reverse' : 'flex-row',
+        props.reverse ? 'md:flex-row-reverse' : 'md:flex-row',
         hoverColorClass
       ]"
     >
-      <figure class="w-[60%] 
+      <figure class="md:w-[60%] 
       relative after:content-[''] after:block after:absolute after:top-0 after:left-0 after:w-full after:h-full after:z-[-1] after:rounded-xl after:shadow-imgLgHvr after:opacity-0 group-hover:after:opacity-100 after:transition-all"
-      :class="props.reverse ? 'ml-4' : 'mr-4'">
+      :class="props.reverse ? 'md:ml-4' : 'md:mr-4'">
         <img
           :src="props.img"
           :alt="props.text"
@@ -18,17 +23,17 @@
           />
       </figure>
       <figcaption 
-        class='mb-8'
+        class='mb-8 mt-2 md:mt-0'
         :class="[
-          props.reverse ? 'mr-4' : 'ml-4',
-          textWidth ? textWidth : 'w-[20rem]'
+          props.reverse ? 'md:mr-4' : 'md:ml-4',
+          textWidth ? textWidth : 'md:w-[20rem]'
         ]"
       >
         <h2 
-          class="text-runde-xxl inline font-semibold"
+          class="text-runde-m md:text-runde-xl lg:text-runde-xxl inline font-semibold"
         >
           {{ props.text }}
-        </h2><IconsLinkArrow class="inline-block w-auto h-7 ml-2 -mt-3" :color="color" />
+        </h2><IconsLinkArrow class="inline-block w-auto h-3 md:h-7 ml-2 mt-0 md:-mt-3" :color="color" />
       </figcaption>
     </NuxtLink>
   </div>
