@@ -4,7 +4,6 @@
 
     <section 
       class="
-        -mt-8
         bg-black relative z-10
         before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0
       "
