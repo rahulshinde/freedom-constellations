@@ -36,7 +36,7 @@ export default {
         }
       ],
       'hatton-xl': [
-        '3rem',
+        '2.5rem',
         {
           lineHeight: '1.1',
           letterSpacing: '-0.01em'

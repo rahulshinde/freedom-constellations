@@ -38,15 +38,15 @@
   const hoverColorClass = ((color) => {
     switch (color) {
       case 'var(--nkip)':
-        return 'hover:text-nkip';
+        return 'hover:text-nkip hover:drop-shadow-[0_0_0.15rem_var(--nkip)]';
       case 'var(--billboards)':
-        return 'hover:text-billboards';
+        return 'hover:text-billboards hover:drop-shadow-[0_0_0.15rem_var(--billboards)]';
       case 'var(--projects)':
-        return 'hover:text-projects';
+        return 'hover:text-projects hover:drop-shadow-[0_0_0.15rem_var(--projects)]';
       case 'var(--programs)':
-        return 'hover:text-programs';
+        return 'hover:text-programs hover:drop-shadow-[0_0_0.15rem_var(--programs)]';
       case 'var(--bg-highlight)':
-        return 'hover:text-bg-highlight';
+        return 'hover:text-bg-highlight hover:drop-shadow-[0_0_0.15rem_var(--bg-highlight)]';
     }
   });
 

@@ -86,7 +86,7 @@
     footer.style.opacity = 0
     setTimeout(() => {
       footer.style.opacity = 1
-    }, 1000)
+    }, 300)
   })
 
 </script>
