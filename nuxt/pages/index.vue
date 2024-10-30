@@ -38,7 +38,11 @@
         text="Honoring the hundreds of youth leaders, partners, artists, and collaborators who made these projects possible."
       />
 
-      <BlockLocationLinks/>
+      <BlockTextHeading
+        class="md:mt-32"
+        text="Explore Projects by State"
+      />
+      <BlockLocationLinks class="-mb-8 md:mb-0"/>
     </section>
   </main>
 </template>
