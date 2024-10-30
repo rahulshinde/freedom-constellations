@@ -29,7 +29,7 @@ export default {
         }
       ],
       'hatton-l': [
-        '1.65rem',
+        '1.5rem',
         {
           lineHeight: '1.15',
           letterSpacing: '-0.01em'
