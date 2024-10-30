@@ -51,9 +51,50 @@
       <BlockTextBody
           text="These beautiful collaborative designs were also printed on large banners and installed in locations across the city, helping to make these future dreams a reality! Huge thanks to our partners for hosting these beautiful banners; The Village of Arts and Humanities, Cherry St Pier, and Eastern State Penitentiary."
       />
+
+      <BlockImageGallery
+        class="mt-8"
+        :images="[
+          '/pennsylvania/billboards/PXL_20230525_141249677.jpg',
+          '/pennsylvania/billboards/PXL_20230525_140907664.jpg'
+        ]"
+      />
+
+      <BlockTextHeading
+          text="Credits"
+      />
+      <BlockCredits
+        :credits="credits"
+      />
     </section>
   </main>
 </template>
 
 <script setup>
+  const credits=[
+    {
+      title:'Billboard/banner artists',
+      text: '<a href="https://www.amirkhadar.com/" target="_blank">Amir Khadar</a> (PHL), <span class="text-runde-xs">in collaboration with Mural Arts Philadelphia</span>\n<a href="https://joyland.space/" target="_blank">Killjoy</a> (TX), <span class="text-runde-xs">in collaboration with Juvenile Law Center</span>\n<a href="https://www.instagram.com/mz.icar/?hl=en" target="_blank">Mz. Icar</a> (PHL), <span class="text-runde-xs">in collaboration with Youth Arts and Self Empowerment Project</span>\n<a href="https://jasonkillinger.com/" target="_blank">Jason Killinger</a> (PHL), <span class="text-runde-xs">in collaboration with Care, Not Control</span>\n<a href="http://www.jessicasabogal.com/" target="_blank">Jess Sabogal</a> (CA), <span class="text-runde-xs">in collaboration with Care, Not Control</span>\n<a href="https://ashluka.com/" target="_blank">Ashley Lukashevsky</a> (CA), <span class="text-runde-xs">in collaboration with Care, Not Control</span>\n<a href="https://hankwillisthomas.com/" target="_blank">Hank Willis Thomas</a>, <span class="text-runde-xs">in collaboration with Mural Arts Philadelphia</span>\n<a href="https://nazeersabreestudios.com/" target="_blank">Nazeer Sabree</a> (PHL), <span class="text-runde-xs">in collaboration with Juvenile Law Center</span>\n<a href="https://www.kahyangni.com/" target="_blank">Kah Yangni</a> (PHL), <span class="text-runde-xs">in collaboration with Juvenile Law Center</span>'
+    },
+    {
+      title: 'Billboard workshop participants',
+      text: 'Duane, Rodney, Anahi, Alex, Bre, Jahir, Jared, Qilah, Tiguida, Rodney, Tasheema, and Jah'
+    },
+    {
+      title: 'Billboard co-curation',
+      text: 'Kah Yangni and Mark Stranquist'
+    },
+    {
+      title: 'Design workshop co-facilitators',
+      text: 'Kah Yangni, Kate DeCiccio, and Mark Strandquist'
+    },
+    {
+      title: 'Mural Arts Philadelphia',
+      text: 'Kali Silverman, Project Manager'
+    },
+    {
+      title: 'Special thanks',
+      text: 'Michaela Pommells, Marcia Hopkins, Cathy ____, Kade ____, Gabby (YASP), for their help with the youth workshop'
+    }
+  ]
 </script>

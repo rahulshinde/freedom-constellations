@@ -5,7 +5,7 @@
       <ul class="text-white columns-3 gap-8">
         <li class="mb-8 break-inside-avoid-column whitespace-pre-wrap" v-for="credit in credits">
           <div class="uppercase text-runde-xs font-semibold" v-if="credit.title">{{ credit.title }}</div>
-          <div class="mt-2">{{ credit.text }}</div>
+          <div class="mt-2 credit" v-html="credit.text"></div>
         </li>
       </ul>
     </div>
@@ -18,3 +18,13 @@
     credits: Array
   });
 </script>
+
+<style>
+  .credit a{
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+  .credit a:hover{
+    color: var(--navigation-highlight);
+  }
+</style>
