@@ -28,6 +28,17 @@
         :images="slideshow"
       />
 
+      <BlockProjectNav
+        title="Minnesota"
+        backLink="/minnesota"
+        :onThisPage="[
+          ['Target', 'target'],
+          ['Infographics', 'infographics'],
+          ['Future Audio', 'future-audio'],
+          ['Car Jacking Installation', 'car-jacking-installation']
+        ]"
+      />
+
       <BlockTextHeading
         class="mt-16"
         text="Target"
