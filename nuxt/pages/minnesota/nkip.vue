@@ -40,7 +40,7 @@
       />
 
       <BlockTextHeading
-        class="mt-16"
+        class="mt-16 scroll-mt-[11rem]"
         text="Target"
         id="target"
       />
@@ -66,7 +66,7 @@ The idea was to play with Target’s retail imagery, create graphic t-shirts tha
       />
 
       <BlockTextHeading
-        class="mt-16"
+        class="mt-16 scroll-mt-[11rem]"
         text="Infographics"
         id="infographics"
       />
@@ -107,7 +107,7 @@ The idea was to play with Target’s retail imagery, create graphic t-shirts tha
       </div>
 
       <BlockTextHeading
-        class="mt-16"
+        class="mt-16 scroll-mt-[11rem]"
         text="Future Audio"
         id="future-audio"
       />
@@ -128,7 +128,7 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
 
 
       <BlockTextHeading
-        class="mt-16"
+        class="mt-16 scroll-mt-[11rem]"
         text="Car Jacking Installation"
         id="car-jacking-installation"
       />

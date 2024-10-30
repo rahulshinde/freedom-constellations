@@ -14,7 +14,8 @@
           <h3 class="meta-info font-runde text-runde-xs font-bold uppercase mt-1">On This Page</h3>
           <ul class="pl-4 text-runde-xs mt-2 flex flex-col items-start">
             <template v-for="link in onThisPage">
-              <a :href="'#' + link[1]" class="mb-2 hover:text-navigation-highlight transition-colors ">
+              <a :href="'#' + link[1]" class="mb-2 hover:text-navigation-highlight transition-colors "
+              >
                 {{ link[0] }}
               </a>
             </template>
@@ -37,7 +38,6 @@
   const { directions } = useScroll(window)
   const offsetTop = ref(0);
   const windowHeight = ref(0);
-
 
   onMounted(() => {
     nextTick(() => {  
