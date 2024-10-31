@@ -1,5 +1,5 @@
 <template>
-  <section class="md:sticky top-0 z-1 px-4 pt-12 w-full md:h-[80svh]">
+  <section class="md:sticky top-0 z-1 px-4 pt-4 md:pt-12 w-full md:h-[80svh]">
     <figure class="block absolute md:z-[-1] top-0 left-0 w-full h-[91.5svh] overflow-hidden">
       <img
         src="/pngs/homepage_gradient.png"
