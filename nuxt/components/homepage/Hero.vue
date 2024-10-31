@@ -9,12 +9,12 @@
       
     <div class="md:ml-col1 md:pl-4">
       <IconsLogo class="h-10 md:h-20 z-10 relative w-auto" />
-      <p class="font-hatton z-10 relative text-hatton-s md:text-hatton-m mt-4 md:mt-8 md:w-[20rem]">
+      <p class="font-hatton z-10 relative text-hatton-s md:text-hatton-m mt-4 md:mt-4 md:w-[20rem]">
         A multi-city art campaign to dream, envision, and create a <span class="text-navigation-highlight">future where all youth are free, safe, and thriving.</span>
       </p>
     </div>
     <AbolitionButton class="w-40 md:w-auto ml-0 mt-4 md:absolute md:top-8 md:right-8"/>
-    <p class="text-runde-xs md:w-40 mx-0 md:mx-4 mt-4 md:mt-8 font-medium z-10 relative">
+    <p class="text-runde-xs md:w-40 mx-0 md:mx-4 mt-4 md:mt-4 font-medium z-10 relative">
       Click on a state to see the art, learn from our collaborative process, and access tools to help you continue the fight to end youth incarceration.
     </p>
 

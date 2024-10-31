@@ -1,5 +1,5 @@
 <template>
-  <footer class="w-full max-w-full bg-black relative overflow-hidden pb-8 transition-opacity duration-[0.3s]">
+  <footer class="w-full max-w-full bg-black relative overflow-hidden pb-8 md:pb-0 transition-opacity duration-[0.3s]">
     <img src="/pngs/squiggle.png" alt="Squiggle" class="max-w-none h-auto top-0 relative -left-2 -right-2" />
     <div class="flex flex-wrap lg:flex-nowrap justify-center lg:justify-between items-start mr-4">
       <div class="mb-8 mx-0 md:mx-4 lg:justify-between flex flex-wrap md:flex-nowrap lg:flex-wrap md:w-full lg:w-col4">
