@@ -5,7 +5,7 @@
     <li 
       class="
         transition-colors
-        absolute top-[25%] left-[10%]
+        absolute top-[30%] md:left-[25%] lg:left-[15%]
         after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] after:border-projects after:origin-left 
       "
       ref="Text1"
@@ -16,7 +16,7 @@
     <li 
       class="
         transition-colors
-        absolute top-[45%] left-[24%]
+        absolute md:top-[60%] lg:top-[45%] md:left-[10%] lg:left-[24%]
         after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] after:border-projects after:origin-left 
       "
       ref="Text2"
@@ -38,7 +38,7 @@
     <li 
       class="
         transition-colors
-        absolute top-[35%] left-[40%]
+        absolute md:top-[55%] lg:top-[35%] md:left-[45%] lg:left-[40%]
         after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] after:border-projects after:origin-left 
       "
       ref="Text4"
@@ -49,7 +49,7 @@
     <li 
       class="
         transition-colors
-        absolute top-[55%] left-[60%]
+        absolute md:top-[65%] lg:top-[55%] md:left-[70%] lg:left-[60%]
         after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] after:border-projects after:origin-left 
       "
       ref="Text5"
@@ -60,7 +60,7 @@
     <li 
       class="
         transition-colors
-        absolute top-[10%] left-[50%]
+        absolute md:top-[25%] lg:top-[10%] left-[50%]
         after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] after:border-projects after:origin-left 
       "
       ref="Text6"
@@ -71,7 +71,7 @@
     <li 
       class="
         transition-colors
-        absolute top-[30%] left-[70%]
+        absolute md:top-[40%] lg:top-[30%] md:left-[80%] lg:left-[70%]
         after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] after:border-projects after:origin-left 
       "
       ref="Text7"
@@ -82,7 +82,7 @@
     <li 
       class="
         transition-colors
-        absolute top-[0%] left-[80%]
+        absolute md:top-[15%] lg:top-[0%] md:left-[90%] lg:left-[80%]
         after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] after:border-projects after:origin-left 
       "
       ref="Text8"

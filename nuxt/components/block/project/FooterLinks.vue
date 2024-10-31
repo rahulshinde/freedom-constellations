@@ -1,7 +1,7 @@
 <template>
   <section class="mx-4 mt-16">
     <h2 class="text-hatton-xl font-hatton ml-col3 mr-col3 mx-4 mb-4">{{heading}}</h2>
-    <div class="flex">
+    <div class="flex flex-wrap">
       <NuxtLink
         v-for="link in links"
         :to="link.link"
@@ -53,15 +53,15 @@
   const linkWidth = ((length) => {
     switch (length) {
       case 1:
-        return 'w-full';
+        return 'lg:w-full';
       case 2:
-        return 'w-1/2';
+        return 'lg:w-1/2';
       case 3:
-        return 'w-1/3';
+        return 'lg:w-1/3';
       case 4:
-        return 'w-1/4';
+        return 'lg:w-1/4';
       case 5:
-        return 'w-1/5';
+        return 'md:1/3 lg:w-1/5';
     }
   });
 </script>

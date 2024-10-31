@@ -6,7 +6,7 @@
     <li 
       class="
         hover:text-navigation-highlight transition-colors group
-        absolute bottom-[30%] left-[5%]
+        absolute md:bottom-[20%] lg:bottom-[30%] md:left-[-5%] lg:left-[5%]
         after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left 
       "
       ref="Star1"
@@ -18,7 +18,7 @@
     </li>
     <li class="
       hover:text-navigation-highlight transition-colors group
-      absolute top-[20%] left-[30%]
+      absolute md:top-[40%] lg:top-[20%] left-[30%]
       after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left
       "
       ref="Star2"
@@ -30,7 +30,7 @@
     </li>
     <li class="
       hover:text-navigation-highlight transition-colors group
-      absolute bottom-[15%] left-[45%]
+      absolute md:bottom-[5%] lg:bottom-[15%] left-[45%]
       after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left
       "
       ref="Star3"
@@ -42,7 +42,7 @@
     </li>
     <li class="
       hover:text-navigation-highlight transition-colors group
-      absolute top-[-15%] left-[60%]
+      absolute md:top-[5%] lg:top-[-15%] left-[60%]
       after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left
     "
       ref="Star4"
@@ -54,7 +54,7 @@
     </li>
     <li class="
       hover:text-navigation-highlight transition-colors group
-      absolute top-[25%] left-[85%]"
+      absolute md:top-[55%] lg:top-[25%] md:left-[75%] lg:left-[85%]"
       ref="Star5"
     >
       <NuxtLink to="/minnesota" class='flex items-center'>
