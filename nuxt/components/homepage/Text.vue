@@ -1,6 +1,6 @@
 <template>
   <ul 
-    class="absolute z-0 font-runde text-projects text-center text-runde-xs font-bold top-0 left-0 w-full h-[60svh]"
+    class="absolute z-0 font-runde opacity-[0.5] md:opacity-100 text-projects text-center text-[0.6rem] md:text-runde-xs font-bold top-0 left-0 w-full h-[80svh] md:h-[60svh]"
   >
     <li 
       class="
@@ -16,7 +16,7 @@
     <li 
       class="
         transition-colors
-        absolute md:top-[60%] lg:top-[45%] md:left-[10%] lg:left-[24%]
+        absolute top-[10%] left-[10%] md:top-[60%] lg:top-[45%] md:left-[10%] lg:left-[24%]
         after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] after:border-projects after:origin-left 
       "
       ref="Text2"
@@ -27,7 +27,7 @@
     <li 
       class="
         transition-colors
-        absolute top-[85%] left-[20%]
+        absolute bottom-[20%] right-[10%] md:right-auto md:bottom-auto md:top-[85%] md:left-[20%]
         after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] after:border-projects after:origin-left 
       "
       ref="Text3"
@@ -49,7 +49,7 @@
     <li 
       class="
         transition-colors
-        absolute md:top-[65%] lg:top-[55%] md:left-[70%] lg:left-[60%]
+        absolute top-[50%] left-[30%] md:top-[65%] lg:top-[55%] md:left-[70%] lg:left-[60%]
         after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] after:border-projects after:origin-left 
       "
       ref="Text5"
@@ -60,7 +60,7 @@
     <li 
       class="
         transition-colors
-        absolute md:top-[25%] lg:top-[10%] left-[50%]
+        absolute top-[30%] right-[10%] md:right-auto md:top-[25%] lg:top-[10%] left-[50%]
         after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] after:border-projects after:origin-left 
       "
       ref="Text6"

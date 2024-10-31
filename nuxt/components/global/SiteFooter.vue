@@ -12,31 +12,31 @@
         <div class="w-1/2 md:w-[10rem] flex flex-col mx-2 lg:mx-4">
           <h2 class="font-runde text-runde-xs font-bold uppercase mb-4">View By State</h2>
           <NuxtLink to="/virginia" 
-            class="font-hatton text-hatton-m mb-2 hover:text-navigation-highlight"
+            class="font-hatton text-hatton-s md:text-hatton-m mb-2 hover:text-navigation-highlight"
             :class="route.path.includes('/virginia') ? 'text-navigation-highlight' : ''"
           >
             Virginia
           </NuxtLink>
           <NuxtLink to="/illinois" 
-            class="font-hatton text-hatton-m mb-2 hover:text-navigation-highlight"
+            class="font-hatton text-hatton-s md:text-hatton-m mb-2 hover:text-navigation-highlight"
             :class="route.path.includes('/illinois') ? 'text-navigation-highlight' : ''"
           >
             Illinois
           </NuxtLink>
           <NuxtLink to="/pennsylvania" 
-            class="font-hatton text-hatton-m mb-2 hover:text-navigation-highlight"
+            class="font-hatton text-hatton-s md:text-hatton-m mb-2 hover:text-navigation-highlight"
             :class="route.path.includes('/pennsylvania') ? 'text-navigation-highlight' : ''"
           >
             Pennsylvania
           </NuxtLink>
           <NuxtLink to="/new-jersey" 
-            class="font-hatton text-hatton-m mb-2 hover:text-navigation-highlight"
+            class="font-hatton text-hatton-s md:text-hatton-m mb-2 hover:text-navigation-highlight"
             :class="route.path.includes('/new-jersey') ? 'text-navigation-highlight' : ''"
           >
             New Jersey
           </NuxtLink>
           <NuxtLink to="/minnesota" 
-            class="font-hatton text-hatton-m mb-2 hover:text-navigation-highlight"
+            class="font-hatton text-hatton-s md:text-hatton-m mb-2 hover:text-navigation-highlight"
             :class="route.path.includes('/minnesota') ? 'text-navigation-highlight' : ''"
           >
             Minnesota
@@ -45,16 +45,16 @@
   
         <div class="w-col6 flex flex-col mx-4">
           <h2 class="font-runde text-runde-xs font-bold uppercase mb-4">View By Outcome</h2>
-          <NuxtLink to="/nkip-exhibitions" class="hover:text-navigation-highlight">
+          <NuxtLink to="/nkip-exhibitions" class="text-runde-xs md:text-runde-s hover:text-navigation-highlight">
             #NKIP Exhibitions
           </NuxtLink>
-          <NuxtLink to="/billboards" class="hover:text-navigation-highlight">
+          <NuxtLink to="/billboards" class="text-runde-xs md:text-runde-s hover:text-navigation-highlight">
             Billboards
           </NuxtLink>
-          <NuxtLink to="/projects" class="hover:text-navigation-highlight">
+          <NuxtLink to="/projects" class="text-runde-xs md:text-runde-s hover:text-navigation-highlight">
             Projects
           </NuxtLink>
-          <NuxtLink to="/programming" class="hover:text-navigation-highlight">
+          <NuxtLink to="/programming" class="text-runde-xs md:text-runde-s hover:text-navigation-highlight">
             Public Programming
           </NuxtLink>
         </div>

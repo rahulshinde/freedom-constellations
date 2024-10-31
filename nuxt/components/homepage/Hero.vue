@@ -1,6 +1,6 @@
 <template>
   <section class="md:sticky top-0 z-1 px-4 pt-12 w-full md:h-[80svh]">
-    <figure class="block absolute z-[-1] top-0 left-0 w-full h-[91.5svh] overflow-hidden">
+    <figure class="block absolute md:z-[-1] top-0 left-0 w-full h-[91.5svh] overflow-hidden">
       <img
         src="/pngs/homepage_gradient.png"
         class="w-full h-[100%] object-contain object-left-top"
@@ -18,7 +18,7 @@
       Click on a state to see the art, learn from our collaborative process, and access tools to help you continue the fight to end youth incarceration.
     </p>
 
-    <nav class="w-full md:w-[80%] font-hatton text-hatton-l md:absolute top-[30%] left-1/2 -translate-x-1/2">
+    <nav class="w-full mt-8 md:mt-0 md:w-[80%] font-hatton text-hatton-s md:text-hatton-l relative md:absolute md:top-[30%] md:left-1/2 md:-translate-x-1/2">
       <HomepageStars />
       <HomepageText />
     </nav>

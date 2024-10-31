@@ -1,64 +1,64 @@
 <template>
   <ul 
-    class="relative z-10 w-full h-[60svh]"
+    class="relative z-10 w-full h-[80svh] md:h-[60svh]"
     ref="Stars"
   >
     <li 
       class="
         hover:text-navigation-highlight transition-colors group
-        absolute md:bottom-[20%] lg:bottom-[30%] md:left-[-5%] lg:left-[5%]
-        after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left 
+        absolute top-[10%] right-[10%] md:right-auto md:top-auto bottom-auto md:bottom-[20%] lg:bottom-[30%] md:left-[-5%] lg:left-[5%]
+        after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] md:after:border-t-[2px] after:border-dashed after:origin-left 
       "
       ref="Star1"
     >
-      <NuxtLink to="/virginia" class='flex items-center'>
-        <IconsStar1 fill="var(--navigation-highlight)" class="h-8 scale-[1.2] w-auto mr-2 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
+      <NuxtLink to="/virginia" class='flex items-center underline md:no-underline'>
+        <IconsStar1 fill="var(--navigation-highlight)" class="h-4 md:h-8 scale-[1.2] w-auto mr-2 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
         Virginia
       </NuxtLink>
     </li>
     <li class="
       hover:text-navigation-highlight transition-colors group
-      absolute md:top-[40%] lg:top-[20%] left-[30%]
-      after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left
+      absolute top-[30%] md:top-[40%] lg:top-[20%] left-[25%]
+      after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] md:after:border-t-[2px] after:border-dashed after:origin-left
       "
       ref="Star2"
     >
-      <NuxtLink to="/illinois" class='flex items-center'>
-        <IconsStar2 fill="var(--navigation-highlight)" class="h-8 scale-[1.2] w-auto mr-2 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
+      <NuxtLink to="/illinois" class='flex items-center underline md:no-underline'>
+        <IconsStar2 fill="var(--navigation-highlight)" class="h-4 md:h-8 scale-[1.2] w-auto mr-2 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
         Illinois
       </NuxtLink>
     </li>
     <li class="
       hover:text-navigation-highlight transition-colors group
-      absolute md:bottom-[5%] lg:bottom-[15%] left-[45%]
-      after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left
+      absolute top-[50%] md:top-auto md:bottom-[5%] lg:bottom-[15%] right-[20%] md:right-auto md:left-[45%]
+      after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] md:after:border-t-[2px] after:border-dashed after:origin-left
       "
       ref="Star3"
     >
-      <NuxtLink to="/pennsylvania" class='flex items-center'>
-        <IconsStar3 fill="var(--navigation-highlight)" class="h-8 scale-[1.2] w-auto mr-2 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
+      <NuxtLink to="/pennsylvania" class='flex items-center underline md:no-underline'>
+        <IconsStar3 fill="var(--navigation-highlight)" class="h-4 md:h-8 scale-[1.2] w-auto mr-2 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
         Pennsylvania 
       </NuxtLink>
     </li>
     <li class="
       hover:text-navigation-highlight transition-colors group
-      absolute md:top-[5%] lg:top-[-15%] left-[60%]
-      after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[2px] after:border-dashed after:origin-left
+      absolute top-[70%] md:top-[5%] lg:top-[-15%] left-[10%] md:left-[60%]
+      after:-z-10 after:content-[''] after:absolute after:w-distance after:rotate-angle after:bottom-3 after:left-3 after:border-t-[1px] md:after:border-t-[2px] after:border-dashed after:origin-left
     "
       ref="Star4"
     >
-      <NuxtLink to="/new-jersey" class='flex items-center'>
-        <IconsStar4 fill="var(--navigation-highlight)" class="h-8 scale-[1.2] w-auto mr-2 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
+      <NuxtLink to="/new-jersey" class='flex items-center underline md:no-underline'>
+        <IconsStar4 fill="var(--navigation-highlight)" class="h-4 md:h-8 scale-[1.2] w-auto mr-2 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
         New Jersey
       </NuxtLink> 
     </li>
     <li class="
       hover:text-navigation-highlight transition-colors group
-      absolute md:top-[55%] lg:top-[25%] md:left-[75%] lg:left-[85%]"
+      absolute top-[90%] left-[30%] md:top-[55%] lg:top-[25%] md:left-[75%] lg:left-[85%]"
       ref="Star5"
     >
-      <NuxtLink to="/minnesota" class='flex items-center'>
-        <IconsStar5 fill="var(--navigation-highlight)" class="h-8 scale-[1.2] w-auto mr-2 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
+      <NuxtLink to="/minnesota" class='flex items-center underline md:no-underline'>
+        <IconsStar5 fill="var(--navigation-highlight)" class="h-4 md:h-8 scale-[1.2] w-auto mr-2 [&_path]:transition-colors group-hover:[&_path]:fill-navigation-highlight" />
         Minnesota
       </NuxtLink>
     </li>
