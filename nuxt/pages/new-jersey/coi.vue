@@ -71,10 +71,41 @@ Inspired by the iconography of The Black Panthers, Young Lords and Afro-futurism
       </div>
       
       <BlockTextBody
-        text="Once the jumpsuits and caps were created, Performing Statistics and Project for Empty Space facilitated photoshoots with organizers wearing the garments in Newark and Camden. Portraits of the organizers were collaged into posters, banners and billboard designs. Giant banners were printed and hung in downtown Newark. During the #NoKidsInPrison exhibit in neighboring Philadelphia, billboards filled the streets of Camden. The woodcut sculptures are slated to be installed at a local organization in Camden. Art went up on the only billboard on the way to the largest youth prison in New Jersey, making sure that everyone driving there had to hear the demand of these youth leaders, “Put Youth in Power, Not Prison!”
-
-Check out each project section to see and learn more about the posters, billboards, banners and woodcuts created centering the youth wearing their abolitionist  jumpsuits."
+        text="Once the jumpsuits and caps were created, Performing Statistics and Project for Empty Space facilitated photoshoots with organizers wearing the garments in Newark and Camden. Portraits of the organizers were collaged into posters, banners and billboard designs. Giant banners were printed and hung in downtown Newark. During the #NoKidsInPrison exhibit in neighboring Philadelphia, billboards filled the streets of Camden. The woodcut sculptures are slated to be installed at a local organization in Camden. Art went up on the only billboard on the way to the largest youth prison in New Jersey, making sure that everyone driving there had to hear the demand of these youth leaders, “Put Youth in Power, Not Prison!"
       />
+
+      <div class="mx-8">
+        <div class="flex mt-8 justify-between mx-col1">
+          <img
+            class="w-col4 mx-4 h-[35vw] object-cover"
+            src="/new-jersey/coi/process/20210912_110409.jpg"
+          >
+          <img
+            class="w-col4 object-cover mx-4 h-[35vw]"
+            src="/new-jersey/coi/process/20210912_143909.jpg"
+          >
+          <img
+            class="w-col4 object-cover mx-4 h-[35vw]"
+            src="/new-jersey/coi/process/20210912_144234.jpg"
+          >
+        </div>
+        <div class="flex mt-8 justify-between mx-col1">
+          <img
+            class="w-col4 mx-4 h-[35vw] object-cover"
+            src="/new-jersey/coi/process/20210912_155431.jpg"
+          >
+          <img
+            class="w-col4 object-cover mx-4 h-[35vw]"
+            src="/new-jersey/coi/process/20210912_161525.jpg"
+          >
+          <img
+            class="w-col4 object-cover mx-4 h-[35vw]"
+            src="/new-jersey/coi/process/njgradcapdesign.jpg"
+          >
+        </div>
+      </div>
+      
+      <BlockTextBody text="Check out each project section to see and learn more about the posters, billboards, banners and woodcuts created centering the youth wearing their abolitionist  jumpsuits."/>
     </section> 
   </main>  
 </template>
