@@ -81,11 +81,39 @@ To create the posters, each young person chose a message to be featured with the
       <BlockCredits
         :credits="credits"
       />
+      <BlockTextHeading
+        text="More from New Jersey"
+      />
+      <BlockProjectFooterLinks
+        :links='footerLinks'
+      />
     </section>
   </main>
 </template>
 
 <script setup> 
+
+const footerLinks = [
+    {
+      title: "Cultural Organizing Institute",
+      link: "/new-jersey/coi",
+      img: "/new-jersey/index/NJ_COI.jpg",
+      color: "var(--nkip)"
+    }, 
+    {
+      title: "Abolitionist Billboards & Banners",
+      link: "/new-jersey/billboards",
+      img: "/new-jersey/index/NJ_Billboards.jpg",
+      color: "var(--billboards)"
+    }, 
+    {
+      title: "Massive Wheat Paste Mural",
+      link: "/new-jersey/mural",
+      img: "/new-jersey/index/NJ_Mural.jpg",
+      color: "var(--programs)"
+    }
+  ]
+
   const credits = [
     {
       title: 'Workshop facilitation',

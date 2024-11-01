@@ -44,7 +44,6 @@
       />
 
       <BlockProjectFooterLinks
-        class=""
         heading="More from Minnesota"
         :links="footerLinks"
       />

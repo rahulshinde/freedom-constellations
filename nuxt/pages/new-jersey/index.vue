@@ -49,7 +49,7 @@
 
         <IndexLink
           class="relative z-10"
-          text="Abolitionist Billboards"
+          text="Abolitionist Billboards & Banners"
           link="/new-jersey/billboards"
           img="/new-jersey/index/NJ_Billboards.jpg"
           color="var(--billboards)"
