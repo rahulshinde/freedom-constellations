@@ -22,7 +22,10 @@
           />
         </figure>
         <div class="text-runde-l font-semibold mt-4 inline">
-          {{ link.title }}<IconsLinkArrow class="inline-block w-auto h-5 ml-2" :color="link.color" />
+          <template v-for="(word, index) in link.title.split(' ')" :key="index">
+            <span class="inline-block mr-2" v-if="index != link.title.split(' ').length -1">{{ word }}</span>
+          </template>
+          <span class="inline-block mr-2">{{link.title.split(' ')[link.title.split(' ').length - 1]}}<IconsLinkArrow class="inline-block w-auto h-5 ml-2" :color="link.color" /></span>
         </div>
       </NuxtLink>
     </div>

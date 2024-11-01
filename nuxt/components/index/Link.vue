@@ -29,12 +29,15 @@
           textWidth ? textWidth : 'md:w-[20rem]'
         ]"
       >
-        <h2 
+        <div 
           class="text-runde-m md:text-runde-xl lg:text-runde-xxl inline font-semibold"
         >
-          {{ props.text }}
-        </h2><IconsLinkArrow class="inline-block w-auto h-3 md:h-7 ml-2 mt-0 md:-mt-3" :color="color" />
-      </figcaption>
+          <template v-for="(word, index) in textArray" :key="index">
+            <span class="inline-block mr-2" v-if="index != textArray.length -1">{{ word }}</span>
+          </template>
+          <span class="inline-block mr-2">{{textArray[textArray.length - 1]}}<IconsLinkArrow class="inline-block w-auto h-3 md:h-7 ml-2" :color="color" /></span>
+        </div> 
+        </figcaption>
     </NuxtLink>
   </div>
 </template>
@@ -47,6 +50,10 @@
     color: String,
     reverse: Boolean,
     textWidth: String,
+  });
+
+  const textArray = computed(() => {
+    return props.text.split(' ');
   });
 
   const hoverColorClass = computed(() => {
