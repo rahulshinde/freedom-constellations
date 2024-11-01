@@ -16,6 +16,26 @@
         bg-black relative z-10 pb-16
         before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0"
     >
+      <BlockImageFullWidthSlideshow
+        class='mt-8'
+        :images="[
+          {
+            src: '/new-jersey/coi/NJ_BIllboardPhotos2.jpg',
+          },
+          {
+            src: '/new-jersey/coi/NJ_PhotoShoot_24.jpg',
+          },
+          {
+            src: '/new-jersey/coi/NJ_PhotoShoot_12_small.jpg',
+          },
+          {
+            src: '/new-jersey/coi/2023CamdenPortraits.jpg',
+          },
+          {
+            src: '/new-jersey/coi/Camden_WheatPaste_4.jpg',
+          },
+        ]"
+      />
       <BlockTextBody
         text="While the governor of New Jersey was preparing to make recommendations to build 3 new youth prisons, spending over $600k per year on imprisoning each young person, the New Jersey cohort came together around a campaign illustrating youth leadership and power. The jumpsuit takeback project grew out of the messaging “Put Youth in Power not Prison.”  In a state where Black youth are 18x more likely to be incarcerated than their white peers, the team worked to create iconic images of BIPOC youth glowing with messaging and symbolism of their values and demands for NJ to invest in their dreams.  
 
@@ -29,6 +49,10 @@ Inspired by the iconography of The Black Panthers, Young Lords and Afro-futurism
           'Healing Not Harm',
           'Destroy Detainment'
         ]"
+      />
+
+      <BlockTextHeading
+        text="Check out the curriculum here"
       />
 
       <BlockTextBody
