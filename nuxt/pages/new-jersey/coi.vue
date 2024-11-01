@@ -69,6 +69,19 @@ Inspired by the iconography of The Black Panthers, Young Lords and Afro-futurism
           class="w-col6 mx-4"
         />
       </div>
+
+      <BlockImageAutoSlideshow
+        :images="[
+          '/new-jersey/coi/pdfs/NJJumpsuitCOIproject.jpg',
+          '/new-jersey/coi/pdfs/NJJumpsuitCOIproject2.jpg',
+          '/new-jersey/coi/pdfs/NJJumpsuitCOIproject3.jpg',
+          '/new-jersey/coi/pdfs/NJJumpsuitCOIproject4.jpg',
+          '/new-jersey/coi/pdfs/NJJumpsuitCOIproject5.jpg',
+        ]"
+        downloadLink="/new-jersey/coi/pdfs/NJJumpsuitCOIproject.pdf"
+        downloadText="Download Abolitionists Jumpsuits New Jersey Youth 4 Justice"
+        color="var(--nkip)"
+      />
       
       <BlockTextBody
         text="Once the jumpsuits and caps were created, Performing Statistics and Project for Empty Space facilitated photoshoots with organizers wearing the garments in Newark and Camden. Portraits of the organizers were collaged into posters, banners and billboard designs. Giant banners were printed and hung in downtown Newark. During the #NoKidsInPrison exhibit in neighboring Philadelphia, billboards filled the streets of Camden. The woodcut sculptures are slated to be installed at a local organization in Camden. Art went up on the only billboard on the way to the largest youth prison in New Jersey, making sure that everyone driving there had to hear the demand of these youth leaders, “Put Youth in Power, Not Prison!"
