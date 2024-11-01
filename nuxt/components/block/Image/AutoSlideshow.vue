@@ -22,6 +22,8 @@
       :href="downloadLink"
       class="flex mx-col3 mt-4 uppercase text-runde-s font-semibold"
       :class="hoverColorClass(color)"
+      target="_blank"
+      rel="noopener noreferrer"
     >
       {{ downloadText }} <IconsDownload :fill="color" class="w-5 h-5 ml-2" />
     </a>
