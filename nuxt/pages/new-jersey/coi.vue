@@ -121,9 +121,122 @@ Inspired by the iconography of The Black Panthers, Young Lords and Afro-futurism
       </div>
       
       <BlockTextBody text="Check out each project section to see and learn more about the posters, billboards, banners and woodcuts created centering the youth wearing their abolitionist  jumpsuits."/>
+
+      <BlockTextHeading
+        text="Credits"
+      />
+      <BlockCredits
+        :credits="credits"
+      />
+      <BlockCredits
+        title="Youth 4 Justice NJ: Newark"
+        :credits="youthForJusticeNewark"
+      />
+      <BlockCredits
+      title="Youth 4 Justice NJ: Camden"
+        :credits="youthForJusticeCamden"
+      />
+
+      <BlockTextHeading
+        text="More from New Jersey"
+      />
+      <BlockProjectFooterLinks
+        :links='footerLinks'
+      />
     </section> 
   </main>  
 </template>
 
 <script setup>
+  const footerLinks = [
+    {
+      title: "Posters",
+      link: "/new-jersey/posters",
+      img: "/new-jersey/index/NJ_Poster.jpg",
+      color: "var(--projects)"
+    }, 
+    {
+      title: "Abolitionist Billboards & Banners",
+      link: "/new-jersey/billboards",
+      img: "/new-jersey/index/NJ_Billboards.jpg",
+      color: "var(--billboards)"
+    },
+    {
+      title: "Massive Wheat Paste Mural",
+      link: "/new-jersey/mural",
+      img: "/new-jersey/index/NJ_Mural.jpg",
+      color: "var(--programs)"
+    }
+  ]
+
+  const youthForJusticeCamden = [
+    {
+      title: 'Youth leaders',
+      text: 'Alicia Garcia-Rivas, Tamia Hudson'
+    },
+    {
+      title: 'Youth Advocacy Coordinator',
+      text: 'Emilie Stewart'
+    }
+  ]
+
+  const youthForJusticeNewark = [
+    {
+      title: 'Youth leaders',
+      text: 'Semaj Roberts, Samiyah Webster'
+    },
+    {
+      title: 'Youth Advocacy Coordinator',
+      text: 'Krystal Seruya'
+    }
+  ]
+
+  const credits = [
+    {
+      title: 'Community Partners',
+      text: 'The NJ Institute for Social Justice\nRetha Onitiri, Community Engagement Director'
+    },
+    {
+      title: 'Workshop facilitation',
+      text: 'Kate DeCiccio with support from Mark Strandquist'
+    },
+    {
+      title: 'Project management',
+      text: 'Rebecca Jampol, Project for Empty Space'
+    },
+    {
+      title: 'Jumpsuit, cap & pin design, poster design',
+      text: 'Interdesign Collective:\nJan Kathleen, Luis Reyes, Maria Ismail, and Michael Oliphan'
+    },
+    {
+      title: 'Screen printing support',
+      text: 'Angela Pilgrim'
+    },
+    {
+      title: 'Vinyl application support',
+      text: 'Marylin Rini, Kebin Robin'
+    },
+    {
+      title: 'Vinyl cutting',
+      text: 'Stick Em Up'
+    },
+    {
+      title: 'Laser cutting',
+      text: 'Express Newark'
+    },
+    {
+      title: 'Newark photoshoot makeup artist',
+      text: 'Alicia Mitchel'
+    },
+    {
+      title: 'Photographers',
+      text: 'Mark Strandquist, Rachel Fawn'
+    },
+    {
+      title: 'Videographer',
+      text: 'Wren Rene'
+    }
+  ]
+
+
 </script>

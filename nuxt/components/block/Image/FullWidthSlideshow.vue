@@ -1,5 +1,5 @@
 <template>
-  <section class="slideshow-wrapper flex flex-col justify-between h-full grow">
+  <section class="slideshow-wrapper flex flex-col justify-between h-full grow mt-8">
     <div 
       class="slider flex items-start slideshow whitespace-nowrap snap-mandatory scrollbar-hidden overflow-y-hidden snap-x overflow-scroll"
       ref="slideshow"
