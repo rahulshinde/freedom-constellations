@@ -54,7 +54,22 @@ Inspired by the iconography of The Black Panthers, Young Lords and Afro-futurism
       <BlockTextHeading
         text="Check out the curriculum here"
       />
-
+        
+      <div class="flex mx-col3 mt-8">
+        <BlockPdfDownload
+          text="Inspiration Slideshow for jumpsuits"
+          filePath="/new-jersey/coi/pdfs/NJConceptExamples"
+          color="var(--nkip)"
+          class="w-col6 mx-4"
+        />
+        <BlockPdfDownload
+          text="Iconography of power concept development"
+          filePath="/new-jersey/coi/pdfs/Iconography&Power"
+          color="var(--nkip)"
+          class="w-col6 mx-4"
+        />
+      </div>
+      
       <BlockTextBody
         text="Once the jumpsuits and caps were created, Performing Statistics and Project for Empty Space facilitated photoshoots with organizers wearing the garments in Newark and Camden. Portraits of the organizers were collaged into posters, banners and billboard designs. Giant banners were printed and hung in downtown Newark. During the #NoKidsInPrison exhibit in neighboring Philadelphia, billboards filled the streets of Camden. The woodcut sculptures are slated to be installed at a local organization in Camden. Art went up on the only billboard on the way to the largest youth prison in New Jersey, making sure that everyone driving there had to hear the demand of these youth leaders, “Put Youth in Power, Not Prison!”
 
