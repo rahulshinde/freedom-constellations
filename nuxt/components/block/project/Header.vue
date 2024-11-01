@@ -13,8 +13,7 @@
       </div>
 
       <div class="flex mt-8 justify-between">
-        <p class="ml-col4 mx-4 text-runde-m w-col6 whitespace-prewrap">
-          {{ introText }}
+        <p class="ml-col4 mx-4 text-runde-m w-col6 whitespace-pre-wrap" v-html="introText">
         </p>
         <div class="w-[10.5rem] mx-4 flex flex-col">
           <div class="flex" v-if="location != ''">

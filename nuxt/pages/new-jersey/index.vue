@@ -26,7 +26,7 @@
           text="Cultural Organizing Institute"
           link="/new-jersey/coi"
           img="/new-jersey/index/NJ_COI.jpg"
-          color="var(--projects)"
+          color="var(--nkip)"
         />
       </div>
 
@@ -35,9 +35,9 @@
 
         <IndexLink
           class="relative z-10"
-          text="Banners"
-          link="/new-jersey/coi"
-          img="/new-jersey/index/NJ_Banner.jpg"
+          text="Posters"
+          link="/new-jersey/posters"
+          img="/new-jersey/index/NJ_Poster.jpg"
           color="var(--projects)"
           :reverse="true"
         />
@@ -64,7 +64,7 @@
           text="Massive Wheat Paste Mural"
           link="/new-jersey/mural"
           img="/new-jersey/index/NJ_Mural.jpg"
-          color="var(--projects)"
+          color="var(--programs)"
           :reverse="true"
         />
       </div>
