@@ -144,8 +144,8 @@ Highlights from Chicago programming included:"
           title="Programming"
           :credits = programming
       />
+      <BlockTextHeading text="More from Illinois"/>
       <BlockProjectFooterLinks
-          heading="More from Illinois"
           :links="footerLinks"
       />
     </section>

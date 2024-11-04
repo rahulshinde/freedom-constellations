@@ -44,7 +44,6 @@ The six locations that featured the projections were selected for their history 
       />
 
       <BlockTextHeading
-        class="mt-16"
         text="Credits"
       />
 
@@ -52,9 +51,10 @@ The six locations that featured the projections were selected for their history 
         :credits="credits"
       />
 
+      <BlockTextHeading
+        text="More from Minnesota"
+      />
       <BlockProjectFooterLinks
-        class="mt-16"
-        heading="More from Minnesota"
         :links="footerLinks"
       />
     </section>

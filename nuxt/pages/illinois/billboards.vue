@@ -67,8 +67,8 @@ The Performing Statistics team facilitated a series of workshops that allowed or
       <BlockCredits
           :credits="credits"
       />
+      <BlockTextHeading text="More from Illinois"/>
       <BlockProjectFooterLinks
-          heading="More from Illinois"
           :links="footerLinks"
       />
     </section>

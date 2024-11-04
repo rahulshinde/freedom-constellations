@@ -163,9 +163,10 @@ By collaborating with the youth coders at CODE VA to do the programming for the 
         title="New World Radio"
         :credits="nwr_credits"
       />
+      <BlockTextHeading
+        text="More from Virginia"
+      />
       <BlockProjectFooterLinks
-        class="mt-16"
-        heading="More from Virginia"
         :links="footerLinks"
       />
     </section>

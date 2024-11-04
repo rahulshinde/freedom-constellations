@@ -146,7 +146,6 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
 
       <div class="relative">
         <BlockTextHeading
-          class="mt-16"
           text="Credits"
         />
 
@@ -182,9 +181,10 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
         <img class="absolute z-[-1] bottom-[35vw] w-[18vw] left-[0vw]" src="/zine-assets/bluecrown2.png" />
       </div>
 
+      <BlockTextHeading
+        text="More from Minnesota"
+      />
       <BlockProjectFooterLinks
-        class="mt-16"
-        heading="More from Minnesota"
         :links="footerLinks"
       />
     </section>

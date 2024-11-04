@@ -78,8 +78,8 @@ When it was time to stuff bags, Healthy Hood jumped in to support! Together with
         title="Snack Bags"
         :credits="chipCredits" />
 
+      <BlockTextHeading text="More from Illinois"/>
       <BlockProjectFooterLinks
-          heading="More from Illinois"
           :links="footerLinks"
       />
     </section>

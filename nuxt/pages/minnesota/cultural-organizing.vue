@@ -50,17 +50,17 @@ The End Youth Prisons campaign leaders covered their jackets in demands for a MN
       </div>
 
       <BlockTextHeading
-        class="mt-8"
         text="Credits"
       />
 
       <BlockCredits
         :credits="credits"
+      /> 
+      <BlockTextHeading
+        text="More from Minnesota"
       />
 
       <BlockProjectFooterLinks
-        class="mt-16"
-        heading="More from Minnesota"
         :links="footerLinks"
       />
     </section>

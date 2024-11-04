@@ -42,9 +42,9 @@ Huge thanks to CultureWorks Richmond and GRTC for making this possible! And to F
       <BlockTextHeading text="Credits"/>
       <BlockCredits 
           :credits="credits"/>
+      <BlockTextHeading text="More from Virginia"/>
+        
       <BlockProjectFooterLinks
-        class="mt-16"
-        heading="More from Virginia"
         :links="footerLinks"
       />
     </section>

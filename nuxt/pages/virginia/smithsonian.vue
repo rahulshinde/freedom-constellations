@@ -34,9 +34,8 @@ The film has also been viewed at many exhibitions, pop-up events and was feature
       <BlockTextHeading text="Credits"/>
       <BlockCredits 
           :credits="credits"/>
+      <BlockTextHeading text="More from Virginia"/>
       <BlockProjectFooterLinks
-        class="mt-16"
-        heading="More from Virginia"
         :links="footerLinks"
       />
     </section>

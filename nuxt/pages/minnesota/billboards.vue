@@ -35,7 +35,6 @@
       />
 
       <BlockTextHeading
-        class="mt-8"
         text="Credits"
       />
 
@@ -43,8 +42,10 @@
         :credits="credits"
       />
 
+      <BlockTextHeading
+        text="More from Minnesota"
+      />
       <BlockProjectFooterLinks
-        heading="More from Minnesota"
         :links="footerLinks"
       />
     </section>
