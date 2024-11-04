@@ -2,16 +2,20 @@
   <div class="flex mx-4 mt-8 items-center"
     :class="reverse ? 'flex-row-reverse' : 'flex-row'"
     >
-    <img class="w-col6 mx-4 max-h-[80svh] object-contain" :src="img">
+    <img 
+      class="w-col6 mx-4 max-h-[80svh] object-contain" 
+      :class="reverse ? 'object-left' : 'object-right'"
+      :src="img"
+    >
     <div class="w-col6 flex relative mx-4">
       <p 
-        class="flex flex-col w-[70%]"
+        class="flex flex-col w-[80%]"
         :class="[
-          reverse ? 'ml-[30%]' : '',
+          reverse ? 'ml-[20%]' : '',
           textColorClass(color)
         ]"
       >
-        <span class="quote relative pl-3 font-hatton self-center text-hatton-xl">{{ quote }}”</span>
+        <span class="quote relative pl-4 font-hatton self-center text-hatton-xl">{{ quote }}”</span>
         <span class='ml-8 mt-2 text-runde-xl'>—{{ attribution }}</span>
       </p>
 

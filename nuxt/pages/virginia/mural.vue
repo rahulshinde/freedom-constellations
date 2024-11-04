@@ -61,7 +61,7 @@ By collaborating with the youth coders at CODE VA to do the programming for the 
       />
 
       <div class="mx-4 mt-8">
-        <div class="ml-col3 mr-col3">
+        <div class="px-12 ml-col3 mr-col3">
           <iframe class="w-full" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1195354759&color=%23ffcd00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         </div>
       </div>
@@ -70,7 +70,7 @@ By collaborating with the youth coders at CODE VA to do the programming for the 
         text="The mural stayed on display for over a year and was directly across the street from the police department. Positioned at 3rd and Broad st (one of the busiest intersections in the city), the mural received a feature article in the <a href='https://richmond.com/entertainment/art/on-the-wall-across-from-vcu-police-department-advocates-unveil-a-mural-that-imagines-a/article_0dc739f2-83c2-5318-b6c0-67fcf41ceb2f.html' target='_blank'>city’s largest newspaper</a> and was viewed by thousands of people."
       />
 
-      <div class="mx-8 mt-16 mb-16">
+      <div class="mx-4 mt-16 mb-16">
         <div class="flex justify-between">
           <img
             class="w-1/3 mr-4 h-[20vw] mx-4 object-cover"
@@ -143,7 +143,7 @@ By collaborating with the youth coders at CODE VA to do the programming for the 
       />
 
       <div class="mx-4 mt-8">
-        <div class="ml-col3 mr-col3">
+        <div class="px-12 ml-col3 mr-col3">
           <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1161880087&color=%23ffcd00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         </div>
       </div>
