@@ -22,13 +22,19 @@
       <div class="flex ml-4">
         <button class="mr-4"
           @click="prevSlide">
-          <IconsBack class="w-12 h-auto"/>
+          <IconsBack 
+            class="w-12 h-auto transition-opacity"
+            :class="currentIndex == 1 ? 'opacity-[0.75] pointer-events-none' : ''"
+          />
         </button>
         <button
           @click="nextSlide"
           class='mr-4'
         >
-          <IconsBack class="w-12 h-auto rotate-[180deg]"/>
+          <IconsBack 
+            class="w-12 h-auto rotate-[180deg] transition-opacity"
+            :class="currentIndex == length ? 'opacity-[0.75] pointer-events-none' : ''"
+          />
         </button>
       </div>
     </nav>
@@ -46,16 +52,16 @@
 
   const nextSlide = () => {
     let newIndex = currentIndex.value + 1
-    if (newIndex > length.value - 1) {
-      newIndex = length.value - 1
+    if (newIndex > length.value) {
+      newIndex = length.value
     }
     setSlidePosition(newIndex)
   }
 
   const prevSlide = () => {
     let newIndex = currentIndex.value - 1
-    if (newIndex < 1) {
-      newIndex = 0
+    if (newIndex < 0) {
+      newIndex = 1
     }
     setSlidePosition(newIndex)
   }

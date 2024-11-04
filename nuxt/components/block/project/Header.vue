@@ -12,7 +12,7 @@
         <h2 class="text-runde-xxl font-semibold">{{subtitle}}</h2>
       </div>
 
-      <div class="flex mt-4 justify-between">
+      <div class="flex mt-8 justify-between">
         <p class="ml-col4 pl-12 mx-4 text-runde-m w-[50%] whitespace-pre-wrap" v-html="introText">
         </p>
         <div class="w-[9.5rem] mx-4 flex flex-col">
