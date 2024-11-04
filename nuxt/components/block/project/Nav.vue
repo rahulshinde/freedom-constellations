@@ -1,7 +1,7 @@
 <template>
   <nav class="sticky top-8 h-[1px] transition-all duration-[0.5s]" id="projectNav" ref="projectNav">
     <div class="relative flex overflow-hidden justify-between w-full">
-      <NuxtLink class="mr-0 ml-12 w-col1 group transition-all duration-[0.5s] translate-x-[-12.5rem]" :to="backLink" id="pageBackLink" ref="pageBackLink">
+      <NuxtLink class="mr-0 ml-8 w-col1 group transition-all duration-[0.5s] translate-x-[-12.5rem]" :to="backLink" id="pageBackLink" ref="pageBackLink">
         <IconsBack 
           class="w-12 h-auto group-hover:[&_path]:stroke-navigation-highlight [&_path]:transition-all duration-300"
           fill="var(--white)"

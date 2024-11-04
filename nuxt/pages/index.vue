@@ -22,6 +22,7 @@
       />
 
       <BlockTextBody
+        class="mb-4"
         text="We are excited to share this website in an effort to showcase all that has been created but it's so much more than a website, it's an:"
       />
       <BlockTextBullet

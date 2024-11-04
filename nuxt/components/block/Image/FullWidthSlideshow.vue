@@ -10,10 +10,10 @@
       </figure>
     </div>
 
-    <nav class="w-full slideshow-controls flex items-start justify-between pr-4 pl-4 mt-8">
+    <nav class="w-full slideshow-controls flex items-start justify-between pr-4 pl-4 mt-4">
       <div class="thumbnails flex flex-wrap ml-2">
         <button 
-          class="mx-2 mb-4" v-for="(image, index) in images" :key="'thumb' + index"
+          class="mx-2 mt-4" v-for="(image, index) in images" :key="'thumb' + index"
           @click="setSlidePosition(index + 1)"
         >
           <img class="h-[6rem] opacity-50 hover:opacity-100 transition-opacity" :src="image.src"/>

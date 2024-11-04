@@ -5,6 +5,7 @@
     </Transition>
     <NuxtPage :class="route.name != 'index' ? 'pt-32' : ''" />
     <SiteFooter class="z-10"/>
+    <Grid />
   </div>
 </template>
 

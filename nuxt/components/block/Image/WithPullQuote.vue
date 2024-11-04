@@ -11,8 +11,8 @@
           textColorClass(color)
         ]"
       >
-        <span class="quote relative pl-3 font-hatton self-center text-hatton-l">{{ quote }}”</span>
-        <span class='ml-8 mt-2 text-runde-m'>—{{ attribution }}</span>
+        <span class="quote relative pl-3 font-hatton self-center text-hatton-xl">{{ quote }}”</span>
+        <span class='ml-8 mt-2 text-runde-xl'>—{{ attribution }}</span>
       </p>
 
       <div

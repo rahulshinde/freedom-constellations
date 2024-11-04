@@ -1,21 +1,21 @@
 <template>
-  <section class="mx-4 z-10 mt-16">
-    <div class="flex flex-wrap">
-      <NuxtLink class="mr-0 ml-8 w-col1 group" :to="backLink">
+  <section class="z-10 mt-16">
+    <div class="flex flex-wrap mx-4">
+      <NuxtLink class="w-col1 mx-4 group" :to="backLink">
         <IconsBack 
           class="w-12 h-auto group-hover:[&_path]:stroke-navigation-highlight [&_path]:transition-all duration-300"
           fill="var(--white)"
         />
       </NuxtLink>
-      <div class="mx-4 ml-col2 w-col7">
+      <div class="mx-4 ml-col2 px-12 w-col7">
         <h1 class="font-hatton text-hatton-l">{{title}}</h1>
         <h2 class="text-runde-xxl font-semibold">{{subtitle}}</h2>
       </div>
 
       <div class="flex mt-8 justify-between">
-        <p class="ml-col4 mx-4 text-runde-m w-col6 whitespace-pre-wrap" v-html="introText">
+        <p class="ml-col4 pl-12 mx-4 text-runde-m w-[50%] whitespace-pre-wrap" v-html="introText">
         </p>
-        <div class="w-[10.5rem] mx-4 flex flex-col">
+        <div class="w-[9.5rem] mx-4 flex flex-col">
           <div class="flex" v-if="location != ''">
             <div class='flex flex-col items-center w-8 mr-2'><IconsLocation class="h-6 w-8"/></div>
             <h3 class="meta-info font-runde text-runde-xs font-bold uppercase mb-4">{{location}}</h3>

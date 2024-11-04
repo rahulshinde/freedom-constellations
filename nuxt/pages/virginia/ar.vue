@@ -148,7 +148,7 @@ As part of the 3 part City Hall tour, participants could step into the historic 
 
       <BlockTextHeading
         text="Credits"
-        class="mt-32 scroll-mt-[11rem]"
+        class="scroll-mt-[11rem]"
         id='credits'
       />
       <BlockCredits
@@ -159,9 +159,10 @@ As part of the 3 part City Hall tour, participants could step into the historic 
       <BlockCredits
         title="Additional Credits"
         :credits="additional"/>
+      <BlockTextHeading
+        text="More from Virginia"
+      />
       <BlockProjectFooterLinks
-        class="mt-16"
-        heading="More from Virginia"
         :links="footerLinks"
       />
     </section>

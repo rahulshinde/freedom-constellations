@@ -19,7 +19,7 @@
         <img
           :src="props.img"
           :alt="props.text"
-          class="inline-block w-full h-full group-hover:rounded-xl object-cover transition-all duration-300" 
+          class="inline-block w-full group-hover:rounded-xl object-cover transition-all duration-300" 
           />
       </figure>
       <figcaption 

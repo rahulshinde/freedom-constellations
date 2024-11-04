@@ -71,7 +71,7 @@ export default {
         }
       ],
       'runde-xl': [
-        '2.25rem',
+        '2rem',
         {
           lineHeight: '1.2',
           letterSpacing: '-0.01em'
