@@ -69,6 +69,9 @@ When it was time to stuff bags, Healthy Hood jumped in to support! Together with
       />
 
       <BlockTextHeading text="Final Five Audio Installation"/>
+      <BlockImageHalfWidth
+        img="/illinois/coi/FinalFiveaudiostation2.jpg"
+      />
       
       <BlockTextHeading text="Credits"/>
       <BlockCredits 

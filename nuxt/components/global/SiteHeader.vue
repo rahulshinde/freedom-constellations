@@ -8,10 +8,11 @@
     id="siteHeader"
     ref="siteHeader"
   >
-    <NuxtLink to="/" class="flex items-start w-col3 mx-4">
-      <IconsLogo class="h-12 w-auto" />
+    <NuxtLink to="/" class="flex items-start w-col8 md:w-col3 md:mx-4">
+      <IconsLogo class="md:block md:h-12 md:w-auto" />
     </NuxtLink>
-    <nav class="mx-4 w-[30rem] font-hatton absolute left-1/2 -translate-x-1/2">
+    <button class="md:hidden rounded-lg text-center uppercase text-runde-xs font-bold leading-[1] px-2 pt-2.5 py-2 bg-bg-highlight">Menu</button>
+    <nav class="opacity-0 md:opacity-100 mx-4 w-[30rem] font-hatton absolute left-1/2 -translate-x-1/2">
       <ul class="relative w-full h-24">
         <li 
           class="
@@ -84,7 +85,7 @@
         </li>
       </ul>
     </nav>
-    <div class="flex flex-col items-center">
+    <div class="opacity-0 absolute md:static pointer-events-none md:opacity-100 md:pointer-events-auto flex flex-col items-center">
       <AbolitionButton/>
       <div class="flex items-center mt-4">
         <span class="border-[2px] rounded-[50%] font-bold text-[0.6rem] px-[0.4rem] py-[0.1rem]">?</span>

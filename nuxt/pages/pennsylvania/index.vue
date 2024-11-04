@@ -77,18 +77,17 @@
       </div>
       
       <BlockTextHeading
-        class="!mt-16"
         text='Watch a mini-documentary about all the magic youth leaders created in Philadelphia!'
       />
 
       <BlockVideo
         video="https://player.vimeo.com/progressive_redirect/playback/1021789567/rendition/1080p/file.mp4?loc=external&signature=5d68aae78f022027e717643f3b8e5f97a8031eebac4ef4c3726e8fb2057d340b"
+        poster="/pennsylvania/index/penn_index_poster.jpg"
       />
 
       <div class="relative overflow-hidden">
         <img loading="lazy" class="absolute z-10 top-0 w-[40%] -rotate-90 -right-[15vw]" src="/zine-assets/zine-assets_0004_Layer-8.png" />
       <BlockTextWithQuote
-        class="pb-16"
         text="Featuring a city-wide constellation of massive banners, billboards, temporary murals, immersive exhibitions, and robust public programming, this rare project looked to Philadelphia’s youth to help guide us all to a future where all children are free, healed, and thriving.
 
 This project came in a moment when conservative forces were, and continue to push racist tough-on-crime narratives (that blame youth, communities, and progressive movements). Our work in Philadelphia countered these regressive narratives by looking to youth themselves as the leaders we need most. The stories we tell about the kind of future we want to build are more important than ever. That future belongs to our youth and we believe that it’s our duty to do everything we can to amplify their voices and make their dreams and demands as loud, public, and beautiful as possible!"
