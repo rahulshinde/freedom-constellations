@@ -1,7 +1,7 @@
 <template>
   <header 
     class="
-      flex items-center fixed left-4 right-4 justify-between transition-all duration-[0.5s] pt-4 z-[100]
+      flex items-center fixed left-4 right-4 justify-between transition-all duration-[0.5s] pt-2 md:pt-4 z-[100]
       after:content-[''] after:pointer-events-none after:absolute after:h-[150%] after:top-0 after:-left-8 after:-right-8 after:z-[-1] after:transition-all after:duration-[0.5s] after:translate-y-[-100%]
       after:bg-gradient-to-t after:to-black after:from-black-trans
     "
