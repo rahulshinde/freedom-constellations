@@ -1,6 +1,6 @@
 <template>
   <main>
-    <HomepageHero class="mb-[0svh] z-10" />
+    <HomepageHero class="mb-[0svh] block z-10" />
     <section 
       class="
         bg-black relative z-10
@@ -9,6 +9,7 @@
     >
       <BlockFullBleed
         :cover="true"
+        class="[&_video]:h-[60svh]"
         video="https://player.vimeo.com/progressive_redirect/playback/1008534310/rendition/1080p/file.mp4?loc=external&signature=8dffa6399b5433c59dd5e912c9ff81dd7a04aaf059eaba5e3098bbf22b971ad3"
       />
       <BlockTextLarge
@@ -22,7 +23,7 @@
       />
 
       <BlockTextBody
-        class="mb-4"
+        class="md:mb-4"
         text="We are excited to share this website in an effort to showcase all that has been created but it's so much more than a website, it's an:"
       />
       <BlockTextBullet
@@ -40,10 +41,10 @@
       />
 
       <BlockTextHeading
-        class="md:mt-32"
         text="Explore Projects by State"
+        class="hidden md:flex"
       />
-      <BlockLocationLinks class="-mb-8 md:mb-0"/>
+      <BlockLocationLinks class="hidden md:grid -mb-8 md:mb-0"/>
     </section>
   </main>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <figure class="mt-8">
+  <figure class="mt-4 md:mt-8">
     <img
       v-if="image"
       :src="image"

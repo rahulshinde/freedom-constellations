@@ -1,5 +1,5 @@
 <template>
-  <figure class="mx-8 mt-8">
+  <figure class="mx-8 mt-4 md:mt-8">
     <img
       :src="img"
       :alt="alt"

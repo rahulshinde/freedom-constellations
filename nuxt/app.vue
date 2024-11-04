@@ -3,6 +3,7 @@
     <Transition name="modalTransition">
       <SiteHeader v-if="route.name != 'index' "/>
     </Transition>
+    <SiteHeader class="top-0 md:hidden" v-if="route.name == 'index' "/>
     <NuxtPage :class="route.name != 'index' ? 'pt-20 md:pt-32' : ''" />
     <SiteFooter class="z-10"/>
     <Grid />
