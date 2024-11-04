@@ -14,12 +14,12 @@
       ]"
     >
       <figure class="md:w-[60%] 
-      relative after:content-[''] after:block after:absolute after:top-0 after:left-0 after:w-full after:h-full after:z-[-1] after:rounded-xl after:shadow-imgLgHvr after:opacity-0 group-hover:after:opacity-100 after:transition-all"
+      relative aspect-[3/2] after:content-[''] after:block after:absolute after:top-0 after:left-0 after:w-full after:h-full after:z-[-1] after:rounded-xl after:shadow-imgLgHvr after:opacity-0 group-hover:after:opacity-100 after:transition-all"
       :class="props.reverse ? 'md:ml-4' : 'md:mr-4'">
         <img
           :src="props.img"
           :alt="props.text"
-          class="inline-block w-full group-hover:rounded-xl transition-all duration-300" 
+          class="inline-block w-full h-full group-hover:rounded-xl object-cover transition-all duration-300" 
           />
       </figure>
       <figcaption 

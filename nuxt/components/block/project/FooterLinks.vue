@@ -13,11 +13,11 @@
           ]
         "
       >
-        <figure class="relative after:content-[''] after:block after:absolute after:top-0 after:left-0 after:w-full after:h-full after:z-[-1] after:rounded-xl after:shadow-imgHvr after:opacity-0 group-hover:after:opacity-100 after:transition-all">
+        <figure class="relative aspect-[3/2] after:content-[''] after:block after:absolute after:top-0 after:left-0 after:w-full after:h-full after:z-[-1] after:rounded-xl after:shadow-imgHvr after:opacity-0 group-hover:after:opacity-100 after:transition-all">
           <img 
             :src="link.img" 
             class="
-              grow group-hover:rounded-xl transition-all aspect-[3/2] object-cover
+              grow group-hover:rounded-xl w-full h-full transition-all object-cover
             "
           />
         </figure>

@@ -145,8 +145,10 @@
         heading="Youth Convening"
         text="Understanding the power of youth cross pollination and relationship building, Performing Statistics hosted a youth convening where organizers from Minnesota and Illinois were about to experience the exhibition, see public art across the city and learn from Pennsylvania and New Jersey organizers about the process. The time together created space for relationships building between campaigns and opportunity to begin planning for the exhibition to travel to Chicago and Minneapolis."
       />
+      <BlockTextHeading
+        text="Credits"
+      />
       <BlockCredits
-        class="!mt-32"
         title="Cherry Street Pier Team"
         :credits="csp_credits"
       />
@@ -159,9 +161,11 @@
         :credits="programmingCredits"
       />
 
+      <BlockTextHeading
+        text="More from Pennsylvania"
+      />
+
       <BlockProjectFooterLinks
-        class="mt-16"
-        heading="More from Pennsylvania"
         :links="footerLinks"
       />
     </section> 
