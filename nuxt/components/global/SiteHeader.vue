@@ -1,18 +1,31 @@
 <template>
   <header 
     class="
-      flex items-center fixed left-4 right-4 justify-between transition-all duration-[0.5s] pt-2 md:pt-4 z-[100]
-      after:content-[''] after:pointer-events-none after:absolute after:h-[150%] after:top-0 after:-left-8 after:-right-8 after:z-[-1] after:transition-all after:duration-[0.5s] after:translate-y-[-100%]
+      flex items-center flex-col md:flex-row fixed left-4 right-4 justify-between transition-all duration-[0.5s] pt-4 pb-8 md:pb-0 md:pt-4 z-[100]
+      after:content-[''] after:pointer-events-none after:absolute after:h-100% after:h-[150%] after:top-0 after:-left-8 after:-right-8 after:z-[-1] after:transition-all after:duration-[0.5s] after:translate-y-[-100%]
       after:bg-gradient-to-t after:to-black after:from-black-trans
     "
+    :class="[
+      menuOpen ? 'backdrop-blur-sm md:backdrop-blur-none after:translate-y-0 h-[100svh] md:h-auto' : '',
+    ]"
     id="siteHeader"
     ref="siteHeader"
   >
-    <NuxtLink to="/" class="flex items-start w-col8 md:w-col3 md:mx-4">
-      <IconsLogo class="md:block md:h-12 md:w-auto" />
-    </NuxtLink>
-    <button class="md:hidden rounded-lg text-center uppercase text-runde-xs font-bold leading-[1] px-2 pt-2.5 py-2 bg-bg-highlight">Menu</button>
-    <nav class="opacity-0 md:opacity-100 mx-4 w-[30rem] font-hatton absolute left-1/2 -translate-x-1/2">
+    <div class="flex items-center justify-between w-full">
+      <NuxtLink to="/" class="flex items-start w-col8 md:w-col3 md:mx-4 z-10">
+        <IconsLogo class="md:block h-12 w-auto md:h-12" />
+      </NuxtLink>
+      <button 
+        class="z-10 md:hidden rounded-lg text-center uppercase text-runde-xs font-bold leading-[1] px-2 pt-2.5 py-2 bg-bg-highlight"
+        @click="menuOpen = !menuOpen"
+      >
+        Menu
+      </button>
+    </div>
+    <nav 
+      class="h-0 md:h-auto transition-opacity md:opacity-100 mx-4 w-full md:w-[20rem] lg:w-[30rem] font-hatton text-hatton-s md:text-hatton-s lg:text-hatton-m md:absolute md:left-[45%] lg:left-1/2 md:-translate-x-1/2"
+      :class="menuOpen ? 'opacity-100 !h-auto pointer-events-auto' : 'opacity-0 pointer-events-none'"
+    >
       <ul class="relative w-full h-24">
         <li 
           class="
@@ -85,7 +98,10 @@
         </li>
       </ul>
     </nav>
-    <div class="opacity-0 absolute md:static pointer-events-none md:opacity-100 md:pointer-events-auto flex flex-col items-center">
+    <div 
+      class="h-0 md:h-auto transition-opacity md:static md:opacity-100 md:pointer-events-auto flex flex-col items-center"
+      :class="menuOpen ? '!h-auto opacity-100 pointer-events-auto' : 'opacity-0'"
+    >
       <AbolitionButton/>
       <div class="flex items-center mt-4">
         <span class="border-[2px] rounded-[50%] font-bold text-[0.6rem] px-[0.4rem] py-[0.1rem]">?</span>
@@ -105,6 +121,7 @@
   const route = useRoute();
   const { directions } = useScroll(window)
   const siteHeader = ref(null);
+  const menuOpen = ref(false);
 
   onMounted(() => {
     window.addEventListener('scroll', () => {

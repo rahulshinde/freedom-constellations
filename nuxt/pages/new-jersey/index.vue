@@ -1,6 +1,6 @@
 <template>
   <main>
-    <BlockTextHeading class="relative z-20 !mt-16" text="New Jersey: Putting Youth in Power, Not Prison!" />
+    <BlockTextHeading class="relative z-20" text="New Jersey: Putting Youth in Power, Not Prison!" />
     <BlockTextBody
       class="!mt-4 relative z-20"
       text="As the country erupted in uprisings demanding reallocation of city budgets from policing to life affirming services, the New Jersey governor rolled out his plan to build 3 new youth prisons. Youth leaders from Newark and Camden jumped into action, using shelter-in-place as time to study the iconography of power and develop a series of posters, billboards and banners that would stretch across the state and make their opposition heard!"
