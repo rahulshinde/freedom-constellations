@@ -6,7 +6,7 @@
       backLink="/illinois"
       subtitle="Cultural Organizing Institute"
       location="Chicago, Illinois"
-      introText=""
+      introText="In Chicago, The Final 5 Campaign and Circles and Ciphers produced ambitious cultural organizing projects that engaged dozens of youth collaborators. Circles and Ciphers wrote and recorded a song and music video! While brainstorming about how to distribute the video, they landed on an abolitionist snack bag which became a bundle of visionary treats! Final 5 focused on centering the voices of local incarcerated youth and created an immersive sculpture in the #NoKidsInPrison gallery."
       date=""
       :onThisPage="[
       ]"
@@ -68,7 +68,10 @@ Circles and Ciphers team decided to fill the bag with Chicago abolitionist love 
 When it was time to stuff bags, Healthy Hood jumped in to support! Together with rotating teams from Final Five, Circles and Ciphers and Performing Statistic, we stuffed hundreds of Free Da Homies bags that we gave away over the course of the month #NoKidsInPrison was in Chicago."
       />
 
-      <BlockTextHeading text="Final Five Audio Installation"/>
+      <BlockTextHeading text="An immersive sculpture featuring letters and voices from local incarcerated youth by Final 5."/>
+      <BlockTextBody
+          text="The Final 5 campaign collaborated with incarcerated youth in Chicago to create an installation that carried their voices into the exhibition. Each youth collaborator chose interview questions and wrote letters to the exhibition audience to create a reflective space where attendees could read letters from young people inside sharing about their experiences and dreams of a Chicago without youth incarceration. The installation was even more powerful because Final 5 recorded each young person reading their letter, so people had the option of listening to the voices of each youth behind the letters."
+      />
       <BlockImageHalfWidth
         img="/illinois/coi/FinalFiveaudiostation2.jpg"
       />
