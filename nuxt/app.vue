@@ -1,10 +1,7 @@
 <template>
   <div class="bg-homepage bg-cover bg-center bg-fixed">
-    <Transition name="modalTransition">
-      <SiteHeader v-if="route.name != 'index' "/>
-    </Transition>
-    <SiteHeader class="top-0 md:hidden" v-if="route.name == 'index' "/>
-    <NuxtPage :class="route.name != 'index' ? 'pt-20 md:pt-32' : ''" />
+    <SiteHeader :class="route.name == 'index' ? 'md:hidden' : ''" />
+    <NuxtPage :class="route.name != 'index' ? 'pt-12 md:pt-32' : ''" />
     <SiteFooter class="z-10"/>
     <Grid />
   </div>

@@ -19,7 +19,7 @@
       <BlockTextBody text="Use the sections below to experience and learn more about each project that took place in Richmond." />
 
 
-      <div class="relative mt-32 md:mt-0">
+      <div class="relative mt-4 md:mt-0">
         <img class="absolute -z-[1] -top-[15vw] right-[10vw] w-[30vw]" src="/zine-assets/threecircles1.png" />
         <img class="absolute -z-[1] top-[5vw] right-[10vw] w-[10vw]" src="/zine-assets/orangestar.png" />
 

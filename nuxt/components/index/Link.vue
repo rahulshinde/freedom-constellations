@@ -1,8 +1,8 @@
 <template>
   <div 
-    class="w-1/2 md:w-full -mt-24 md:mt-8"
+    class="w-[70%] md:w-full mt-4 md:mt-8"
     :class="[
-      props.reverse ? 'ml-[50%] md:ml-0' : ''
+      props.reverse ? 'ml-[30%] md:ml-0' : ''
     ]"  
   >
     <NuxtLink
@@ -23,7 +23,7 @@
           />
       </figure>
       <figcaption 
-        class='mb-8 mt-2 md:mt-0'
+        class='md:mb-8 mt-2 md:mt-0'
         :class="[
           props.reverse ? 'md:mr-4' : 'md:ml-4',
           textWidth ? textWidth : 'md:w-[20rem]'
@@ -33,9 +33,9 @@
           class="text-runde-m md:text-runde-xl lg:text-runde-xxl inline font-semibold"
         >
           <template v-for="(word, index) in textArray" :key="index">
-            <span class="inline-block mr-2" v-if="index != textArray.length -1">{{ word }}</span>
+            <span class="inline-block mr-[0.25rem] md:mr-2" v-if="index != textArray.length -1">{{ word }}</span>
           </template>
-          <span class="inline-block mr-2">{{textArray[textArray.length - 1]}}<IconsLinkArrow class="inline-block w-auto h-3 md:h-7 ml-2" :color="color" /></span>
+          <span class="inline-block mr-[0.25rem] md:mr-2">{{textArray[textArray.length - 1]}}<IconsLinkArrow class="inline-block w-auto h-3 md:h-7 ml-2" :color="color" /></span>
         </div> 
         </figcaption>
     </NuxtLink>
