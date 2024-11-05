@@ -1,21 +1,21 @@
 <template>
-  <section class="z-10 mt-16">
+  <section class="z-10 mt-8 md:mt-16">
     <div class="flex flex-wrap mx-4">
-      <NuxtLink class="w-col1 mx-4 group" :to="backLink">
+      <NuxtLink class="hidden md:block w-col1 mx-4 group" :to="backLink">
         <IconsBack 
           class="w-12 h-auto group-hover:[&_path]:stroke-navigation-highlight [&_path]:transition-all duration-300"
           fill="var(--white)"
         />
       </NuxtLink>
-      <div class="mx-4 ml-col2 px-12 w-col7">
+      <div class="md:mx-4 md:ml-col2 md:px-12 md:w-col7">
         <h1 class="font-hatton text-hatton-l">{{title}}</h1>
-        <h2 class="text-runde-xxl font-semibold">{{subtitle}}</h2>
+        <h2 class="text-runde-xl md:text-runde-xxl font-semibold">{{subtitle}}</h2>
       </div>
 
-      <div class="flex mt-8 justify-between">
-        <p class="ml-col4 pl-12 mx-4 text-runde-m w-[50%] whitespace-pre-wrap" v-html="introText">
+      <div class="flex flex-col md:flex-row mt-4 md:mt-8 justify-between">
+        <p class="md:ml-col4 md:pl-12 md:mx-4 text-runde-s md:text-runde-m md:w-[50%] whitespace-pre-wrap" v-html="introText">
         </p>
-        <div class="w-[9.5rem] mx-4 flex flex-col">
+        <div class="mt-8 md:mt-0 w-[9.5rem] md:mx-4 flex flex-col gap-4">
           <div class="flex" v-if="location != ''">
             <div class='flex flex-col items-center w-8 mr-2'><IconsLocation class="h-6 w-8"/></div>
             <h3 class="meta-info font-runde text-runde-xs font-bold uppercase mb-4">{{location}}</h3>

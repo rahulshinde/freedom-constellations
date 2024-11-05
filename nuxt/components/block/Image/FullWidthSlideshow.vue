@@ -4,14 +4,14 @@
       class="slider flex items-start slideshow whitespace-nowrap snap-mandatory scrollbar-hidden overflow-y-hidden snap-x overflow-scroll"
       ref="slideshow"
     >
-      <figure v-for="(image, index) in images" :key="index" class="h-[80svh] flex flex-col flex-shrink-0 snap-start slide block mr-8 last:mr-0">
+      <figure v-for="(image, index) in images" :key="index" class="h-[30svh] md:h-[80svh] flex flex-col flex-shrink-0 snap-start slide block mr-4 md:mr-8 last:mr-0">
         <img :src="image.src" alt="image" class="w-auto h-full max-w-[100svw] object-cover"/>
         <figcaption v-if="image.caption != ''" class="text-white max-w-[20rem] text-wrap text-runde-xs mt-2 pl-8">{{ image.caption }}</figcaption>
       </figure>
     </div>
 
-    <nav class="w-full slideshow-controls flex items-start justify-between pr-4 pl-4 mt-4">
-      <div class="thumbnails flex flex-wrap ml-2">
+    <nav class="w-full slideshow-controls flex items-start justify-end md:justify-between md:pr-4 pl-4 mt-4">
+      <div class="hidden thumbnails md:flex flex-wrap ml-2">
         <button 
           class="mx-2 mt-4" v-for="(image, index) in images" :key="'thumb' + index"
           @click="setSlidePosition(index + 1)"
@@ -23,7 +23,7 @@
         <button class="mr-4"
           @click="prevSlide">
           <IconsBack 
-            class="w-12 h-auto transition-opacity"
+            class="w-8 md:w-12 h-auto transition-opacity"
             :class="currentIndex == 1 ? 'opacity-[0.75] pointer-events-none' : ''"
           />
         </button>
@@ -32,8 +32,8 @@
           class='mr-4'
         >
           <IconsBack 
-            class="w-12 h-auto rotate-[180deg] transition-opacity"
-            :class="currentIndex == length ? 'opacity-[0.75] pointer-events-none' : ''"
+            class="w-8 md:w-12 h-auto rotate-[180deg] transition-opacity"
+            :class="currentIndex == length + 1 ? 'opacity-[0.75] pointer-events-none' : ''"
           />
         </button>
       </div>
@@ -52,8 +52,8 @@
 
   const nextSlide = () => {
     let newIndex = currentIndex.value + 1
-    if (newIndex > length.value) {
-      newIndex = length.value
+    if (newIndex > length.value + 1) {
+      newIndex = length.value + 1
     }
     setSlidePosition(newIndex)
   }

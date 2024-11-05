@@ -1,11 +1,10 @@
 <template>
-  <section class="mx-4 mt-8">
-    <h2 class="text-hatton-xl font-hatton ml-col3 mr-col3 mx-4 mb-4">{{heading}}</h2>
-    <div class="flex">
+  <section class="mx-4 mt-4 md:mt-8">
+    <div class="md:flex flex-wrap columns-2 gap-4">
       <NuxtLink
         v-for="link in links"
         :to="link.link"
-        class="mx-4 group flex flex-col transition-colors block"
+        class="md:mx-4 group flex flex-col transition-colors block"
         :class="
           [
             hoverColorClass(link.color),
@@ -21,7 +20,7 @@
             "
           />
         </figure>
-        <div class="text-runde-l font-semibold mt-4 inline">
+        <div class="text-runde-m md:text-runde-l font-semibold mt-4 inline">
           <template v-for="(word, index) in link.title.split(' ')" :key="index">
             <span class="inline-block mr-2" v-if="index != link.title.split(' ').length -1">{{ word }}</span>
           </template>
@@ -56,15 +55,15 @@
   const linkWidth = ((length) => {
     switch (length) {
       case 1:
-        return 'w-col12';
+        return 'md:w-col12';
       case 2:
-        return 'w-col6';
+        return 'md:w-col6';
       case 3:
-        return 'w-col4';
+        return 'md:w-col4';
       case 4:
-        return 'w-col3';
+        return 'md:w-col3';
       case 5:
-        return 'w-1/5';
+        return 'md:w-1/5';
     }
   });
 </script>
