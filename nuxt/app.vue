@@ -1,7 +1,7 @@
 <template>
   <div class="bg-homepage bg-cover bg-center bg-fixed">
     <SiteHeader :class="route.name == 'index' ? 'md:hidden' : ''" />
-    <NuxtPage :class="route.name != 'index' ? 'pt-12 md:pt-36' : ''" />
+    <NuxtPage class="transition-all duration-[0.3s]" :class="route.name != 'index' ? 'pt-12 md:pt-36' : ''" />
     <SiteFooter class="z-10"/>
     <Grid />
   </div>

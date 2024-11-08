@@ -7,7 +7,7 @@
   >
     <NuxtLink
       :to="props.link"
-      class="text-white flex-col group text-runde-m mx-4 md:mx-col1 xl:mx-col2 flex md:items-end transition-all duration-300"
+      class="text-white flex-col group text-runde-m mx-4 px-4 md:mx-col1 xl:mx-col2 flex md:items-end transition-all duration-300"
       :class="[
         props.reverse ? 'md:flex-row-reverse' : 'md:flex-row',
         hoverColorClass

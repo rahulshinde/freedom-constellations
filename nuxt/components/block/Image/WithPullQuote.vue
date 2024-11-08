@@ -7,7 +7,7 @@
       :class="reverse ? 'object-left' : 'object-right'"
       :src="img"
     >
-    <div class="w-col6 flex relative mx-4">
+    <div class="w-col6 flex relative mr-4">
       <p 
         class="flex flex-col w-[80%]"
         :class="[
@@ -16,7 +16,7 @@
         ]"
       >
         <span class="quote relative pl-4 font-hatton self-center text-hatton-xl">{{ quote }}”</span>
-        <span class='ml-8 mt-2 text-runde-xl'>—{{ attribution }}</span>
+        <span v-if="attribution != ''" class='ml-8 mt-2 text-runde-xl'>—{{ attribution }}</span>
       </p>
 
       <div
@@ -34,7 +34,10 @@
   const props = defineProps({
     img: String,
     quote: String,
-    attribution: String,
+    attribution: {
+      type: String,
+      default: ''
+    },
     includeArLink: Boolean,
     color: String,
     reverse: Boolean

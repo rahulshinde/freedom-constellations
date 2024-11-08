@@ -4,7 +4,7 @@
       <NuxtLink
         v-for="link in links"
         :to="link.link"
-        class="md:mx-4 group flex flex-col transition-colors block"
+        class="md:mx-4 group flex flex-col transition-colors block visited:[&_img]:opacity-50"
         :class="
           [
             hoverColorClass(link.color),

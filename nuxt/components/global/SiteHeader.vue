@@ -196,7 +196,7 @@
       }
     });
     window.addEventListener('scroll', () => {
-      if (window.scrollY > 60) {
+      if (window.scrollY > 40) {
         if (directions.bottom){
           siteHeader.value.classList.add('md:translate-y-[-100%]');
         } else {

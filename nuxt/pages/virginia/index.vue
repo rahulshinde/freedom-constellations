@@ -70,7 +70,6 @@
 
       <div class="relative">
         <BlockTextBody
-          class="pb-16"
           text="As the first in the series of Freedom Constellations campaigns, Richmond showcased many powerful models to build from as we moved to work with other state campaigns, but also areas where we could make those versions even more powerful. 
 
 As you move on to other states, you’ll see how the #NoKidsInPrison exhibition, billboards, and other strategies were added to further engage massive and strategic audiences while providing a space for events, organizing, and convenings. Huge thanks to everyone who made Richmond’s campaigns possible. 
