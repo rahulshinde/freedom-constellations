@@ -78,16 +78,27 @@
   const starsHeight = computed(() => Stars.value.offsetHeight);
 
   const calcDistanceAndRotation = (first, second) => {
-    const firstRect = first.getBoundingClientRect();
-    const secondRect = second.getBoundingClientRect();
+    const firstRect = first?.getBoundingClientRect();
+    const secondRect = second?.getBoundingClientRect();
     const x = secondRect.left - firstRect.left;
     const y = secondRect.top - firstRect.top;
     const distance = Math.sqrt(x * x + y * y);
     const angle = Math.atan2(y, x) * (180 / Math.PI);
 
-    first.style.setProperty('--distance', distance + 'px');
-    first.style.setProperty('--angle', angle + 'deg');
+    first?.style.setProperty('--distance', distance + 'px');
+    first?.style.setProperty('--angle', angle + 'deg');
   };
+
+  onBeforeUnmount(() => {
+    if (process.client){
+      window.removeEventListener('resize', () => {
+        calcDistanceAndRotation(Star1.value, Star2.value);
+        calcDistanceAndRotation(Star2.value, Star3.value);
+        calcDistanceAndRotation(Star3.value, Star4.value);
+        calcDistanceAndRotation(Star4.value, Star5.value);
+      });
+    }
+  });
   
 
   onMounted(() => {

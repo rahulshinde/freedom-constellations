@@ -24,7 +24,7 @@
       </button>
     </div>
     <nav 
-      class="h-0 md:h-auto transition-opacity delay-[0.5s] md:opacity-100 mx-4 w-full md:w-[20rem] lg:w-[30rem] font-hatton text-hatton-s md:text-hatton-s lg:text-hatton-m md:absolute md:left-[45%] lg:left-1/2 md:-translate-x-1/2"
+      class="h-0 md:h-auto transition-opacity delay-[0.5s] md:opacity-100 mx-4 w-full md:w-[20rem] lg:w-[30rem] font-hatton text-hatton-s md:text-hatton-s lg:text-hatton-m md:absolute md:left-[45%] lg:left-1/2 md:-translate-x-1/2 md:pointer-events-auto"
       :class="menuOpen ? 'opacity-100 !h-auto pointer-events-auto' : 'opacity-0 pointer-events-none'"
     >
       <ul class="relative w-full h-[20rem] md:h-24">
@@ -142,7 +142,6 @@
   const menuOpen = ref(false);
   const scrollPosition = ref(0);
 
-  const Stars = ref(null);
   const Star1 = ref(null);
   const Star2 = ref(null);
   const Star3 = ref(null);
@@ -181,12 +180,13 @@
 
   onMounted(() => {
     nextTick(() => {
-      calcDistanceAndRotation(Star1.value, Star2.value);
-      calcDistanceAndRotation(Star2.value, Star3.value);
-      calcDistanceAndRotation(Star3.value, Star4.value);
-      calcDistanceAndRotation(Star4.value, Star5.value);
-
       if (process.client){
+        setTimeout(() => {
+          calcDistanceAndRotation(Star1.value, Star2.value);
+          calcDistanceAndRotation(Star2.value, Star3.value);
+          calcDistanceAndRotation(Star3.value, Star4.value);
+          calcDistanceAndRotation(Star4.value, Star5.value);
+        }, 1000);
         window.addEventListener('resize', () => {
           calcDistanceAndRotation(Star1.value, Star2.value);
           calcDistanceAndRotation(Star2.value, Star3.value);

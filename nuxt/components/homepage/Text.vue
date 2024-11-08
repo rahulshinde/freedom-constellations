@@ -103,17 +103,30 @@
   const Text8 = ref(null);
 
   const calcDistanceAndRotation = (first, second) => {
-    const firstRect = first.getBoundingClientRect();
-    const secondRect = second.getBoundingClientRect();
+    const firstRect = first?.getBoundingClientRect();
+    const secondRect = second?.getBoundingClientRect();
     const x = secondRect.left - firstRect.left;
     const y = secondRect.top - firstRect.top;
     const distance = Math.sqrt(x * x + y * y);
     const angle = Math.atan2(y, x) * (180 / Math.PI);
 
-    first.style.setProperty('--distance', distance + 'px');
-    first.style.setProperty('--angle', angle + 'deg');
+    first?.style.setProperty('--distance', distance + 'px');
+    first?.style.setProperty('--angle', angle + 'deg');
   };
   
+  onBeforeUnmount(() => {
+    if (process.client){
+      window.removeEventListener('resize', () => {
+        calcDistanceAndRotation(Text1.value, Text2.value);
+        calcDistanceAndRotation(Text2.value, Text3.value);
+        calcDistanceAndRotation(Text3.value, Text4.value);
+        calcDistanceAndRotation(Text4.value, Text5.value);
+        calcDistanceAndRotation(Text5.value, Text6.value);
+        calcDistanceAndRotation(Text6.value, Text7.value);
+        calcDistanceAndRotation(Text7.value, Text8.value);
+      });
+    }
+  });
 
   onMounted(() => {
     nextTick(() => {
