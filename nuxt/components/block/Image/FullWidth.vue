@@ -15,6 +15,9 @@
   const props = defineProps({
     img: String,
     alt: String,
-    caption: String,
+    caption: {
+      type: String,
+      default: ''
+    }
   });
 </script>

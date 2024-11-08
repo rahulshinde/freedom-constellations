@@ -74,14 +74,14 @@ export default {
         '2rem',
         {
           lineHeight: '1.2',
-          letterSpacing: '-0.01em'
+          letterSpacing: '-0.02em'
         }
       ],
       'runde-xxl': [
         '2.75rem',
         {
           lineHeight: '1.05',
-          letterSpacing: '-0.01em'
+          letterSpacing: '-0.03em'
         }
       ],
     },

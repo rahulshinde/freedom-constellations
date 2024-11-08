@@ -10,7 +10,7 @@
     "
     >
     
-      <img class="absolute z-[1] -top-[30vw] right-0" src="/zine-assets/zine-assets_0013_Layer-5.png" />
+      <img class="absolute pointer-events-none z-[1] -top-[30vw] right-0" src="/zine-assets/zine-assets_0013_Layer-5.png" />
       <BlockImageFullWidth class="z-10 relative" img="/pennsylvania/index/NKIPPhilly_20.jpg" alt="NKIP Philly 21" />
 
       <BlockTextBody text="Use the sections below to experience and learn more about each project that took place in Philadelphia. Collectively we hope it not only transports you to that beautiful future youth imagined, but inspires you to build that future in your own community." />
@@ -23,8 +23,8 @@
           img="/pennsylvania/index/PA_NKIP.jpg"
           color="var(--nkip)"
         />
-        <img class="absolute z-[1] top-4 w-[15%] right-[10%]" src="/zine-assets/zine-assets_0017_Layer-1.png" />
-        <img class="absolute z-[1] -bottom-[30vw] w-[50%] left-[10%] -z-10" src="/zine-assets/ribbons1.png" />
+        <img class="absolute pointer-events-none z-[1] top-4 w-[15%] right-[10%]" src="/zine-assets/zine-assets_0017_Layer-1.png" />
+        <img class="absolute pointer-events-none z-[1] -bottom-[30vw] w-[50%] left-[10%] -z-10" src="/zine-assets/ribbons1.png" />
       </div>
       
       <div class="relative">
@@ -36,7 +36,7 @@
         color="var(--projects)"
         :reverse="true"
         />
-        <img class="absolute z-[1] bottom-4 w-[15%] left-0" src="/zine-assets/crystal_purple1.png" />
+        <img class="absolute pointer-events-none z-[1] bottom-4 w-[15%] left-0" src="/zine-assets/crystal_purple1.png" />
       </div>
       
       <div class="relative">
@@ -46,8 +46,8 @@
           img="/pennsylvania/index/PA_Billboards.jpg"
           color="var(--billboards)"
           />
-        <img class="absolute -z-10 -top-[40%] w-[30%] right-[30%]" src="/zine-assets/planet2.png" />
-        <img class="absolute -z-10 -top-[30%] w-[40%] -right-4" src="/zine-assets/zine-assets_0009_Layer-3-copy-2.png" />
+        <img class="absolute pointer-events-none -z-10 -top-[40%] w-[30%] right-[30%]" src="/zine-assets/planet2.png" />
+        <img class="absolute pointer-events-none -z-10 -top-[30%] w-[40%] -right-4" src="/zine-assets/zine-assets_0009_Layer-3-copy-2.png" />
       </div>
       
       <div class="relative">
@@ -58,18 +58,18 @@
           color="var(--programs)"
           :reverse="true"
           />
-        <img class="absolute -z-10 -top-[60%] w-[35%] left-[10%]" src="/zine-assets/purlehex2chalk.png" />
-        <img class="absolute z-10 -top-[40%] w-[25%] left-[0%]" src="/zine-assets/zine-assets_0007_Layer-7.png" />
-        <img class="absolute -z-10 -bottom-[40%] w-[25%] left-[50%]" src="/zine-assets/threecircles1.png" />
+        <img class="absolute pointer-events-none -z-10 -top-[60%] w-[35%] left-[10%]" src="/zine-assets/purlehex2chalk.png" />
+        <img class="absolute pointer-events-none z-10 -top-[40%] w-[25%] left-[0%]" src="/zine-assets/zine-assets_0007_Layer-7.png" />
+        <img class="absolute pointer-events-none -z-10 -bottom-[40%] w-[25%] left-[50%]" src="/zine-assets/threecircles1.png" />
       </div>
 
       <div class="relative">
         <BlockTextHeading
           text='Watch a mini-documentary about all the magic youth leaders created in Philadelphia!'
         />
-        <img class="absolute -z-10 top-0 w-20 right-[24%]" src="/zine-assets/orangestar2.png" />
-        <img class="absolute z-10 -bottom-4 w-[15%] left-0" src="/zine-assets/zine-assets_0006_Layer-3.png" />
-        <img class="absolute z-10 -bottom-[10%] w-[10%] left-10" src="/zine-assets/zine-assets_0002_Layer-12.png" />
+        <img class="absolute pointer-events-none -z-10 top-0 w-20 right-[24%]" src="/zine-assets/orangestar2.png" />
+        <img class="absolute pointer-events-none z-10 -bottom-4 w-[15%] left-0" src="/zine-assets/zine-assets_0006_Layer-3.png" />
+        <img class="absolute pointer-events-none z-10 -bottom-[10%] w-[10%] left-10" src="/zine-assets/zine-assets_0002_Layer-12.png" />
       </div>
 
       <BlockVideo
@@ -78,7 +78,7 @@
       />
 
       <div class="relative overflow-hidden">
-        <img class="absolute z-10 top-0 w-[40%] -rotate-90 -right-[15vw]" src="/zine-assets/zine-assets_0004_Layer-8.png" />
+        <img class="absolute pointer-events-none z-10 top-0 w-[40%] -rotate-90 -right-[15vw]" src="/zine-assets/zine-assets_0004_Layer-8.png" />
       <BlockTextWithQuote
         text="Featuring a city-wide constellation of massive banners, billboards, temporary murals, immersive exhibitions, and robust public programming, this rare project looked to Philadelphia’s youth to help guide us all to a future where all children are free, healed, and thriving.
 
