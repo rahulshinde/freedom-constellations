@@ -1,9 +1,9 @@
 <template>
-  <figure class="mx-8 mt-8">
+  <figure class="mx-4 mt-8">
     <img
       :src="img"
       :alt="alt"
-      class="w-col9 mx-auto"
+      class="w-col8 mx-auto"
     >
     <figcaption v-if="props.caption != ''" class="text-center text-white text-runde-m pt-4">
       {{ props.caption }}
@@ -15,6 +15,9 @@
   const props = defineProps({
     img: String,
     alt: String,
-    caption: String,
+    caption: {
+      type: String,
+      default: '',
+    },
   });
 </script>

@@ -8,7 +8,7 @@
     <video
       v-else-if="video"
       :src="video"
-      class="w-full h-auto md:h-[80svh]"
+      class="w-full h-auto md:h-[90svh]"
       :class="cover ? 'object-cover' : 'object-contain'"
       autoplay
       loop

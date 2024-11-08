@@ -22,6 +22,7 @@
     >
       <BlockFullBleed
         class="mt-16"
+        :cover="true"
         video="https://player.vimeo.com/progressive_redirect/playback/1027747781/rendition/1080p/file.mp4?loc=external&signature=e69dca889dc573a9dcddebfd344a3680ab15402068daf5e6d91ba5b8575d70d3"
       />
 
@@ -35,6 +36,11 @@
           'The art must carry Care Not Control messaging and be able to be rolled out in many different locations.',
           'Assets created can be used in future creative workshops with more young people. Care Not Control identified creative activity as one way that new organizers enjoy coming together. They wanted the designs they created to be able to be used to make more powerful swag with new campaign members.'
         ]"
+      />
+
+      <BlockImageHalfWidth
+        class="mt-8"
+        img="/pennsylvania/coi/construction/CNC_COI_9_small.jpg"
       />
 
       <BlockTextBody
@@ -60,9 +66,15 @@ Performing Statistics presented 3 directions alongside possible ways to alter ea
       />
 
       <BlockTextBody
-        text="The majority of the team decided to work with bomber jackets and two people chose denim jackets. Their thinking was that they could represent present day ambassadors who were supporting to lead toward the more futuristic vision of their peers.
-        
-Once PS had all of this information, we presented the creative brief to Amir Khadar and Katie Kaplan. Amir and Katie ran with the ideas and worked through how to engineer all of the ideas into signage and assets for altering bomber jackets that the organizers could work with to make a series of similar but individual jackets. Amir took the lead designing text, pins, patches, vinyl and the overall aesthetic vision. Katie worked on figuring out interesting signage possibilities and strategized some of the more technical textile components. CNC wanted to work with messaging that aligned with their current work getting 5 bills passed:"
+        text="The majority of the team decided to work with bomber jackets and two people chose denim jackets. Their thinking was that they could represent present day ambassadors who were supporting to lead toward the more futuristic vision of their peers."
+      />
+
+      <BlockImageHalfWidth
+        img="/pennsylvania/coi/construction/COIpublicworkshops3.jpg"
+      />
+
+      <BlockTextBody
+        text="Once PS had all of this information, we presented the creative brief to Amir Khadar and Katie Kaplan. Amir and Katie ran with the ideas and worked through how to engineer all of the ideas into signage and assets for altering bomber jackets that the organizers could work with to make a series of similar but individual jackets. Amir took the lead designing text, pins, patches, vinyl and the overall aesthetic vision. Katie worked on figuring out interesting signage possibilities and strategized some of the more technical textile components. CNC wanted to work with messaging that aligned with their current work getting 5 bills passed:"
       />
 
       <BlockTextBulletList
@@ -76,11 +88,52 @@ Once PS had all of this information, we presented the creative brief to Amir Kha
       <BlockTextBody
         text="Throughout the design process, Amir and Katie shared options for CNC to choose. Before sending anything to be fabricated, the entire team met and walked through each element of the plan. The organizers made decisions about color, vinyl textures, acrylic finish, and shapes. 
 
-Once we had all of the materials and working assets ready, we held 2 workshops. Workshop 1 focused on designing the jackets. Workshop 2 focused on signage and assembling the sculptural elements that carry messaging. After these two workshops, the Care Not Control team was confident in the process and how they wanted to see the assets used together. They were ready to use the assets to hold more workshops to engage more youth. When organizers from Chicago and Minneapolis came to Philly for the youth convening, the team facilitated a abolitionist tote making workshop where visiting organizers were able to play with all of the assets to make swag of their own."
+Once we had all of the materials and working assets ready, we held 2 workshops. Workshop 1 focused on designing the jackets."
+      />
+
+      <div class="mx-4 mt-8">
+        <div class="flex justify-between mx-col1 px-8">
+          <img
+            class="w-1/3 mx-4 h-[15vw] object-cover"
+            src="/pennsylvania/coi/ideation/CNC_COI_2_small.jpg"
+          >
+          <img
+            class="w-1/3 object-cover mx-4 h-[15vw]"
+            src="/pennsylvania/coi/ideation/CNC_COI_3.jpg"
+          >
+          <img
+            class="w-1/3 object-cover mx-4 h-[15vw]"
+            src="/pennsylvania/coi/ideation/CNC_COI_4_small.jpg"
+          >
+        </div>
+      </div>
+
+      <BlockTextBody
+        text="Workshop 2 focused on signage and assembling the sculptural elements that carry messaging. After these two workshops, the Care Not Control team was confident in the process and how they wanted to see the assets used together. They were ready to use the assets to hold more workshops to engage more youth. When organizers from Chicago and Minneapolis came to Philly for the youth convening, the team facilitated a abolitionist tote making workshop where visiting organizers were able to play with all of the assets to make swag of their own."
+      />
+
+      <BlockImageFullWidthSlideshow
+        :images="[
+          {
+            src: '/pennsylvania/coi/construction/COIpublicworkshops2.jpg',
+          },
+          {
+            src: '/pennsylvania/coi/construction/COIpublicworkshops3.jpg',
+          },
+          {
+            src: '/pennsylvania/coi/construction/COIpublicworkshops5.jpg',
+          },
+          {
+            src: '/pennsylvania/coi/construction/COIpublicworkshops5.jpg',
+          },
+          {
+            src: '/pennsylvania/coi/construction/COIpublicworkshops6.jpg',
+          }
+        ]"
       />
 
       <BlockTextHeading
-        text="Download the CNC Ideas PDF"
+        text="Download the CNC Ideas PDF Below"
       />
 
       <BlockImageAutoSlideshow
