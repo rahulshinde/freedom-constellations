@@ -48,7 +48,7 @@
         class="mx-4 w-col3"
       />
       <BlockPdfDownload
-        text="Abolitionists Jumpsuits"
+        text="Transmissions From the Future, Student Activities Curriculum"
         filePath="/abolitionist-toolkit/transmissionscurriculum"
         color="var(--projects)"
         class="mx-4 w-col3"
