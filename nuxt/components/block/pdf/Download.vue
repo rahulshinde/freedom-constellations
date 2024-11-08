@@ -2,20 +2,18 @@
   <a :href="filePath + '.pdf'"
     target="_blank"
     rel="noopener noreferrer"
-    class="group transition-all" 
+    class="group flex flex-col items-center transition-all block" 
     :class="hoverColorClass(color)"
   >
-    <figure class='relative group-hover:rounded-xl transition-all overflow-hidden'>
-      <div class='gradient_overlay absolute z-10'>
-
-      </div>
+    <figure class='relative group-hover:rounded-xl h-[10vw] w-auto transition-all overflow-hidden'>
+      <div class='gradient_overlay absolute z-10'></div>
       <img
-        class="w-full grayscale"
-        :src="filePath + '.jpg'"
+        class="max-w-full max-h-full object-contain block grayscale contrast-150" 
+        :src="filePath + '.jpg'" 
       >
     </figure>
     <div class="flex text-runde-s font-semibold uppercase mt-4">
-      {{ text }} <IconsDownload :fill="color" class="w-5 h-5 ml-2" />
+      {{ text }} <IconsDownload :fill="color" class="shrink-0 w-5 h-5 ml-4" />
     </div>
   </a>
 </template>
@@ -45,12 +43,33 @@
 
 <style>
 .gradient_overlay {
-  width: 100%;
-  height: 100%;
-  filter: contrast(170%) brightness(1000%);
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   mix-blend-mode: screen;
-  background: 
-  radial-gradient(circle at 50% 50%, v-bind(props?.color), v-bind(props?.color)),
+}
+
+.gradient_overlay::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: contrast(180%) brightness(100%);
+  background:
 	url("data:image/svg+xml,%3Csvg viewBox='0 0 250 250' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+.gradient_overlay:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;
+  background: v-bind(props?.color); 
 }
 </style>

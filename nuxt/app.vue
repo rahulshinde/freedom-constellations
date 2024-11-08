@@ -1,5 +1,8 @@
 <template>
-  <div class="bg-homepage bg-cover bg-center bg-fixed">
+  <div 
+    class=" bg-cover bg-center bg-fixed"
+    :class="route.name == 'abolitionist-toolkit' ? 'bg-bg-highlight' : 'bg-homepage'"
+  >
     <SiteHeader :class="route.name == 'index' ? 'md:hidden' : ''" />
     <NuxtPage class="transition-all duration-[0.3s]" :class="route.name != 'index' ? 'pt-12 md:pt-36' : ''" />
     <SiteFooter class="z-10"/>

@@ -61,13 +61,13 @@ Inspired by the iconography of The Black Panthers, Young Lords and Afro-futurism
             text="Inspiration Slideshow for jumpsuits"
             filePath="/new-jersey/coi/pdfs/NJConceptExamples"
             color="var(--nkip)"
-            class="mx-4"
+            class="mx-4 w-col6"
           />
           <BlockPdfDownload
             text="Iconography of power concept development"
             filePath="/new-jersey/coi/pdfs/Iconography&Power"
             color="var(--nkip)"
-            class="mx-4"
+            class="mx-4 w-col6"
           />
         </div>
       </div>
