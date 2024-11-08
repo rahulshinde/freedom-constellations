@@ -1,5 +1,8 @@
 <template>
-  <footer class="bg-black relative overflow-x-hidden pb-8 md:pb-8 transition-opacity duration-[0.3s]">
+  <footer 
+    :class="route.path.includes('/abolitionist-toolkit') ? 'bg-bg-highlight' : 'bg-black'"
+    class="relative overflow-x-hidden pb-8 md:pb-8 transition-opacity duration-[0.3s]"
+  >
     <img src="/pngs/squiggle.png" alt="Squiggle" class="w-[180%] md:w-[120%] max-w-none h-auto top-0 relative -left-2 -right-2" />
     <div class="flex flex-wrap flex-col md:flex-row items-center lg:flex-nowrap justify-center md:justify-start items-start mx-4">
       <div class="mt-8 md:mt-0 md:mb-8 order-4 md:order-none mx-0 md:mx-4 lg:justify-between flex flex-wrap md:flex-nowrap lg:flex-wrap md:w-full lg:w-col4">
