@@ -11,7 +11,7 @@
       <BlockImageGallery
         :images="['/about/NKIPChicago1.jpg', '/about/MNBillboards30.jpg']"
       />
-      <div class="mt-4 mx-4">
+      <div class="mt-8 mx-4">
         <p class="ml-col3 mr-col3 text-white text-runde-xl">
           This website is an archive of the Freedom Constellations campaigns produced by Performing Statistics and their partners between 2020 and 2024.
         </p>
@@ -30,17 +30,17 @@
       </div>
       <div class="mt-12 pb-8 mx-4">
         <div class="ml-col3 mr-col3 columns-3 gap-4">
-          <div class="break-after-column">
-            <h2 class="uppercase font-bold text-runde-xs mb-4">Website Design</h2>
+          <div class="break-after-column text-runde-xs break-inside-avoid">
+            <h2 class="uppercase font-bold mb-4">Website Design</h2>
              <a href="https://www.ashleyjanelewis.com" target="_blank" class="underline hover:text-navigation-highlight">Jason Killinger</a> & <br> <a href="https://r-s-s.net" target="_blank" class="underline hover:text-navigation-highlight">Rahul Subhash Shinde</a>
           </div>
-          <div class='break-after-column'>
-            <h2 class="uppercase text-runde-xs font-bold mb-4">Site Programming</h2>
+          <div class='break-after-column text-runde-xs break-inside-avoid'>
+            <h2 class="uppercase font-bold mb-4">Site Programming</h2>
             Rahul Subhash Shinde
           </div>
   
-          <div class="break-inside-avoid">
-            <h2 class="uppercase text-runde-xs font-bold mb-4 ">Typefaces</h2>
+          <div class="text-runde-xs break-inside-avoid">
+            <h2 class="uppercase font-bold mb-4 ">Typefaces</h2>
             <a href="https://github.com/lauridskern/open-runde" target="_blank" class="underline hover:text-navigation-highlight">Open Runde</a> by Laurids Kern
             <br>
             <a href="https://pangrampangram.com/products/hatton" target="_blank" class="underline hover:text-navigation-highlight">PP Hatton</a> by Pangram Pangram Foundry.
