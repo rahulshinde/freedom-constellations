@@ -18,15 +18,17 @@
         />
       </div>
     </div>
-    <a
+    <div class="px-12 mx-col3 mt-8">
+      <a
       :href="downloadLink"
-      class="flex px-12 mx-col3 mt-4 uppercase text-runde-s font-semibold"
-      :class="hoverColorClass(color)"
+      class="flex transition-all p-4 drop-shadow-none hover:rounded-xl uppercase text-runde-s font-semibold text-black"
+      :class="[hoverColorClass(color), colorClasses(color)]"
       target="_blank"
       rel="noopener noreferrer"
     >
-      {{ downloadText }} <IconsDownload :fill="color" class="w-5 h-5 ml-2" />
+      {{ downloadText }} <IconsDownload fill="black" class="w-5 h-5 ml-2" />
     </a>
+    </div>
   </section>
 </template>
 
@@ -43,18 +45,33 @@
   const imageCount = computed(() => props.images.length)
   const imageWidth = ref(0)
 
+  const colorClasses = ((color) => {
+    switch (color) {
+      case 'var(--nkip)':
+        return 'bg-nkip';
+      case 'var(--billboards)':
+        return 'bg-billboards';
+      case 'var(--projects)':
+        return 'bg-projects';
+      case 'var(--programs)':
+        return 'bg-programs';
+      case 'var(--bg-highlight)':
+        return 'bg-bg-highlight';
+    }
+  })
+
   const hoverColorClass = ((color) => {
     switch (color) {
       case 'var(--nkip)':
-        return 'hover:text-nkip hover:drop-shadow-[0_0_0.5rem_var(--nkip)]';
+        return 'hover:drop-shadow-[0_0_0.5rem_var(--nkip)]';
       case 'var(--billboards)':
-        return 'hover:text-billboards hover:drop-shadow-[0_0_0.5rem_var(--billboards)]';
+        return 'hover:drop-shadow-[0_0_0.5rem_var(--billboards)]';
       case 'var(--projects)':
-        return 'hover:text-projects hover:drop-shadow-[0_0_0.5rem_var(--projects)]';
+        return 'hover:drop-shadow-[0_0_0.5rem_var(--projects)]';
       case 'var(--programs)':
-        return 'hover:text-programs hover:drop-shadow-[0_0_0.5rem_var(--programs)]';
+        return 'hover:drop-shadow-[0_0_0.5rem_var(--programs)]';
       case 'var(--bg-highlight)':
-        return 'hover:text-bg-highlight hover:drop-shadow-[0_0_0.5rem_var(--bg-highlight)]';
+        return 'hover:drop-shadow-[0_0_0.5rem_var(--bg-highlight)]';
     }
   });
 

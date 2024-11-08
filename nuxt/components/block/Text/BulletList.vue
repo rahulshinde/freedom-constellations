@@ -5,7 +5,10 @@
       :class="large ? 'text-runde-m' : 'text-runde-s'"
     >
       <div class="flex mt-4 ml-11 pl-col2 items-start" v-for="listItem in list">
-        <IconsAstrix fill="var(--navigation-highlight)" class="w-4 h-4 relative top-0.5 mr-4" />
+        <IconsAstrix fill="var(--navigation-highlight)" 
+          class="relative mr-4" 
+          :class="large ? 'w-6 h-6' : 'w-4 h-4 top-0.5'"
+        />
         <p class="w-full">{{ listItem }}</p>
       </div>
     </div>

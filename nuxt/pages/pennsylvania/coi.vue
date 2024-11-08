@@ -83,6 +83,7 @@ Performing Statistics presented 3 directions alongside possible ways to alter ea
           'End Fines & Fees',
           'Raise the Age'
         ]"
+        :large="true"
       />
 
       <BlockTextBody
@@ -128,15 +129,18 @@ Once we had all of the materials and working assets ready, we held 2 workshops. 
           },
           {
             src: '/pennsylvania/coi/construction/COIpublicworkshops6.jpg',
+          },
+          {
+            src: '/pennsylvania/coi/construction/20230322_144136.jpg',
+          },
+          {
+            src: '/pennsylvania/coi/construction/COIpublicworkshops10.jpg',
           }
         ]"
       />
 
-      <BlockTextHeading
-        text="Download the CNC Ideas PDF Below"
-      />
-
       <BlockImageAutoSlideshow
+        class="!mt-16"
         :images="[
           '/pennsylvania/coi/pdfs/PHILLYCNC1.jpg',
           '/pennsylvania/coi/pdfs/PHILLYCNC2.jpg',
