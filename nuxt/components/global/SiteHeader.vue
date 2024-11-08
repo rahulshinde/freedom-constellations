@@ -1,7 +1,7 @@
 <template>
   <header 
     class="
-      flex items-center flex-col md:flex-row fixed top-0 left-0 md:left-4 right-0 md:right-4 justify-between transition-all duration-[0.5s] px-4 pt-4 pb-8 md:pb-0 md:pt-4 z-[200]
+      flex items-center flex-col md:flex-row fixed top-0 left-0 md:left-4 right-0 md:right-4 justify-between transition-all duration-[0.5s] px-4 pt-4 pb-8 md:pb-0 md:pt-8 z-[200]
       after:content-[''] after:pointer-events-none after:absolute after:translate-y-[-100%] after:h-[100%] md:after:h-[150%] after:top-0 after:-left-8 after:-right-8 after:z-[-1] after:transition-all after:duration-[0.5s]
       after:bg-gradient-to-t after:to-black after:from-black-trans
     "
@@ -117,7 +117,7 @@
       </ul>
     </nav>
     <div 
-      class="h-0 md:h-auto transition-opacity md:opacity-100 md:pointer-events-auto flex flex-col items-center"
+      class="h-0 md:h-auto transition-opacity md:opacity-100 md:pointer-events-auto flex flex-col items-stretch"
       :class="menuOpen ? '!h-auto opacity-100 pointer-events-auto' : 'opacity-0'"
     >
       <AbolitionButton/>

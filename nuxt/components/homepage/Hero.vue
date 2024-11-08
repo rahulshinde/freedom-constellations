@@ -13,7 +13,19 @@
         A multi-city art campaign to dream, envision, and create a <span class="text-navigation-highlight">future where all youth are free, safe, and thriving.</span>
       </p>
     </div>
-    <AbolitionButton class="w-40 md:w-auto ml-0 mt-4 md:absolute md:top-0 md:right-4"/>
+
+    <div class="md:absolute md:top-4 md:right-4 mr-4">
+      <AbolitionButton class="w-40 md:w-auto ml-0 mt-4"/>
+      <div class="flex items-center mt-4">
+        <span class="border-[2px] rounded-[50%] font-bold text-[0.6rem] px-[0.4rem] py-[0.1rem]">?</span>
+        <NuxtLink to="/about" class="
+          text-[0.65rem] text-center uppercase font-semibold mx-2 whitespace-nowrap
+          "
+        >
+          About the Project
+        </NuxtLink>
+      </div>
+    </div>
     <p class="text-runde-xs md:w-40 mx-0 md:mx-4 mt-4 md:mt-8 font-medium z-10 relative">
       Click on a state to see the art, learn from our collaborative process, and access tools to help you continue the fight to end youth incarceration.
     </p>
