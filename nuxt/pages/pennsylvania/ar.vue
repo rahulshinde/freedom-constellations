@@ -93,8 +93,8 @@
       color: "var(--billboards)"
     },
     {
-      title: "Youth Collaborations",
-      link: "/pennsylvania/youth-collaborations",
+      title: "Cultural Organizing Institute",
+      link: "/pennsylvania/coi",
       img: "/pennsylvania/index/PA_COI.jpg",
       color: "var(--programs)"
     }

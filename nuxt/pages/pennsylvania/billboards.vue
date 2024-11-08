@@ -66,11 +66,39 @@
       <BlockCredits
         :credits="credits"
       />
+      <BlockTextHeading
+          text="More from Pennsylvania"
+      />
+      <BlockProjectFooterLinks
+        :links="footerLinks"
+      />
     </section>
   </main>
 </template>
 
 <script setup>
+
+const footerLinks = [
+    {
+      title: 'A Massive Interactive Exhibit',
+      link: "/pennsylvania/nkip",
+      img: "/pennsylvania/index/PA_NKIP.jpg",
+      color: "var(--nkip)"
+    },
+    {
+      title: 'Augmented Reality Banners',
+      link: "/pennsylvania/ar",
+      img: "/pennsylvania/index/PA_AR.jpg",
+      color: "var(--projects)"
+    },
+    {
+      title: "Cultural Organizing Institute",
+      link: "/pennsylvania/coi",
+      img: "/pennsylvania/index/PA_COI.jpg",
+      color: "var(--programs)"
+    }
+  ]
+
   const credits=[
     {
       title:'Billboard/banner artists',

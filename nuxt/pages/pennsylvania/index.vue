@@ -52,33 +52,25 @@
       
       <div class="relative">
         <IndexLink
-          text="Youth Collaborations"
-          link="/pennsylvania/youth-collaborations"
+          text="Cultural Organizing Institute"
+          link="/pennsylvania/coi"
           img="/pennsylvania/index/PA_COI.jpg"
           color="var(--programs)"
           :reverse="true"
-          textWidth="w-[24rem]"
           />
-        <img loading="lazy" class="absolute -z-10 -top-[60%] w-[35%] left-[10%]" src="/zine-assets/purlehex2chalk.png" />
-        <img loading="lazy" class="absolute z-10 -top-[40%] w-[25%] left-[0%]" src="/zine-assets/zine-assets_0007_Layer-7.png" />
-        <img loading="lazy" class="absolute -z-10 -bottom-[40%] w-[25%] left-[50%]" src="/zine-assets/threecircles1.png" />
+        <img class="absolute -z-10 -top-[60%] w-[35%] left-[10%]" src="/zine-assets/purlehex2chalk.png" />
+        <img class="absolute z-10 -top-[40%] w-[25%] left-[0%]" src="/zine-assets/zine-assets_0007_Layer-7.png" />
+        <img class="absolute -z-10 -bottom-[40%] w-[25%] left-[50%]" src="/zine-assets/threecircles1.png" />
       </div>
-      
+
       <div class="relative">
-        <IndexLink
-          text="Community Events"
-          link="/pennsylvania/community-events"
-          img="/pennsylvania/index/PA_YOUTH.jpg"
-          color="var(--bg-highlight)"
+        <BlockTextHeading
+          text='Watch a mini-documentary about all the magic youth leaders created in Philadelphia!'
         />
-        <img loading="lazy" class="absolute -z-10 top-0 w-20 right-[24%]" src="/zine-assets/orangestar2.png" />
-        <img loading="lazy" class="absolute z-10 -bottom-4 w-[15%] left-0" src="/zine-assets/zine-assets_0006_Layer-3.png" />
-        <img loading="lazy" class="absolute z-10 -bottom-[10%] w-[10%] left-10" src="/zine-assets/zine-assets_0002_Layer-12.png" />
+        <img class="absolute -z-10 top-0 w-20 right-[24%]" src="/zine-assets/orangestar2.png" />
+        <img class="absolute z-10 -bottom-4 w-[15%] left-0" src="/zine-assets/zine-assets_0006_Layer-3.png" />
+        <img class="absolute z-10 -bottom-[10%] w-[10%] left-10" src="/zine-assets/zine-assets_0002_Layer-12.png" />
       </div>
-      
-      <BlockTextHeading
-        text='Watch a mini-documentary about all the magic youth leaders created in Philadelphia!'
-      />
 
       <BlockVideo
         video="https://player.vimeo.com/progressive_redirect/playback/1021789567/rendition/1080p/file.mp4?loc=external&signature=5d68aae78f022027e717643f3b8e5f97a8031eebac4ef4c3726e8fb2057d340b"
@@ -86,7 +78,7 @@
       />
 
       <div class="relative overflow-hidden">
-        <img loading="lazy" class="absolute z-10 top-0 w-[40%] -rotate-90 -right-[15vw]" src="/zine-assets/zine-assets_0004_Layer-8.png" />
+        <img class="absolute z-10 top-0 w-[40%] -rotate-90 -right-[15vw]" src="/zine-assets/zine-assets_0004_Layer-8.png" />
       <BlockTextWithQuote
         text="Featuring a city-wide constellation of massive banners, billboards, temporary murals, immersive exhibitions, and robust public programming, this rare project looked to Philadelphia’s youth to help guide us all to a future where all children are free, healed, and thriving.
 
