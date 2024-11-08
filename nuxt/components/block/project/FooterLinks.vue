@@ -1,6 +1,6 @@
 <template>
   <section class="mx-4 mt-4 md:mt-8">
-    <div class="md:flex flex-wrap columns-2 gap-4">
+    <div class="flex w-full md:flex-nowrap flex-wrap gap-4 md:gap-0">
       <NuxtLink
         v-for="link in links"
         :to="link.link"

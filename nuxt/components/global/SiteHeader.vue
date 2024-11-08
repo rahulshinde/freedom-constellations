@@ -12,7 +12,7 @@
     ref="siteHeader"
   >
     <div class="flex items-center justify-between w-full">
-      <NuxtLink to="/" class="flex items-start w-col8 md:w-col3 md:mx-4 z-10">
+      <NuxtLink to="/" class="flex items-start w-col8 md:w-col3 z-10">
         <IconsLogo class="md:block h-9 w-auto md:h-12" />
       </NuxtLink>
       <button 
@@ -124,7 +124,7 @@
       <div class="flex items-center mt-4">
         <span class="border-[2px] rounded-[50%] font-bold text-[0.6rem] px-[0.4rem] py-[0.1rem]">?</span>
         <NuxtLink to="/about" class="
-          text-[0.65rem] text-center uppercase font-semibold mx-2
+          text-[0.65rem] text-center uppercase font-semibold mx-2 whitespace-nowrap
           "
         >
           About the Project
