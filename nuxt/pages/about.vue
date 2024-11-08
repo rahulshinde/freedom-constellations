@@ -32,7 +32,7 @@
         <div class="ml-col3 mr-col3 columns-3 gap-4">
           <div class="break-after-column text-runde-xs break-inside-avoid">
             <h2 class="uppercase font-bold mb-4">Website Design</h2>
-             <a href="https://www.ashleyjanelewis.com" target="_blank" class="underline hover:text-navigation-highlight">Jason Killinger</a> & <br> <a href="https://r-s-s.net" target="_blank" class="underline hover:text-navigation-highlight">Rahul Subhash Shinde</a>
+             <a href="https://jasonkillinger.com/" target="_blank" class="underline hover:text-navigation-highlight">Jason Killinger</a> & <br> <a href="https://r-s-s.net" target="_blank" class="underline hover:text-navigation-highlight">Rahul Subhash Shinde</a>
           </div>
           <div class='break-after-column text-runde-xs break-inside-avoid'>
             <h2 class="uppercase font-bold mb-4">Site Programming</h2>

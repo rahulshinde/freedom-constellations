@@ -10,7 +10,7 @@
         class="mx-4 w-col3"
       />
       <BlockPdfDownload
-        text="Criminal Justice Reforem Lesson Plan"
+        text="Criminal Justice Reform Lesson Plan"
         filePath="/abolitionist-toolkit/Amplifier_PerformingStats_LessonPlan"
         color="var(--billboards)"
         class="mx-4 w-col3"
