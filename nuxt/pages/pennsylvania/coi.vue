@@ -73,6 +73,29 @@ Once PS had all of this information, we presented the creative brief to Amir Kha
         ]"
       />
 
+      <BlockTextBody
+        text="Throughout the design process, Amir and Katie shared options for CNC to choose. Before sending anything to be fabricated, the entire team met and walked through each element of the plan. The organizers made decisions about color, vinyl textures, acrylic finish, and shapes. 
+
+Once we had all of the materials and working assets ready, we held 2 workshops. Workshop 1 focused on designing the jackets. Workshop 2 focused on signage and assembling the sculptural elements that carry messaging. After these two workshops, the Care Not Control team was confident in the process and how they wanted to see the assets used together. They were ready to use the assets to hold more workshops to engage more youth. When organizers from Chicago and Minneapolis came to Philly for the youth convening, the team facilitated a abolitionist tote making workshop where visiting organizers were able to play with all of the assets to make swag of their own."
+      />
+
+      <BlockTextHeading
+        text="Download the CNC Ideas PDF"
+      />
+
+      <BlockImageAutoSlideshow
+        :images="[
+          '/pennsylvania/coi/pdfs/PHILLYCNC1.jpg',
+          '/pennsylvania/coi/pdfs/PHILLYCNC2.jpg',
+          '/pennsylvania/coi/pdfs/PHILLYCNC3.jpg',
+          '/pennsylvania/coi/pdfs/PHILLYCNC4.jpg',
+          '/pennsylvania/coi/pdfs/PHILLYCNC5.jpg',
+        ]"
+        downloadLink="/pennsylvania/coi/pdfs/PHILLYCNC_Ideas.pdf"
+        downloadText="Care Not Control, How CNC arrived at Flight Jackets & Sculptural signs"
+        color="var(--programs)"
+      />
+
 
       <BlockTextHeading
         text="Credits"

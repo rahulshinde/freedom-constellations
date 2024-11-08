@@ -20,7 +20,7 @@
     </div>
     <a
       :href="downloadLink"
-      class="flex mx-col3 mt-4 uppercase text-runde-s font-semibold"
+      class="flex px-12 mx-col3 mt-4 uppercase text-runde-s font-semibold"
       :class="hoverColorClass(color)"
       target="_blank"
       rel="noopener noreferrer"
