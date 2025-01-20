@@ -6,7 +6,7 @@
       backLink="/illinois"
       subtitle="No Kids in Prison Exhibition"
       location="Chicago, Illinois"
-      introText="Organized by Performing Statistics, #NoKidsInPrison Chicago featured collaborations with The Final 5 campaign and Circles and Ciphers. The exhibition immersed viewers into interactive installations about the history of youth incarceration, the state of youth incarceration today and what is needed to build a world where all youth are free. Youth voices from local incarcerated young people were included through an audio collaboration between Final Five and youth inside. SkyArts contributed paintings created by local incarcerated youth. Circles and Ciphers created a music video to drop their new song, “No Kids In Prison” a ballad that illustrates a prison free Chicago that centers youth leadership."
+      introText="Filled with virtual reality, interactive art installations, and eight years of art made in collaboration with youth leaders nationwide, the exhibition engaged thousands of viewers and helped support local campaigns to keep youth free."
       date=""
       :onThisPage="[
         ['Programming', 'programming'],
@@ -57,9 +57,7 @@
         ]"
       />
       <BlockTextBody 
-        text="Filled with virtual reality, interactive art installations, and eight years of art made in collaboration with youth leaders nationwide, the exhibition engaged thousands of viewers and helped support local campaigns to keep youth free.
-      
-Healthy Hood curated a robust set of programs open to the public and Final Five hosted multiple organizing events for youth." 
+        text="Organized by Performing Statistics, #NoKidsInPrison Chicago featured collaborations with The Final 5 campaign and Circles and Ciphers. The exhibition immersed viewers into interactive installations about the history of youth incarceration, the state of youth incarceration today and what is needed to build a world where all youth are free. Youth voices from local incarcerated young people were included through an audio collaboration between Final Five and youth inside. SkyArts contributed paintings created by local incarcerated youth. Circles and Ciphers created a music video to drop their new song, “No Kids In Prison” a ballad that illustrates a prison free Chicago that centers youth leadership." 
       />
 
       <BlockTextHeading
@@ -87,7 +85,6 @@ Highlights from Chicago programming included:"
             '/illinois/nkip/programming/NKIPmedianarrativepanel1.jpg',
             '/illinois/nkip/programming/NKIPmedianarrativepanel5.jpg'
           ]"
-          caption='The War on Children Panel'
       />
 
       <BlockImageFullWidthSlideshow
@@ -110,7 +107,7 @@ Highlights from Chicago programming included:"
       />
 
       <BlockTextHeading
-          text="Data"
+          text="Impact; why strategic storytelling matters"
       />
 
       <BlockTextBulletList

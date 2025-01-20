@@ -40,9 +40,6 @@
             src: '/illinois/billboards/NKIPChicagoBillboards22.jpg',
           },
           {
-            src: '/illinois/billboards/NKIPChicagoBillboards1.jpg',
-          },
-          {
             src: '/illinois/billboards/NKIPChicagoBillboards34.jpg',
           },
           {
@@ -61,6 +58,15 @@
 
 The Performing Statistics team facilitated a series of workshops that allowed organizers to share their ideas with artists and give them feedback on the direction of their designs. Using input from the young people, the artists created ten billboard designs that were featured throughout Chicago and in Springfield where legislators are making decisions about youth freedom in IL. "
       />
+
+      <BlockImageFullWidthSlideshow
+          class="mt-8"
+          :images="[
+            {
+              src: '/illinois/billboards/NKIPChicagoBillboards1.jpg',
+            },
+          ]"
+        />
       <BlockTextHeading
         text="Credits"
       />

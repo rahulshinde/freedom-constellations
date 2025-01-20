@@ -6,7 +6,7 @@
       backLink="/virginia"
       subtitle="Youth Dreams of Freedom at the Smithsonian"
       location="The Smithsonian, Washington, DC"
-      introText="In 2021, Performing Statistics was chosen as 1 of 8 projects from across the country to be featured in the Futures We Dream video installation at the Smithsonian’s exhibit Futures!!! Located in Washington, DC, in the center of the National Mall, Futures was the first exhibition in the Arts and Industries building in over _______ years."
+      introText="In 2021, Performing Statistics was chosen as 1 of 8 projects from across the country to be featured in the Futures We Dream video installation at the Smithsonian’s exhibit Futures!!! Located in Washington, DC, in the center of the National Mall, Futures was the first exhibition in the Arts and Industries building in over 20 years."
       date="2021"
       :onThisPage="[
       ]"

@@ -46,13 +46,15 @@
       />
 
       <BlockTextBody
-        text="Youth Organizers in MN lifted up that a significant part of the culture of over policing in the Twin Cities has been a result of excessive surveillance led by the superstore giant Target which is based in MN. Nearly every young person on the EYP team had a personal experience about being watched or followed while at Target. They wanted to create a piece lifting up the impact normalized surveillance has had on thousands of youth in Minneapolis. It was important to the young people that the art educated the public about the history of the Downtown100, a list of youth kept by Downtown Improvement District, a private police funded by Target. The list largely targeted homeless young people who would spend time in the downtown area and served as an excuse for police to harass young people, pushing many of them into the system which impacts them to this day. "
+        text="Youth Organizers in MN lifted up that a significant part of the culture of over policing in the Twin Cities has been a result of excessive surveillance led by the superstore giant Target which is based in MN. Nearly every young person on the EYP team had a personal experience about being watched or followed while at Target. They wanted to create a piece lifting up the impact normalized surveillance has had on thousands of youth in Minneapolis. It was important to the young people that the art educated the public about the history of the Downtown100, a list of youth kept by Downtown Improvement District, a private police funded by Target. The list largely targeted homeless young people who would spend time in the downtown area and served as an excuse for police to harass young people, pushing many of them into the system which impacts them to this day. 
+
+In partnership with local journalist, Marjaan Sirdar we worked to illustrate how Target’s development of private surveillance and forensic systems have caused harm to young people in MN and beyond as they share their technology with police departments across the country.        "
       />
       
       <BlockImageWithPullQuote
         class="mt-16"
         img="/minnesota/nkip/target/NKIPMN12.jpg"
-        quote="In partnership with local journalist, Marjaan Sirdar we worked to illustrate how Target’s development of private surveillance and forensic systems have caused harm to young people in MN and beyond as they share their technology with police departments across the country."
+        quote="100 different people that want us to keep quiet/they better listen/cause we gone go hard until they can see the picture/let's make a difference /what's our position/i bet they can never stop this 100 man resistance"
         color="var(--nkip)"
       />
 
