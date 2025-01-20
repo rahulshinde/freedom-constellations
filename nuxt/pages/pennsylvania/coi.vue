@@ -148,8 +148,9 @@ Once we had all of the materials and working assets ready, we held 2 workshops. 
           '/pennsylvania/coi/pdfs/PHILLYCNC4.jpg',
           '/pennsylvania/coi/pdfs/PHILLYCNC5.jpg',
         ]"
+        heading="Download the full curriculum here"
         downloadLink="/pennsylvania/coi/pdfs/PHILLYCNC_Ideas.pdf"
-        downloadText="Care Not Control, How CNC arrived at Flight Jackets & Sculptural signs"
+        downloadText="Care Not Control, Cultural Strategy Project"
         color="var(--programs)"
       />
 

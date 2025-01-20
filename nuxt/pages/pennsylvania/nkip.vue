@@ -24,6 +24,9 @@
         class="mt-8"
         :images = "[
           {
+            'src': '/pennsylvania/nkip/NKIPPhilly_15_small.jpg'
+          },
+          {
             'src': '/pennsylvania/nkip/PXL_20230606_195010795.jpg'
           },
           {
@@ -37,9 +40,6 @@
           },
           {
             'src': '/pennsylvania/nkip/NKIPPhilly_14.jpg'
-          },
-          {
-            'src': '/pennsylvania/nkip/NKIPPhilly_15_small.jpg'
           },
           {
             'src': '/pennsylvania/nkip/NKIPPhilly_17.jpg'

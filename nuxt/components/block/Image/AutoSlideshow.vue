@@ -18,22 +18,24 @@
         />
       </div>
     </div>
-    <div class="px-12 mx-col3 mt-8">
+    <div class="px-12 ml-col4 mr-col4 mt-8">
+      <h2 v-if="heading" class="text-runde-m text-center font-semibold mb-4">{{ heading }}</h2>
       <a
       :href="downloadLink"
       class="flex transition-all p-4 drop-shadow-none hover:rounded-xl uppercase text-runde-s font-semibold text-black"
       :class="[hoverColorClass(color), colorClasses(color)]"
       target="_blank"
       rel="noopener noreferrer"
-    >
-      {{ downloadText }} <IconsDownload fill="black" class="w-5 h-5 ml-2" />
-    </a>
+      >
+        {{ downloadText }} <IconsDownload fill="black" class="w-8 h-8 ml-2" />
+      </a>
     </div>
   </section>
 </template>
 
 <script setup>
   const props = defineProps({
+    heading: String,
     images: Array,
     downloadLink: String,
     downloadText: String,

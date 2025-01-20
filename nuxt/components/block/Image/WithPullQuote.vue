@@ -7,7 +7,7 @@
       :class="reverse ? 'object-left' : 'object-right'"
       :src="img"
     >
-    <div class="w-col6 flex relative mr-4">
+    <div class="w-col6 flex flex-col relative mr-4">
       <p 
         class="flex flex-col w-[80%]"
         :class="[
@@ -20,7 +20,7 @@
       </p>
 
       <div
-        class="flex absolute bottom-0 items-end"
+        class="flex items-end mt-4"
         v-if="includeArLink"
       >
         <IconsArLink class="w-20 h-auto"/>

@@ -69,6 +69,20 @@
       </div>
 
       <div class="relative">
+        <BlockTextHeading
+          text='Watch a mini-documentary about all the magic youth leaders created in Richmond!'
+        />
+        <img class="absolute pointer-events-none -z-10 top-0 w-20 right-[24%]" src="/zine-assets/orangestar2.png" />
+        <img class="absolute pointer-events-none z-10 -bottom-4 w-[15%] left-0" src="/zine-assets/zine-assets_0006_Layer-3.png" />
+        <img class="absolute pointer-events-none z-10 -bottom-[10%] w-[10%] left-10" src="/zine-assets/zine-assets_0002_Layer-12.png" />
+      </div>
+
+      <BlockVideo
+        video="https://player.vimeo.com/progressive_redirect/playback/1048605050/rendition/1080p/file.mp4?loc=external&signature=445e7cbffd792a866ed68f75bc9e0f47324a3e3412cf335ce844377dbca5851e"
+        poster="/virginia/index/richmond-homepage-poster.jpg"
+      />
+
+      <div class="relative">
         <BlockTextBody
           text="As the first in the series of Freedom Constellations campaigns, Richmond showcased many powerful models to build from as we moved to work with other state campaigns, but also areas where we could make those versions even more powerful. 
 

@@ -43,7 +43,7 @@
       />
       
       <BlockTextBody
-          text="Working with over dozens of youth leaders, and an array of community partners, the project illustrated what that future would look, sound, and feel like while naming the changes youth leaders came up with to achieve that more just future. To create the final designs, youth leaders shared their portraits and poetry with an incredible group of local and national artists. Artists worked with the youth through zoom calls and in-person workshops to co-design the billboard. Each billboard represented a theme that youth leaders identified as a building block toward a future where all youth are safe, free, and healed. 15 billboards were printed and installed across the city sharing these future dreams with tens of thousands of viewers."
+          text="Working with dozens of youth, and an array of community partners, the project illustrated what that future would look, sound, and feel like while naming the changes youth leaders came up with to achieve that more just future. To create the final designs, youth leaders shared their portraits and poetry with an incredible group of local and national artists. Artists worked with the youth through zoom calls and in-person workshops to co-design the billboard. Each billboard represented a theme that youth leaders identified as a building block toward a future where all youth are safe, free, and healed. 15 billboards were printed and installed across the city sharing these future dreams with tens of thousands of viewers."
       />
       <BlockTextHeading
           text="Buildings transformed into megaphones for the dreams of youth!"
