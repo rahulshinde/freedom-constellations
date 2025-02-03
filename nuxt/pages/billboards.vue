@@ -2,7 +2,7 @@
   <main>
     <h1 class="mx-8 mt-8 relative z-20 text-runde-xxl font-semibold">Abolitionist Artist Billboards</h1>
     <section class="mx-4 mt-8 flex flex-wrap bg-black relative z-10 pb-0
-        before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0">
+        before:content-[''] before:absolute before:w-full before:h-[30svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[30svh] before:left-0 before:z-0">
       <button 
         v-for="slide, index in slides"
         class="mx-4 mb-8 hover:rounded-lg transition-all duration-300 overflow-hidden"

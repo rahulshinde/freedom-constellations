@@ -13,7 +13,7 @@
     <section 
       class="
         bg-black relative z-10 pb-16
-        before:content-[''] before:absolute before:w-full before:h-[20svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[20svh] before:left-0 before:z-0"
+        before:content-[''] before:absolute before:w-full before:h-[30svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[30svh] before:left-0 before:z-0"
     >
       <BlockFullBleed
         video="https://player.vimeo.com/progressive_redirect/playback/1025482729/rendition/720p/file.mp4?loc=external&signature=7647d08424484a1137aca2cfdbdfdcb3059640ccfda180673c665819fd6a4743"
