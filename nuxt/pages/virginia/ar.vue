@@ -46,9 +46,6 @@ The banners, which could be seen from miles away, included an interactive augmen
             'src': '/virginia/ar/intro/FC_CityHall2.jpg'
           },
           {
-            'src': '/virginia/ar/intro/CityHall_unveiling_5small.jpg'
-          },
-          {
             'src': '/virginia/ar/intro/CityHall_unveiling_9_small.jpg'
           },
           {
@@ -56,6 +53,9 @@ The banners, which could be seen from miles away, included an interactive augmen
           },
           {
             'src': '/virginia/ar/intro/CityHall_3.jpg'
+          },
+          {
+            'src': '/virginia/ar/intro/CityHall_unveiling_5small.jpg'
           }
         ]"
       />
@@ -85,6 +85,11 @@ Connected workshops were done in collaboration with the Valentine museum and the
 
       <BlockFullBleed
         video="https://player.vimeo.com/progressive_redirect/playback/1022999696/rendition/720p/file.mp4?loc=external&signature=a06103b176bad73a11c1649d07f566f3479ae2228f746d4a1b8ce0cacf45386a"
+      />
+
+      <BlockImageWithPullQuote
+        img="/virginia/ar/CityHall_unveiling_3_small.jpg"
+        quote="We want you to invest in us, not what you think is right for us. Our schools. Our programs. Black, hispanic or caucasian, we should all be able to be great."
       />
 
       <BlockTextHeading
