@@ -18,9 +18,29 @@
         before:content-[''] before:absolute before:w-full before:h-[30svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[30svh] before:left-0 before:z-0"
     >
 
+      <BlockVideo
+        class="mt-8"
+        video="https://player.vimeo.com/progressive_redirect/playback/1022172976/rendition/1080p/file.mp4?loc=external&signature=5a2e70d0a1e49ea850dc94abac8648433a6748a2a40505ee72b3bc16eb8ecef7"
+        poster="/virginia/mural/mural_video_poster.jpg"
+      />
+
+      <BlockTextBody
+        text="In 2021,  Performing Statistics collaborated with young people for RISE for Youth and Code VA to create the mural which became the first ‘star’ within the Freedom Constellations campaign.
+
+The project connected youth advocates and youth coding students to build a one of a kind mural that came alive with interactive audio and augmented reality. Alongside massive portraits of each youth participant, motion sensors, LED lights and audio speakers were attached to the wall. When viewers walked by the youth leader’s portraits, the sensors would be triggered and the LED lights around each portrait would illuminate as the youth began talking to the viewer about the future they dream of through the speakers on the wall.
+
+By collaborating with the youth coders at CODE VA to do the programming for the mural, the project created a rare collaboration between a diverse group of students."
+      />
+
       <BlockImageFullWidthSlideshow
         class="mt-8"
         :images = "[
+          {
+            'src': '/virginia/mural/PerformingStats_Mural_PRessConference4_small.jpg'
+          },
+          {
+            'src': '/virginia/mural/WideShot.jpg'
+          },
           {
             'src': '/virginia/mural/MuralUnveiling_4_large.jpg'
           },
@@ -29,9 +49,6 @@
           },
           {
             'src': '/virginia/mural/MuralUnveiling_2_small.jpg'
-          },
-          {
-            'src': '/virginia/mural/PerformingStats_Mural_PRessConference4_small.jpg'
           },
           {
             'src': '/virginia/mural/boombox.jpg'
@@ -43,21 +60,7 @@
       />
 
       <BlockTextBody
-        text="In 2021,  Performing Statistics collaborated with young people for RISE for Youth and Code VA to create the mural which became the first ‘star’ within the Freedom Constellations campaign.
-
-The project connected youth advocates and youth coding students to build a one of a kind mural that came alive with interactive audio and augmented reality. Alongside massive portraits of each youth participant, motion sensors, LED lights and audio speakers were attached to the wall. When viewers walked by the youth leader’s portraits, the sensors would be triggered and the LED lights around each portrait would illuminate as the youth began talking to the viewer about the future they dream of through the speakers on the wall.
-
-By collaborating with the youth coders at CODE VA to do the programming for the mural, the project created a rare collaboration between a diverse group of students."
-      />
-
-      <BlockVideo
-        class="mt-8"
-        video="https://player.vimeo.com/progressive_redirect/playback/1022172976/rendition/1080p/file.mp4?loc=external&signature=5a2e70d0a1e49ea850dc94abac8648433a6748a2a40505ee72b3bc16eb8ecef7"
-        poster="/virginia/mural/mural_video_poster.jpg"
-      />
-
-      <BlockTextBody
-        text="The mural also included QR codes that triggered multiple audio pieces, augmented reality experiences, and calls to action to connect viewers with the advocates trying to make the dreams within the mural a reality."
+        text="The mural also included QR codes that triggered multiple audio pieces, augmented reality experiences, and calls to action to connect viewers with the advocates trying to make the dreams within the mural a reality. Use the audio player below to hear the voices of each of the youth leaders who made the mural possible."
       />
 
       <div class="mx-4 mt-8">
@@ -67,7 +70,9 @@ By collaborating with the youth coders at CODE VA to do the programming for the 
       </div>
 
       <BlockTextBody
-        text="The mural stayed on display for over a year and was directly across the street from the police department. Positioned at 3rd and Broad st (one of the busiest intersections in the city), the mural received a feature article in the <a href='https://richmond.com/entertainment/art/on-the-wall-across-from-vcu-police-department-advocates-unveil-a-mural-that-imagines-a/article_0dc739f2-83c2-5318-b6c0-67fcf41ceb2f.html' target='_blank'>city’s largest newspaper</a> and was viewed by thousands of people."
+        text="The mural stayed on display for over a year and was directly across the street from the police department. Positioned at 3rd and Broad st (one of the busiest intersections in the city), the mural received a feature article in the <a href='https://richmond.com/entertainment/art/on-the-wall-across-from-vcu-police-department-advocates-unveil-a-mural-that-imagines-a/article_0dc739f2-83c2-5318-b6c0-67fcf41ceb2f.html' target='_blank'>city’s largest newspaper</a> and was viewed by thousands of people. 
+        
+This mural was only made possible through the hands and hearts of so many people. See images from the deeply collaborative process below."
       />
 
       <div class="mx-4 mt-16 mb-16">
@@ -185,7 +190,7 @@ By collaborating with the youth coders at CODE VA to do the programming for the 
     {
       title: "An Abolitionist City Bus",
       link: "/virginia/bus",
-      img: "/virginia/index/VA_bus.jpg",
+      img: "/virginia/index/VA_Bus.jpg",
       color: "var(--billboards)"
     },
     {
