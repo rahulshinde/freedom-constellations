@@ -1,7 +1,9 @@
 <template>
   <footer 
-    :class="route.path.includes('/abolitionist-toolkit') ? 'bg-bg-highlight' : 'bg-black'"
-    class="relative overflow-x-hidden pb-8 md:pb-8 transition-all duration-[0.3s]"
+    :class="route.path.includes('/abolitionist-toolkit') ? 'bg-bg-highlight' : 'before:content-[\'\'] before:absolute before:w-full before:h-[30svh] before:bg-gradient-to-t to-black from-black-trans before:-top-[30svh] before:left-0 before:z-0'"
+    class="
+      relative overflow-x-hidden pb-8 md:pb-8 transition-all duration-[0.3s]
+    "
   >
     <img src="/pngs/squiggle.png" alt="Squiggle" class="w-[180%] md:w-[120%] max-w-none h-auto top-0 relative -left-2 -right-2" />
     <div class="flex flex-wrap flex-col md:flex-row items-center lg:flex-nowrap justify-center md:justify-start items-start mx-4">
