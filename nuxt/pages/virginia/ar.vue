@@ -179,13 +179,13 @@ As part of the 3 part City Hall tour, participants could step into the historic 
   {
       title: 'A Mural that Comes Alive',
       link: "/virginia/mural",
-      img: "/virginia/index/VA_mural.jpg",
+      img: "/virginia/index/VA_Mural.jpg",
       color: "var(--projects)"
     },
     {
       title: "An Abolitionist City Bus",
       link: "/virginia/bus",
-      img: "/virginia/index/VA_bus.jpg",
+      img: "/virginia/index/VA_Bus.jpg",
       color: "var(--billboards)"
     },
     {
