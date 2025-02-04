@@ -80,13 +80,6 @@ Highlights from Chicago programming included:"
           ]"
       />
 
-      <BlockImageGallery
-          :images="[
-            '/illinois/nkip/programming/NKIPmedianarrativepanel1.jpg',
-            '/illinois/nkip/programming/NKIPmedianarrativepanel5.jpg'
-          ]"
-      />
-
       <BlockImageFullWidthSlideshow
           class="mt-8"
           :images="[
@@ -102,6 +95,12 @@ Highlights from Chicago programming included:"
             },
             {
               src: '/illinois/nkip/programming/Finalfiveprogramming9.jpg'
+            },
+            {
+              src: '/illinois/nkip/programming/NKIPmedianarrativepanel1.jpg'
+            },
+            {
+              src: '/illinois/nkip/programming/NKIPmedianarrativepanel5.jpg'
             }
           ]"
       />
@@ -110,13 +109,25 @@ Highlights from Chicago programming included:"
           text="Impact; why strategic storytelling matters"
       />
 
-      <BlockTextBulletList
-          :list="[
-            'Transforming viewers perspectives…nearly 66% of viewers said that, after viewing the exhibit, they were committed to ending youth incarceration',
-            'People who came saw a personal connection…nearly 70% of viewers have a loved one who is/was incarcerated',
-            'Youth voices mattered the most…out of everything people saw and experienced in the NKIP exhibition, 55% of viewers said hearing from youth was what impacted them the most',
-            'The exhibit was able to reach young people….85% of attendees were 18 - 35 years old ',
-          ]"
+      <BlockTextData
+        :dataPoints="[
+          {
+            number: '66%',
+            text: 'of viewers said that, after viewing the exhibit, they were committed to ending youth incarceration'
+          },
+          {
+            number: '70%',
+            text: 'of viewers have a loved one who is/was incarcerated'
+          },
+          {
+            number: '55%',
+            text: 'of viewers said hearing from youth was what impacted them the most'
+          },
+          {
+            number: '85%',
+            text: 'of attendees were 18 - 35 years old'
+          }
+        ]"
       />
 
       <BlockTextHeading

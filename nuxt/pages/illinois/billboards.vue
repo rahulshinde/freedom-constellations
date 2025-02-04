@@ -25,13 +25,16 @@
         class="mt-8"
         :images="[
           {
+            src: '/illinois/billboards/NKIPChicagoBillboards37.jpg',
+          },
+          {
             src: '/illinois/billboards/NKIPChicagoBillboards3.jpg',
           },
           {
-            src: '/illinois/billboards/NKIPChicagoBillboards4.jpg',
+            src: '/illinois/billboards/NKIPChicagoBillboards12.jpg',
           },
           {
-            src: '/illinois/billboards/NKIPChicagoBillboards12.jpg',
+            src: '/illinois/billboards/NKIPChicagoBillboards4.jpg',
           },
           {
             src: '/illinois/billboards/NKIPChicagoBillboards16.jpg',
@@ -47,9 +50,6 @@
           },
           {
             src: '/illinois/billboards/NKIPChicagoBillboards28.jpg',
-          },
-          {
-            src: '/illinois/billboards/NKIPChicagoBillboards37.jpg',
           }
         ]"
       />
@@ -64,6 +64,12 @@ The Performing Statistics team facilitated a series of workshops that allowed or
           :images="[
             {
               src: '/illinois/billboards/NKIPChicagoBillboards1.jpg',
+            },
+            {
+              src:'/illinois/billboards/IMG_6570.jpg'
+            },
+            {
+              src: '/illinois/billboards/PSSpringfieldbillboard2.jpg',
             },
           ]"
         />

@@ -17,7 +17,7 @@
         before:content-[''] before:absolute before:w-full before:h-[30svh] before:bg-gradient-to-b to-black from-black-trans before:-top-[30svh] before:left-0 before:z-0
       "
     > 
-      <BlockTextHeading text="Circles and Ciphers Music Video" />
+      <BlockTextHeading text="Imagining a world where all hearts can heal with the No Kids In Prison music video by Circles and Ciphers." />
       <BlockVideo
         class="mt-8"
         video="https://player.vimeo.com/progressive_redirect/playback/1024480139/rendition/720p/file.mp4?loc=external&signature=b20bcf1cf9b4c7c0e00dab196e4cfc1223569e00e065d20c93649659a9848ac1"
@@ -28,12 +28,15 @@
       
 “In collaboration with Performing Statistics, we believed it would be really powerful to show a world where black kids from Chicago reclaimed their own narrative and showed what black leadership could like from an abolitionist framework. This music video was deeply important to us..from AnnMarie tailoring all of the suits the young men wore to Marko working with our young people on their verses..we saw this as a chance to pay homage to Hip Hop as a vessel of storytelling and movement work. Making the video did not come without its bouts but we made it through and we're deeply appreciative of the whole experience! We hope this video will continue to spread hope and positivity all across the globe. From Chi-town to da world!”"
       />
-      <BlockTextHeading text="Circles and Ciphers Snack Bags" />
+      <BlockTextHeading text="Free Da Homies Snack Bags" />
       <BlockImageFullWidthSlideshow
         class="mt-8"
         :images="[
           {
             src: '/illinois/coi/FreeDaHomiesBags7.jpg',
+          },
+          {
+            src: '/illinois/coi/FreeDaHomiesBags2.jpg',
           },
           {
             src: '/illinois/coi/FreeDaHomiesBags5.jpg',

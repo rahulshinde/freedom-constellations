@@ -2,7 +2,7 @@
   <main class="w-full overflow-hidden">
     <BlockTextHeading class="relative z-20 !mt-16" text="Illinois: a future where all hearts can finally heal" />
 
-    <BlockTextBody class="!mt-4 relative z-20" text="Combining billboards, music videos, robust public programming, and the largest version of the NKIP exhibition to date, Illinois reached massive audiences while creating powerful spaces for activists to connect and build power." />
+    <BlockTextBody class="!mt-4 relative z-20" text="Combining billboards, music videos, robust public programming, and the largest version of the NKIP exhibition to date, Illinois reached massive audiences while creating spaces for activists to connect and build power." />
 
 
     <section 
