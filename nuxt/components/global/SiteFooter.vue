@@ -1,6 +1,6 @@
 <template>
   <footer 
-    :class="route.path.includes('/abolitionist-toolkit') ? 'bg-bg-highlight' : 'before:content-[\'\'] before:absolute before:w-full before:h-[30svh] before:bg-gradient-to-t to-black from-black-trans before:-top-[30svh] before:left-0 before:z-0'"
+    :class="route.path.includes('/abolitionist-toolkit') ? 'bg-bg-highlight' : 'before:content-[\'\'] before:absolute before:w-full before:h-[30svh] before:bg-gradient-to-t to-black from-black-trans before:top-[0] before:left-0 before:z-[-1]'"
     class="
       relative overflow-x-hidden pb-8 md:pb-8 transition-all duration-[0.3s]
     "
