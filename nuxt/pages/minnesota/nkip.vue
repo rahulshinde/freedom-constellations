@@ -5,14 +5,14 @@
       title="Minnesota"
       backLink="/minnesota"
       subtitle="#NoKidsInPrison, Twin Cities"
-      location="Black Youth Healing Center"
+      location="Black Youth Healing Arts Center"
       introText="Organized in collaboration with End Youth Prisons MN, the exhibition filled the gymnasium at the Black Youth Healing Arts Center and premiered interactive sculptures and infographics created by local artists and youth organizers about youth incarceration in Minnesota."
       date="September 29 - October 8th, 2023"
       :onThisPage="[
-        ['Target', 'target'],
-        ['Infographics', 'infographics'],
-        ['Future Audio', 'future-audio'],
-        ['Car Jacking Installation', 'car-jacking-installation']
+        ['Target Surveillance Sculpture', 'target'],
+        ['Youth designed Infographics', 'infographics'],
+        ['Poetry from a Free Future', 'future-audio'],
+        ['Programming Builds Community Power', 'car-jacking-installation']
       ]"
     />  
 
@@ -32,10 +32,10 @@
         title="Minnesota"
         backLink="/minnesota"
         :onThisPage="[
-          ['Target', 'target'],
-          ['Infographics', 'infographics'],
-          ['Future Audio', 'future-audio'],
-          ['Car Jacking Installation', 'car-jacking-installation']
+          ['Target Surveillance Sculpture', 'target'],
+          ['Youth designed Infographics', 'infographics'],
+          ['Poetry from a Free Future', 'future-audio'],
+          ['Programming Builds Community Power', 'car-jacking-installation']
         ]"
       />
 
@@ -46,24 +46,42 @@
       <BlockTextPullQuote
         text="My hope for the future would be for youth to just be able to be youth and experience an actual a childhood where they are not adultified and they are not being incarcerated and they are able to go to school and be accepted and wanted and experience a future that they deserve."
         attribution="Sreeja, Youth Organizer Legal Rights Center"
+        color="var(--nkip)"
       />
 
       <BlockTextHeading
         class="mt-16 scroll-mt-[11rem]"
-        text="Target"
+        text="Target Surveillance Sculpture"
         id="target"
       />
 
+      <div class="mx-4 mt-8 mb-8">
+        <div class="flex justify-between">
+          <img
+            class="w-2/5 mr-4 h-[30vw] mx-4 object-cover"
+            src="/minnesota/nkip/target/NKIPMN12.jpg"
+          >
+          <img
+            class="w-1/5 object-cover mx-4 h-[30vw]"
+            src="/minnesota/nkip/target/NKIPMN8.jpg"
+          >
+          <img
+            class="w-2/5 object-cover mx-4 h-[30vw]"
+            src="/minnesota/nkip/target/NKIPMN15.jpg"
+          >
+        </div>
+      </div>
+
       <BlockTextBody
-        text="Youth Organizers in MN lifted up that a significant part of the culture of over policing in the Twin Cities has been a result of excessive surveillance led by the superstore giant Target which is based in MN. Nearly every young person on the EYP team had a personal experience about being watched or followed while at Target. They wanted to create a piece lifting up the impact normalized surveillance has had on thousands of youth in Minneapolis. It was important to the young people that the art educated the public about the history of the Downtown100, a list of youth kept by Downtown Improvement District, a private police funded by Target. The list largely targeted homeless young people who would spend time in the downtown area and served as an excuse for police to harass young people, pushing many of them into the system which impacts them to this day. 
+        text="Youth Organizers in MN lifted up that a significant part of the culture of over policing in the Twin Cities has been a result of excessive surveillance led by the superstore giant Target which is based in MN. Nearly every young person on the EYP team had a personal experience about being watched or followed while at Target. They wanted to create a piece lifting up the impact normalized surveillance has had on thousands of youth in Minneapolis. It was important to the young people that the art educated the public about the history of the Downtown100, a list of youth kept by Downtown Improvement District, a private police force funded by Target. The list largely targeted homeless young people who would spend time in the downtown area and served as an excuse for police to harass young people, pushing many of them into the system which impacts them to this day. 
 
 In partnership with local journalist, Marjaan Sirdar we worked to illustrate how Target’s development of private surveillance and forensic systems have caused harm to young people in MN and beyond as they share their technology with police departments across the country.        "
       />
       
-      <BlockImageWithPullQuote
+      <BlockTextPullQuote
         class="mt-16"
-        img="/minnesota/nkip/target/NKIPMN12.jpg"
-        quote="100 different people that want us to keep quiet/they better listen/cause we gone go hard until they can see the picture/let's make a difference /what's our position/i bet they can never stop this 100 man resistance"
+        text="100 different people that want us to keep quiet/they better listen/cause we gone go hard until they can see the picture/let's make a difference /what's our position/i bet they can never stop this 100 man resistance"
+        attribution="lyrics from “Keep It 1hunnit”"
         color="var(--nkip)"
       />
 
@@ -74,12 +92,14 @@ The idea was to play with Target’s retail imagery, create graphic t-shirts tha
       />
 
       <BlockAudio
+        title="Use the player below to hear that poem and step into the future we all deserve."
+        cover="/minnesota/nkip/target/NKIPMN7.jpg"
         src="/minnesota/nkip/target/KeepIt1hunnit.mp3"
       />
 
       <BlockTextHeading
         class="mt-16 scroll-mt-[11rem]"
-        text="Infographics"
+        text="Youth designed Infographics"
         id="infographics"
       />
 
@@ -120,12 +140,8 @@ The idea was to play with Target’s retail imagery, create graphic t-shirts tha
 
       <BlockTextHeading
         class="mt-16 scroll-mt-[11rem]"
-        text="Future Audio"
+        text="Poetry from a Free Future"
         id="future-audio"
-      />
-
-      <BlockImageHalfWidth
-        img="/minnesota/nkip/future-audio/NKIPMN23.jpg"
       />
 
       <BlockTextBody
@@ -135,13 +151,15 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
       />
 
       <BlockAudio
+        title="Listen to the poem below"
+        cover="/minnesota/nkip/future-audio/NKIPMN23.jpg"
         src="/minnesota/nkip/future-audio/No_Youth_Prisons_MN.mp3"
       />
 
 
       <BlockTextHeading
         class="mt-16 scroll-mt-[11rem]"
-        text="Car Jacking Installation"
+        text="Programming Builds Community Power"
         id="car-jacking-installation"
       />
 
