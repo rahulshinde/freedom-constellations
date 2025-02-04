@@ -31,6 +31,38 @@ Tens of thousands of viewers went through the exhibition and we were so humbled 
 The film has also been viewed at many exhibitions, pop-up events and was featured in the 2023 Afrikana Film Festival in Richmond, VA."
       />
 
+      <div class="mx-4 mt-16 mb-16">
+        <div class="flex justify-between">
+          <img
+            class="w-1/3 mr-4 h-[20vw] mx-4 object-cover"
+            src="/virginia/video/process/SmithsonianFilm_DOcumentation.jpg"
+          >
+          <img
+            class="w-1/3 object-cover mx-4 h-[20vw]"
+            src="/virginia/video/process/SmithsonianFilm_DOcumentation2.jpg"
+          >
+          <img
+            class="w-1/3 object-cover mx-4 h-[20vw]"
+            src="/virginia/video/process/SmithsonianFilm_DOcumentation3_Small.jpg"
+          >
+        </div>
+
+        <div class="flex justify-between mt-8">
+          <img
+            class="w-1/3 mr-4 h-[20vw] mx-4 object-cover"
+            src="/virginia/video/process/SmithsonianFilm_DOcumentation4_Small.jpg"
+          >
+          <img
+            class="w-1/3 object-cover mx-4 h-[20vw]"
+            src="/virginia/video/process/SmithsonianFilm_DOcumentation5_Small.jpg"
+          >
+          <img
+            class="w-1/3 object-cover mx-4 h-[20vw]"
+            src="/virginia/video/process/SmithsonianFilm_DOcumentation6.jpg"
+          >
+        </div>
+      </div>
+
       <BlockTextHeading text="Credits"/>
       <BlockCredits 
           :credits="credits"/>
