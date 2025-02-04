@@ -55,96 +55,77 @@
           }
         ]"
       />
-      
-      <BlockTextBody
-        heading="Exhibition Data"
-        text="Thousands of viewers came through the NKIP exhibition and data from their surveys show what we have always believed….that youth driven storytelling, that incorporates a multitude of art forms and media, impacts people in deep and energizing ways."
-      />
-      <BlockTextBulletList
-          :list="
-            [
-              '50% of attendees had someone they care about that is or has been incarcerated',
-              '60% of attendees lived in Philly and 30% lived outside of PA',
-              '55% of attendees said they are more committed to fighting to end youth incarceration and supporting youth leadership than when they arrived.',
-              '56% of attendees felt like they understood the issue better and hearing from directly impacted youth and their families helped me understand things I didn\'t realize before.',
-              '50% of attendees said that they were most impacted by hearing from young people and their families about their experiences.'
-            ]
-          "
-      />
-
-      <BlockTextHeading
-          text="The exhibit featured a robust set of programs open to the public."
-      />
-      <BlockTextBody
-        heading="Opening Celebration"
-        text="Silk screen party, dj and more to celebrate all the brave and brilliant youth advocates who helped make this exhibition possible."
-      />
-      
 
       <BlockTextBody
-        heading="Weekly silk screening workshops"
-        text="Each week featured different local silk screen printers who helped print and share thousands of free posters, tote bags, and abolitionist ephemera."
+        text="The exhibit featured a robust set of programs led by local youth leaders, seasoned abolitionist advocates and artists, all free and open to the public. Attendees created abolitionist swag using vinyl designs and custom patches. The Philly screen printing community made sure everyone went home with a gorgeous freshly printed tote! The space was also an opportunity for organizers who have been fighting for youth freedom for decades to sit down with young people and talk through solidarity, wins, organizing heartbreak and the best strategies to keep fighting for liberation together."
       />
 
       <div class="mx-8">
-        <div class="flex mt-8 justify-between mx-col1">
+        <div class="flex mt-16 justify-between mx-col1">
           <img
-            class="w-2/4 mr-4 h-[50vw] object-cover"
+            class="w-1/3 mr-2 h-[33vw] object-cover"
             src="/pennsylvania/nkip/programming/20230520_181258.jpg"
           >
           <img
-            class="w-2/4 object-cover ml-4 h-[50vw]"
+            class="w-1/3 object-cover ml-2 mr-2 h-[33vw]"
             src="/pennsylvania/nkip/programming/20230611_145320.jpg"
           >
-        </div>
-      </div> 
-
-      <BlockTextBody
-        heading="Abolitionist swag workshops"
-        text="Hosted by Amir Khadar and Katie Kaplan, exhibition attendees were able to use patches, vinyl and laser cut charms created in collaboration with the Care Not Control campaign to make abolitionist one of a kind totes."
-      />
-
-      <div class="mx-8">
-        <div class="flex mt-8 justify-between mx-col1">
           <img
-            class="w-1/3 mr-4 h-[50vw] object-cover"
+            class="w-1/3 ml-2 h-[33vw] object-cover"
             src="/pennsylvania/nkip/programming/20230525_155137.jpg"
           >
+        </div>
+        <div class="flex items-stretch mt-4 mx-col1">
           <img
-            class="w-1/3 object-cover ml-4 mr-4 h-[50vw]"
-            src="/pennsylvania/nkip/programming/20230609_190311.jpg"
+            class="w-1/2 object-cover mr-2 h-[30vw]"
+            src="/pennsylvania/nkip/programming/PXL_20230611_201740424.jpg"
           >
           <img
-            class="w-1/3 object-cover ml-4 h-[50vw]"
-            src="/pennsylvania/nkip/programming/20230609_195249.jpg"
+            class="w-1/2 object-cover ml-2 h-[30vw]"
+            src="/pennsylvania/nkip/programming/PXL_20230611_202930016.jpg"
           >
         </div>
-      </div> 
-
-      <BlockTextBody
-        heading="Abolition Across Generations"
-        text="A panel featuring youth advocates and a group of older advocates who were sentenced to life in prison as teenagers. The panel discussed how racist tough on crime rhetoric and public policies of the 1980’s and 90’s was re-emerging and how each generation could share knowledge and build together."
-      />
-
-      <BlockImageFullWidthSlideshow
-        class="mt-8"
-        :images="[
-          {
-            'src': '/pennsylvania/nkip/programming/PXL_20230611_201740424.jpg'
-          },
-          {
-            'src': '/pennsylvania/nkip/programming/PXL_20230611_202930016.jpg'
-          },
-          {
-            'src': '/pennsylvania/nkip/programming/PXL_20230611_205314643.PORTRAIT.ORIGINAL.jpg'
-          }
-        ]"
-      />
+      </div>
 
       <BlockTextBody
         heading="Youth Convening"
         text="Understanding the power of youth cross pollination and relationship building, Performing Statistics hosted a youth convening where organizers from Minnesota and Illinois were about to experience the exhibition, see public art across the city and learn from Pennsylvania and New Jersey organizers about the process. The time together created space for relationships building between campaigns and opportunity to begin planning for the exhibition to travel to Chicago and Minneapolis."
       />
+
+      <BlockTextBody
+        heading="Exhibition Data"
+        text="Thousands of viewers came through the NKIP exhibition and data from their surveys show what we have always believed….that youth driven storytelling, that incorporates a multitude of art forms and media, impacts people in deep and energizing ways."
+      />
+
+      <BlockTextData
+        :dataPoints="[
+          {
+            'number': '50%',
+            'text': 'of attendees had someone they care about that is or has been incarcerated.'
+          },
+          {
+            'number': '60%',
+            'text': 'of attendees lived in Philly.'
+          },
+          {
+            'number': '30%',
+            'text': 'of attendees lived outside of PA.'
+          },
+          {
+            'number': '55%',
+            'text': 'of attendees said they are more committed to fighting to end youth incarceration and supporting youth leadership than when they arrived.'
+          },
+          {
+            'number': '56%',
+            'text': 'of attendees felt like they understood the issue better and hearing from directly impacted youth and their families helped me understand things I didn\'t realize before.'
+          },
+          {
+            'number': '50%',
+            'text': 'of attendees said that they were most impacted by hearing from young people and their families about their experiences.'
+          }
+        ]"      
+      />
+
       <BlockTextHeading
         text="Credits"
       />

@@ -40,6 +40,10 @@
 • The Village of Arts and Humanities"
       />
 
+      <BlockImageHalfWidth
+        img="/pennsylvania/ar/PXL_20230527_171508062.jpg"
+      />
+
       <BlockTextBody
         heading="The Animation"
         text="Youth leaders from Juvenile Law Center, YASP, Care, Not Control, and Mural Arts Philadelphia’s Restorative Justice Guild program wrote hundreds of lines of poetry that imagined a more free and safe future. They then worked together to edit that poem down and created paper cuts and other ways to illustrate the future world their poetry imagined.  The Invisible Thread team then took their art, portraits, and animation direction and transformed it into the augmented reality animation you can see on giant banners across the city."
@@ -78,6 +82,7 @@
 </template>
 
 <script setup>
+
 
   const footerLinks = [
     {
