@@ -62,7 +62,7 @@
       </div>
 
       <BlockTextBody
-        text="(Freedom Constellations, Twin cities, 2023) included abolitionist billboards and projections on symbolic sites. Organizers collaborated on interactive art pieces illuminating the normalized culture of surveillance and criminalization of youth by Target and narratives about carjacking. They created dynamic infographics about racial disparities and designed dazzling race car jackets adorned with their campaign values and demands. The Minnesota constellation calls for the support all youth deserve so they many take the wheel and lead us toward a future where all young people are thriving in freedom."
+        text="Freedom Constellations, Twin cities, 2023 included abolitionist billboards and projections on symbolic sites. Organizers collaborated on interactive art pieces illuminating the normalized culture of surveillance and criminalization of youth by Target and narratives about carjacking. They created dynamic infographics about racial disparities and designed dazzling race car jackets adorned with their campaign values and demands. The Minnesota constellation calls for the support all youth deserve so they many take the wheel and lead us toward a future where all young people are thriving in freedom."
       />
     </section>
   </main>

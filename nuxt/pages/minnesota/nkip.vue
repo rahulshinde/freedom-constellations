@@ -6,7 +6,7 @@
       backLink="/minnesota"
       subtitle="#NoKidsInPrison, Twin Cities"
       location="Black Youth Healing Center"
-      introText="Organized by Performing Statistics in collaboration with End Youth Prisons MN, this interactive exhibition took viewers on an immersive journey from the history of youth incarceration, to the present-day impact on youth and their families, and ended in a future space world where all youth are free. The exhibition filled the gymnasium at Black Youth Healing Arts Center and premiered interactive sculptures and infographics created by local artists and youth organizers about the state of youth incarceration in Minnesota. Thousands of viewers engaged with immersive virtual reality, music by youth and and eight years of art made in collaboration with youth leaders nationwide."
+      introText="Organized in collaboration with End Youth Prisons MN, the exhibition filled the gymnasium at the Black Youth Healing Arts Center and premiered interactive sculptures and infographics created by local artists and youth organizers about youth incarceration in Minnesota."
       date="September 29 - October 8th, 2023"
       :onThisPage="[
         ['Target', 'target'],
@@ -37,6 +37,15 @@
           ['Future Audio', 'future-audio'],
           ['Car Jacking Installation', 'car-jacking-installation']
         ]"
+      />
+
+      <BlockTextBody
+        text="This interactive exhibition took viewers on an immersive journey from the history of youth incarceration, to the present-day impact on youth and their families, and ended in a future space world where all youth are free. Thousands of viewers engaged with immersive virtual reality, music by youth and and eight years of art made in collaboration with youth leaders nationwide."
+      />
+
+      <BlockTextPullQuote
+        text="My hope for the future would be for youth to just be able to be youth and experience an actual a childhood where they are not adultified and they are not being incarcerated and they are able to go to school and be accepted and wanted and experience a future that they deserve."
+        attribution="Sreeja, Youth Organizer Legal Rights Center"
       />
 
       <BlockTextHeading
@@ -219,11 +228,19 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
 
   const slideshow = [
     {
+      src: '/minnesota/nkip/slideshow/NKIPMN1.jpg',
+      caption: ''
+    },
+    {
       src: '/minnesota/nkip/slideshow/NKIPMN2.jpg',
       caption: ''
     },
     {
       src: '/minnesota/nkip/slideshow/NKIPMN4.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/nkip/slideshow/NKIPMNpeople9.jpg',
       caption: ''
     },
     {
