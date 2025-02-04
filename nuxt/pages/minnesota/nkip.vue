@@ -156,22 +156,20 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
         src="/minnesota/nkip/future-audio/No_Youth_Prisons_MN.mp3"
       />
 
-
       <BlockTextHeading
-        class="mt-16 scroll-mt-[11rem]"
-        text="Programming Builds Community Power"
-        id="car-jacking-installation"
+        text="Programming"
       />
-
       <BlockImageFullWidthSlideshow
         class="mt-16"
-        :images="carSlideshow"
+        :images="programmingSlideshow"
       />
-
       <BlockTextBody
-        text="Youth leaders from End Youth Prisons MN shared that car-jacking in the Twin Cities area has been used to spread criminalized narratives about young people. Despite rates of car-jacking actually going down, police high speed chases have caused a series of deaths in Minneapolis. As counter-narrative to city officials saying carjacking is a justification for the over-policing of young people, youth leaders decided to create a piece that unpacks the systemic failures that can push a young person to feel like they have to steal a car. The piece features interviews with youth about car theft and how to support youth in ways that are preventative."
-      />
+        text="With input from the End Youth Prisons Mn campaign, #NoKidsInPrison in the Twin Cities had a series of programming events that were creative, impactful and centered multi-dimensional youth power. 
 
+Highlights included screen printing by Nico Sardina and Abolitionist swag making with Amir Khadar. The youth leaders organized a Youth Ball hosted by Vogue Down MPLS, who taught attendees about the radical history of ballroom as a space for queer youth liberation.
+
+Markevius from Rumble Boxing got everyone moving during the final weekend and the The Minnesota Coalition for Youth Justice held an intergenerational circle to close the week."
+      />
       
 
       <div class="relative">
@@ -198,11 +196,6 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
             title="Future Audio Credits"
             :credits="futureAudioCredits"
         />
-
-        <BlockCredits
-        title="Car Jacking Installation Credits"
-        :credits="carCredits"
-      />
         
         <img class="absolute z-[-1] -top-[15vw] w-[18vw] left-[15vw]" src="/zine-assets/planet3.png" />
         <img class="absolute z-[-1] -bottom-[2vw] w-[14vw] left-[40vw]" src="/zine-assets/zine-assets_0002_Layer-12.png" />
@@ -283,25 +276,29 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
     }
   ]
 
-  const carSlideshow = [
+  const programmingSlideshow = [
     {
-      src: '/minnesota/nkip/carjacking/NKIPMN16.jpg',
+      src: '/minnesota/nkip/programming/MNVogue.jpg',
       caption: ''
     },
     {
-      src: '/minnesota/nkip/carjacking/NKIPMNpeople16.jpg',
+      src: '/minnesota/nkip/programming/MNVogue2.jpg',
       caption: ''
     },
     {
-      src: '/minnesota/nkip/carjacking/NKIPMNpeople18.jpg',
+      src: '/minnesota/nkip/programming/MNVogue3.jpg',
       caption: ''
     },
     {
-      src: '/minnesota/nkip/carjacking/NKIPMNpeople19.jpg',
+      src: '/minnesota/nkip/programming/NKIPMNpeople6.jpg',
       caption: ''
     },
     {
-      src: '/minnesota/nkip/carjacking/NKIPMNpeople20.jpg',
+      src: '/minnesota/nkip/programming/NKIPMNpeople10.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/nkip/programming/NKIPMNpeople11.jpg',
       caption: ''
     }
   ]

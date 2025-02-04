@@ -50,12 +50,33 @@ The End Youth Prisons campaign leaders covered their jackets in demands for a MN
       </div>
 
       <BlockTextHeading
+        class="mt-16 scroll-mt-[11rem]"
+        text="Programming Builds Community Power"
+        id="car-jacking-installation"
+      />
+
+      <BlockImageFullWidthSlideshow
+        class="mt-16"
+        :images="carSlideshow"
+      />
+
+      <BlockTextBody
+        text="Youth leaders from End Youth Prisons MN shared that car-jacking in the Twin Cities area has been used to spread criminalized narratives about young people. Despite rates of car-jacking actually going down, police high speed chases have caused a series of deaths in Minneapolis. As counter-narrative to city officials saying carjacking is a justification for the over-policing of young people, youth leaders decided to create a piece that unpacks the systemic failures that can push a young person to feel like they have to steal a car. The piece features interviews with youth about car theft and how to support youth in ways that are preventative."
+      />
+
+      <BlockTextHeading
         text="Credits"
       />
 
       <BlockCredits
+        title="Race Car Jacket Design"
         :credits="credits"
       /> 
+
+      <BlockCredits
+        title="Programming Builds Community Power"
+        :credits="carCredits"
+      />
       <BlockTextHeading
         text="More from Minnesota"
       />
@@ -114,6 +135,52 @@ const footerLinks = [
     {
       src: '/minnesota/jackets/leaders/MYJportraits17.jpg',
       caption: ''
+    }
+  ]
+
+  const carSlideshow = [
+    {
+      src: '/minnesota/nkip/carjacking/NKIPMN16.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/nkip/carjacking/NKIPMNpeople16.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/nkip/carjacking/NKIPMNpeople18.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/nkip/carjacking/NKIPMNpeople19.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/nkip/carjacking/NKIPMNpeople20.jpg',
+      caption: ''
+    }
+  ]
+
+  const carCredits = [
+    {
+      title: 'Carjacking Counter Narratives Installation ',
+      text: 'End Youth Prisons MN in collaboration with Performing Statistics'
+    },
+    {
+      title: 'Interviews',
+      text: 'Patience Zalanga, Caelyn Steele'
+    },
+    {
+      title: 'Editing',
+      text: 'Patience Zalanga'
+    },
+    {
+      title: 'Matchbox Mobile',
+      text: 'CRICE, Nick Popovici'
+    },
+    {
+      title: 'Carseat booth production',
+      text: '360 Property Solutions'
     }
   ]
 
