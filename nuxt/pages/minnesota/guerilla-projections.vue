@@ -80,7 +80,7 @@ The six locations that featured the projections were selected for their history 
     },
     {
       title: "Cultural Organizing Projects",
-      link: "/minnesota/cultural-organizing",
+      link: "/minnesota/coi",
       img: "/minnesota/index/MN_COI.jpg",
       color: "var(--programs)"
     }

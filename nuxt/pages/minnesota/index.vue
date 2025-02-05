@@ -53,7 +53,7 @@
         <IndexLink
           class="relative z-10"
           text="Cultural Organizing Institute"
-          link="/minnesota/cultural-organizing"
+          link="/minnesota/coi"
           img="/minnesota/index/MN_COI.jpg"
           color="var(--programs)"
           :reverse="true"

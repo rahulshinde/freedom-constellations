@@ -4,14 +4,16 @@
       class="relative z-20"
       title="Minnesota"
       backLink="/minnesota"
-      subtitle="Race Car Jacket Design"
+      subtitle="Cultural Organizing Institute"
       location="Minneapolis-Saint Paul"
       introText="When End Youth Prisons MN expressed interest in exploring carjacking counter narratives, they saw an opportunity to use the aesthetics and language of car racing to talk about centering youth leadership. In the face of excessive surveillance and local police who continue to violate orders not to chase people, the MN team designed race car jackets calling attention to what young people need to chase their dreams and not have to worry about being chased by police."
       date="January 2023"
       :onThisPage="[
+        ['Race Car Jacket Design', 'race-car-jacket-design'],
+        ['Car Jacking Counter Narratives Installation', 'car-jacking-installation']
       ]"
     />  
-
+\
     <section 
       class="
         bg-black relative z-10 pb-16
@@ -22,6 +24,21 @@
       <BlockImageFullWidthSlideshow
         class="mt-16"
         :images="slideshow"
+      />
+
+      <BlockProjectNav
+        title="Minnesota"
+        backLink="/minnesota"
+        :onThisPage="[
+          ['Race Car Jacket Design', 'race-car-jacket-design'],
+          ['Car Jacking Counter Narratives Installation', 'car-jacking-installation']
+        ]"
+      />
+
+      <BlockTextHeading
+        class="mt-16 scroll-mt-[11rem]"
+        text="Race Car Jacket Design"
+        id="race-car-jacket-design"
       />
 
       <BlockTextWithQuote
@@ -51,7 +68,7 @@ The End Youth Prisons campaign leaders covered their jackets in demands for a MN
 
       <BlockTextHeading
         class="mt-16 scroll-mt-[11rem]"
-        text="Programming Builds Community Power"
+        text="Car Jacking Counter Narratives Installation"
         id="car-jacking-installation"
       />
 
@@ -74,7 +91,7 @@ The End Youth Prisons campaign leaders covered their jackets in demands for a MN
       /> 
 
       <BlockCredits
-        title="Programming Builds Community Power"
+        title="Car Jacking Counter Narratives Installation"
         :credits="carCredits"
       />
       <BlockTextHeading

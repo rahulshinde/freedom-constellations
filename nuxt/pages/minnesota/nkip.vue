@@ -256,7 +256,7 @@ Markevius from Rumble Boxing got everyone moving during the final weekend and th
     },
     {
       title: "Cultural Organizing Projects",
-      link: "/minnesota/cultural-organizing",
+      link: "/minnesota/coi",
       img: "/minnesota/index/MN_COI.jpg",
       color: "var(--programs)"
     }

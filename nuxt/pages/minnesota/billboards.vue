@@ -73,7 +73,7 @@ These beautiful collaborative designs were also printed on large banners and ins
     },
     {
       title: "Cultural Organizing Projects",
-      link: "/minnesota/cultural-organizing",
+      link: "/minnesota/coi",
       img: "/minnesota/index/MN_COI.jpg",
       color: "var(--programs)"
     }
