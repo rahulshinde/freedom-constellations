@@ -52,25 +52,8 @@ Inspired by the iconography of The Black Panthers, Young Lords and Afro-futurism
       />
 
       <BlockTextHeading
-        text="Check out the curriculum here"
+        text="Download the curriculum here:"
       />
-        
-      <div class="flex mt-8">
-        <div class="mx-col3 px-10 flex">
-          <BlockPdfDownload
-            text="Inspiration Slideshow for jumpsuits"
-            filePath="/new-jersey/coi/pdfs/NJConceptExamples"
-            color="var(--nkip)"
-            class="mx-4 w-col6"
-          />
-          <BlockPdfDownload
-            text="Iconography of power concept development"
-            filePath="/new-jersey/coi/pdfs/Iconography&Power"
-            color="var(--nkip)"
-            class="mx-4 w-col6"
-          />
-        </div>
-      </div>
 
       <BlockImageAutoSlideshow
         :images="[
@@ -81,7 +64,7 @@ Inspired by the iconography of The Black Panthers, Young Lords and Afro-futurism
           '/new-jersey/coi/pdfs/NJJumpsuitCOIproject5.jpg',
         ]"
         downloadLink="/new-jersey/coi/pdfs/NJJumpsuitCOIproject.pdf"
-        downloadText="Download Abolitionists Jumpsuits New Jersey Youth 4 Justice"
+        downloadText="Download NJ Jumpsuit Project"
         color="var(--nkip)"
       />
       

@@ -22,7 +22,7 @@
       <h2 v-if="heading" class="text-runde-m text-center font-semibold mb-4">{{ heading }}</h2>
       <a
       :href="downloadLink"
-      class="flex transition-all p-4 drop-shadow-none hover:rounded-xl uppercase text-runde-s font-semibold text-black"
+      class="flex justify-between transition-all p-4 drop-shadow-none hover:rounded-xl uppercase text-runde-s font-semibold text-black"
       :class="[hoverColorClass(color), colorClasses(color)]"
       target="_blank"
       rel="noopener noreferrer"
