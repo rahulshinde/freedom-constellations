@@ -44,11 +44,11 @@
       <div class="mx-8">
         <div class="flex mt-8 justify-between mx-col1">
           <img
-            class="w-col6 mx-4 h-[25vw] object-cover"
+            class="w-col8 mx-4 h-[33vw] object-cover"
             src="/new-jersey/mural/Camden_WheatPaste_9.jpg"
           >
           <img
-            class="w-col6 object-cover mx-4 h-[25vw]"
+            class="w-col4 object-cover mx-4 h-[33vw]"
             src="/new-jersey/mural/Camden_WheatPaste_10.jpg"
           >
         </div>

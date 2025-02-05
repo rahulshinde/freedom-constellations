@@ -73,7 +73,7 @@ To create the posters, each young person chose a message to be featured with the
       </div>
 
       <BlockTextBody 
-        text="They worked with Performing to design poses and group formations that expressed power, unity and confidence. With the designers from interDesign Collective, they developed a vision of a futuristic galaxy where the values of youth leaders are celebrated and young people are centered as visionaries of liberation."
+        text="They worked with Performing Statistics to design poses and group formations that expressed power, unity and confidence. With the designers from interDesign Collective, they developed a vision of a futuristic galaxy where the values of youth leaders are celebrated and young people are centered as visionaries of liberation."
       />
       <BlockTextHeading
         text="Credits"

@@ -25,10 +25,19 @@
             src: '/new-jersey/billboards/RachelAlban_pesmurals-07.jpg',
           },
           {
-            src: '/new-jersey/billboards/RachelAlban_pesmurals-05.jpg',
+            src: '/new-jersey/billboards/ArtInstall-128.jpg',
           },
           {
-            src: '/new-jersey/billboards/ArtInstall-128.jpg',
+            src: '/new-jersey/billboards/DSCF9600.jpg',
+          },
+          {
+            src: '/new-jersey/billboards/DSCF9618.jpg',
+          },
+          {
+            src: '/new-jersey/billboards/DSCF9738.jpg',
+          },
+          {
+            src: '/new-jersey/billboards/DSCF9751.jpg',
           },
         ]"
       />
@@ -42,9 +51,19 @@
             'Destroy Detainment'
           ]"
         />
+        <BlockFullBleed
+          video="/new-jersey/billboards/7d9fed2a5a734bfdb923ca0e25ed12f7.mp4"
+        />
         <BlockTextWithQuote
-          text="Next, the New Jersey team collaborated with Performing Statistics to design giant banners and billboards that went up in strategic public spaces ensuring they reached important audiences. In Newark, Semaj and Samiyah are featured on massive banners covering the wall of Project Empty Space that faces city hall. In Camden Tamia’s billboard took up a huge rooftop spot in a neighborhood where the campaign was growing momentum of youth engagement. During the #NoKidsInPrison exhibition, near a bridge leading to Philly and along a busy throughway, Chigozie, Eva, Ha, Alicia and Carmi captivated huge billboards featuring their abolitionist messaging and drove people to the exhibition. Simultaneously, Alicia, Tamia and Semaj were featured on a billboard on the road leading to the largest youth prison in New Jersey. Yes! Every person driving to work to participate in incarcerating youth, and every family going to visit their incarcerated loved one, all passed by a beautiful billboard of the organizers with the message “Put Youth in Power, Not Prison.”"
-          quote="Semaj: I want the people who work at that facility to have a conversation with themselves when they go past the billboard…i want them to ask themselves , “Why do I work here? What can I do to help these young people get away from the system and be who they want to be.”"
+          text="Next, the New Jersey team collaborated with Performing Statistics to design giant banners and billboards that went up in strategic public spaces ensuring they reached important audiences. In Newark, Semaj and Samiyah are featured on massive banners covering the wall of Project Empty Space that faces city hall. In Camden Tamia’s billboard took up a huge rooftop spot in a neighborhood where the campaign was growing momentum of youth engagement. During the #NoKidsInPrison exhibition, near a bridge leading to Philly and along a busy throughway, Chigozie, Eva, Ha, Alicia and Carmi captivated huge billboards featuring their abolitionist messaging and drove people to the exhibition."
+          quote="I want the people who work at that facility to have a conversation with themselves when they go past the billboard…i want them to ask themselves, ‘Why do I work here? What can I do to help these young people get away from the system and be who they want to be.’"
+          attribution="Semaj"
+        />
+        <BlockImageHalfWidth
+          img="/new-jersey/billboards/imageofNJPrison.jpg"
+        />
+        <BlockTextBody
+          text="Simultaneously, Alicia, Tamia and Semaj were featured on a billboard on the road leading to the largest youth prison in New Jersey. Yes! Every person driving to work to participate in incarcerating youth, and every family going to visit their incarcerated loved one, all passed by a beautiful billboard of the organizers with the message “Put Youth in Power, Not Prison.”"
         />
         <BlockTextHeading
           text="Credits"
@@ -63,6 +82,7 @@
 </template>
 
 <script setup>
+
   const footerLinks = [
     {
       title: "Cultural Organizing Institute",
