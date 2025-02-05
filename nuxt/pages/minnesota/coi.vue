@@ -42,7 +42,8 @@
       />
 
       <BlockTextWithQuote
-        quote="Youth leaders worked to create a visual language utilizing street signs and car racing aesthetics integrated with messaging that calls for a world where young people are in the driver's seat."
+        quote="Youth leaders worked to create a visual language utilizing street signs and car racing aesthetics integrated with messaging that calls for a world where young people are in the driver’s seat."
+        attribution=""
         text="Youth leaders from End Youth Prisons MN shared that car-jacking in the Twin Cities area has been used to spread criminalized narratives about young people. Despite rates of car-jacking actually going down, police high speed chases have caused a series of deaths in Minneapolis. As counter-narrative to city officials saying carjacking is a justification for the over-policing of young people, youth leaders decided to create a piece that unpacks the systemic failures that can push a young person to feel like they have to steal a car. Coming out of the uprisings in 2020, the Twin Cities saw school districts end contracts with police and community conversations that appeared to push for more accountable policing. The youth leaders at the End Youth Prisons campaign decided it was important to lift up the ways that despite momentum, carjacking is still being used to fuel criminalized narratives among people who mostly err on the side of community investment.
 
 The End Youth Prisons campaign leaders covered their jackets in demands for a MN free of youth prisons. The team continues to wear the jackets at press conferences and community events as they call for elected officials to listen to youth perspectives and calls to action. 
@@ -69,6 +70,7 @@ The End Youth Prisons campaign leaders covered their jackets in demands for a MN
       <BlockTextPullQuote
         text="In the World Without Youth Prisons, the world no longer works against me. We have choices! Mistakes I made in the past will not interfere with my growth."
         attribution="poetry by End Youth Prisons MN"
+        color="var(--programs)"
       />
 
       <BlockTextHeading

@@ -69,6 +69,10 @@
         />
       </div>
 
+      <BlockTextHeading
+        text="See the New Jersey Campaign’s amazing public art and collaborative process in this short film."
+      />
+
       <BlockVideo
         video="https://player.vimeo.com/progressive_redirect/playback/1024096943/rendition/2160p/file.mp4?loc=external&signature=4d8277debc55eb7f52be799aa788f5c7fdb79dd187fe8b54d01b77833c1ba38d"
         poster="/new-jersey/index/nj_index_cover.jpg"
@@ -81,6 +85,7 @@
 
 Through a series of giant public banners and billboards stretching across the state, organizers made their demand to, “Put Youth in Power, Not Prison” unescapable. From downtown Newark to the neighborhoods of Camden and outside the largest youth prison in New Jersey, the young people made sure their calls to “Destroy Detainment,” for “Healing Not Harm,” and “Fund the Future” were heard."
           quote="Put Youth in Power, Not Prison."
+          attribution=""
         />
       </div>
     </section>

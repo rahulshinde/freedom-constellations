@@ -16,7 +16,7 @@
         ]"
       >
         <span class="quote relative pl-4 font-hatton self-center text-hatton-xl">{{ quote }}”</span>
-        <span v-if="attribution != ''" class='ml-8 mt-2 text-runde-xl'>—{{ attribution }}</span>
+        <span v-if="!attribution" class='ml-8 mt-2 text-runde-xl'>—{{ attribution }}</span>
       </p>
 
       <div

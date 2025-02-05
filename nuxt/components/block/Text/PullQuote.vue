@@ -8,7 +8,7 @@
         "
         v-html="text + '”'"
       ></p>
-      <p class='ml-8 mt-2 text-runde-m'>—{{ attribution }}</p>
+      <p v-if="attribution != ''" class='ml-8 mt-2 text-runde-m'>—{{ attribution }}</p>
     </div>
   </div>
 </template>
@@ -41,6 +41,6 @@
   .quote:before{
     content: '“';
     position: absolute;
-    left: -0.25rem
+    left: 0rem
   }
 </style>
