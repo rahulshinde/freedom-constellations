@@ -25,6 +25,7 @@
 
       <BlockTextWithQuote
         quote="As someone who comes from Minneapolis it was evident how youth of color are often not given resources to be successful."
+        attribution="Con Rice"
         text="My artwork often fights against the criminalization of the Black identity and colonization, which has led me to work on projects centered on abolition.  With the arrival of Performing Statistics’ ‘No Kids In Prison’ show to the Twin Cities I was able to utilize my guerilla projecting experience to shed light on serious societal failings locally. The projections feature ancient symbols and imagery that is taken from the Black diaspora as well as statistics that highlight disparities within Minnesota schools.
         
 The six locations that featured the projections were selected for their history of disenfranchisement and unjust policies towards youth of color. "

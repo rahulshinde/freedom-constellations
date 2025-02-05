@@ -25,13 +25,17 @@
       />
 
       <BlockTextBody
-        text="During the #NoKidsInPrison exhibition, billboards and banners stretched across the Twin Cities infusing youth created abolitionist messaging into the cityscape. The presence of the art launched conversations about ending youth incarceration and drove people to the exhibition for even deeper learning and imagining."
+        text="During the #NoKidsInPrison exhibition, billboards and banners stretched across the Twin Cities infusing youth created abolitionist messaging into the cityscape. The presence of the art launched conversations about ending youth incarceration and drove people to the exhibition for even deeper learning and imagining.
+
+These beautiful collaborative designs were also printed on large banners and installed in locations across the city, helping to make these future dreams a reality! Huge thanks to our partners for hosting these beautiful banners (Legal Rights Center and Springboard for the Arts).        "
       />
 
       <BlockImageWithPullQuote
         class="mt-8"
         img="/minnesota/billboards/MNBillboards31.jpg"
-        quote="These beautiful collaborative designs were also printed on large banners and installed in locations across the city, helping to make these future dreams a reality! Huge thanks to our partners for hosting these beautiful banners (Legal Rights Center and Springboard for the Arts)."
+        quote="Often times we say youth are the future but I don’t agree with that. … They are ‘the now!’"
+        attribution="Lupita Herrera"
+        color="var(--billboards)"
       />
 
       <BlockTextHeading
