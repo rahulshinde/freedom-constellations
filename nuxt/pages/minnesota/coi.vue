@@ -66,6 +66,11 @@ The End Youth Prisons campaign leaders covered their jackets in demands for a MN
         </div>
       </div>
 
+      <BlockTextPullQuote
+        text="In the World Without Youth Prisons, the world no longer works against me. We have choices! Mistakes I made in the past will not interfere with my growth."
+        attribution="poetry by End Youth Prisons MN"
+      />
+
       <BlockTextHeading
         class="mt-16 scroll-mt-[11rem]"
         text="Car Jacking Counter Narratives Installation"
@@ -131,14 +136,10 @@ const footerLinks = [
   const slideshow = [
     {
       src: '/minnesota/jackets/leaders/MYJportraits20.jpg',
-      caption: 'Test caption'
+      caption: ''
     },
     {
-      src: '/minnesota/jackets/leaders/MYJportraits.jpg',
-      caption: 'Test longer caption, Test longer caption Test longer caption,Test longer caption, Test longer caption Test longer caption'
-    },
-    {
-      src: '/minnesota/jackets/leaders/MYJportraits4.jpg',
+      src: '/minnesota/jackets/leaders/MYJJacketportraits7.jpg',
       caption: ''
     },
     {
@@ -150,9 +151,17 @@ const footerLinks = [
       caption: ''
     },
     {
+      src: '/minnesota/jackets/leaders/MYJportraits.jpg',
+      caption: ''
+    },
+    {
       src: '/minnesota/jackets/leaders/MYJportraits17.jpg',
       caption: ''
-    }
+    },
+    {
+      src: '/minnesota/jackets/leaders/MYJportraits4.jpg',
+      caption: ''
+    },
   ]
 
   const carSlideshow = [
