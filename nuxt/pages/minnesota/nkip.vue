@@ -12,7 +12,7 @@
         ['Target Surveillance Sculpture', 'target'],
         ['Youth designed Infographics', 'infographics'],
         ['Poetry from a Free Future', 'future-audio'],
-        ['Programming Builds Community Power', 'car-jacking-installation']
+        ['Programming Builds Community Power', 'programming']
       ]"
     />  
 
@@ -35,7 +35,7 @@
           ['Target Surveillance Sculpture', 'target'],
           ['Youth designed Infographics', 'infographics'],
           ['Poetry from a Free Future', 'future-audio'],
-          ['Programming Builds Community Power', 'car-jacking-installation']
+          ['Programming Builds Community Power', 'programming']
         ]"
       />
 
@@ -157,7 +157,8 @@ The poem was co-created with youth leaders in the No Youth Prisons MN campaign."
       />
 
       <BlockTextHeading
-        text="Programming"
+        text="Programming Builds Community Power"
+        id="programming"
       />
       <BlockImageFullWidthSlideshow
         class="mt-16"
@@ -170,7 +171,31 @@ Highlights included screen printing by Nico Sardina and Abolitionist swag making
 
 Markevius from Rumble Boxing got everyone moving during the final weekend and the The Minnesota Coalition for Youth Justice held an intergenerational circle to close the week."
       />
-      
+
+      <BlockTextHeading
+        text="Media Coverage"
+      />
+
+      <div class="flex mt-8">
+        <div class="mx-col3 px-10 flex">
+          <BlockLinkImage
+            image="/minnesota/nkip/press/unnamed-2048x1365.jpg"
+            text="Black Youth Arts Center celebrates opening of prison reform art exhibit"
+            source="Minnesota Reformer"
+            link="https://minnesotareformer.com/2023/10/05/black-youth-arts-center-celebrates-opening-of-prison-reform-art-exhibit/"
+            color="var(--nkip)"
+            class="mx-4 w-col6"
+          />
+          <BlockLinkImage
+            image="/minnesota/nkip/press/No-Kids-In-Prison-Exhibit-Opening-2048x1152.jpg"
+            text="#NoKidsInPrison Art Installation Highlights Youth Incarceration Driven By Target"
+            source="Unicorn Riot"
+            link="https://unicornriot.ninja/2023/nokidsinprison-art-installation-highlights-youth-incarceration-driven-by-target/"
+            color="var(--nkip)"
+            class="mx-4 w-col6"
+          />
+        </div>
+      </div>
 
       <div class="relative">
         <BlockTextHeading
