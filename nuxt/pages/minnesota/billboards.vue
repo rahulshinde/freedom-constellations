@@ -90,6 +90,10 @@ These beautiful collaborative designs were also printed on large banners and ins
       caption: ''
     },
     {
+      src: '/minnesota/billboards/MNBillboards11.jpg',
+      caption: ''
+    },
+    {
       src: '/minnesota/billboards/MNBillboards15.jpg',
       caption: ''
     },
@@ -103,6 +107,18 @@ These beautiful collaborative designs were also printed on large banners and ins
     },
     {
       src: '/minnesota/billboards/MNBillboards24.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/billboards/MNBillboards30.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/billboards/MNBillboards29.jpg',
+      caption: ''
+    },
+    {
+      src: '/minnesota/billboards/MNBillboards32.jpg',
       caption: ''
     }
   ]
